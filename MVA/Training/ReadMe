@@ -1,0 +1,27 @@
+BDT training directory.
+Setup root 5.34 with: source setup_root.sh
+
+and now add source setup_gui.sh
+
+
+Old (basic): To run the training do:
+ root -l TMVAClassificationHadHad.C\(\"BDT\"\) 
+This should be run twice, once with the flag EO_Flag set to 0 and once with it set to 1.
+
+
+Now:  root -l RunTMVAClassificationHadHad4.C\(\"BDT\"\)
+This should be run with "PartUsedForTraining = " set to A and then again set to B in TMVAClassificationHadHad4.C
+
+This will run on half of the events at a time.
+
+The files 
+TMVAClassificationHadHad_XX_BDT.weights.xml
+TMVAClassificationHadHad_XX_BDT.weights.xml
+
+will be produced in the weights directory.
+
+The next step is to apply the weights to the data and all the
+signal and background files.
+
+17 Dec. 2012
+updated March 20, 2013

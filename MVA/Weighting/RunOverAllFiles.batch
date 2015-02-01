@@ -1,0 +1,92 @@
+#!/bin/bash
+
+# settings ----------------------------------------------------------------
+
+category=vbf  # vbf boosted 1jet 0jet
+masspoint=125
+version=v16
+class=BDT # class=BDTG
+dtype=embedding # mc  data
+QCDmodel=notOS # SS notOS
+
+#tags necessary to identify the project 
+#tag1=50Trees_500LeafEvts_BoostedPlus1Jet_QCD${QCDmodel}
+tag1=EmbedTrain_QCD${QCDmodel}
+#tag1=50Trees_500LeafEvts_NoHpT
+
+tag=$tag1
+
+# -----------------------------------------------------------------------
+
+# compile class
+root CompileApplicationClass.C
+if [ ! -f ApplicationClass_C.so ];
+then
+	echo"ApplicationClass_C.so library not found... Bye bye."
+    exit
+fi
+
+#xml trining files
+weightTarget=weights/TMVAClassificationHadHad_BDT.weights.xml
+#weightA=../Training/weights/TMVAClassificationHadHad_${class}_PartTrained_A_harmonized_${category}_QCD_${QCDmodel}_H_${masspoint}_${version}_BDT.weights_BoostedPlus1Jet.xml
+#weightB=../Training/weights/TMVAClassificationHadHad_${class}_PartTrained_B_harmonized_${category}_QCD_${QCDmodel}_H_${masspoint}_${version}_BDT.weights_BoostedPlus1Jet.xml
+#TMVAClassificationHadHad_BDT_PartTrained_A_harmonized_vbf_QCD_notOS_H_125_nominal_v13_BDT.weights.xml
+weightA=../Training/weights/TMVAClassificationHadHad_${class}_PartTrained_A_harmonized_${category}_QCD_${QCDmodel}_H_${masspoint}_nominal_${version}_BDT.weights.xml
+weightB=../Training/weights/TMVAClassificationHadHad_${class}_PartTrained_B_harmonized_${category}_QCD_${QCDmodel}_H_${masspoint}_nominal_${version}_BDT.weights.xml
+
+#weightA=../Training/weights/TMVAClassificationHadHad_${class}_PartTrainedA_harmonized_${category}_${masspoint}_${version}_BDT.weights.xml
+#weightB=../Training/weights/TMVAClassificationHadHad_${class}_PartTrainedB_harmonized_${category}_${masspoint}_${version}_BDT.weights.xml
+
+#weightA=../Training/weights/TMVAClassificationHadHad_${class}_PartTrained_A_harmonized_${category}_${masspoint}_${version}_BDT.weights.xml
+#weightB=../Training/weights/TMVAClassificationHadHad_${class}_PartTrained_B_harmonized_${category}_${masspoint}_${version}_BDT.weights.xml
+
+echo "Input xml files A and B:"
+echo $weightA
+echo $weightB
+
+#pool of files
+DIR_FILES=../../Ntuples/$version/$dtype/*root
+
+for ifile in $DIR_FILES; do
+	echo '~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'
+	
+	#identifying the file
+	echo "file "$ifile
+	number=$(echo $ifile | egrep -o '[[:digit:]]{6}' | head -n1)
+	echo "number " $number 
+	id=${dtype}_${number}_${class}_${category}_${masspoint}_${tag}
+	
+	#copying here the file in question 
+ 	rm -f temp.root; cp $ifile temp.root
+
+	# apply A weights on sample B
+ 	cp  $weightA $weightTarget
+ 	./run_BDT_TrainA_TestB.sh $category
+ 	cp NEW_TREE.root BDT_TrainA_TestB.root
+	
+	# apply B weights on sample A
+ 	cp  $weightB $weightTarget
+ 	./run_BDT_TrainB_TestA.sh $category
+ 	cp NEW_TREE.root BDT_TrainB_TestA.root
+	
+	# deleting merged file
+	if [ -f merged_BDT.root ]; then
+  		rm -f merged_BDT.root
+	fi
+	
+	#merge root files
+ 	hadd merged_BDT.root BDT_TrainA_TestB.root BDT_TrainB_TestA.root
+
+	#move merged output to directory
+	destination=../../Ntuples/$version/mva_$dtype/
+	if [ ! -d "$destination" ]; then
+		ech "creating directory "$destination
+		mkdir $destination
+	fi
+	target=$destination${id}.root
+	echo "creating new file:   "$target
+ 	mv merged_BDT.root $target
+
+	
+done
+

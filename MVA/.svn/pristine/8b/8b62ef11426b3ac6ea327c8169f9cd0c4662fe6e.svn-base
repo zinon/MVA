@@ -1,0 +1,616 @@
+
+// @(#)root/tmva $Id$
+/**********************************************************************************
+*
+* root RunTMVAClassificationHadHad4.C\(\"BDT\"\)
+*	
+* root TMVAGui.C\(\"TMVAClassificationHadHad_BDT_PartTrainedA_2jet_v8.root\"\)
+*
+**********************************************************************************/
+
+#include <cstdlib>
+#include <iostream>
+#include <map>
+#include <string>
+#include <vector>
+#include <iterator>
+
+#include "TChain.h"
+#include "TFile.h"
+#include "TTree.h"
+#include "TString.h"
+#include "TObjString.h"
+#include "TSystem.h"
+#include "TROOT.h"
+
+
+#include "TMVAGui.C"
+
+#if not defined(__CINT__) || defined(__MAKECINT__)
+// needs to be included when makecint runs (ACLIC)
+#include "TMVA/Factory.h"
+#include "TMVA/Tools.h"
+#endif
+
+
+#include "HelperClass.h"
+#include "MonteCarloBank.h"
+
+
+using namespace std;
+
+std::vector<std::string> split_string( const std::string &str, char delim);
+
+void TMVAClassificationHadHad5( TString myMethodList = "" )
+{
+  ///to define:
+  string	PartUsedForTraining = "A"; // A, B, AB
+  string 	treename			= "mva";
+  string 	purpose				= "MVA";
+  string 	category 			= "boosted"; // physics-based categories: vbf -  boosted - 1jet - 0jet
+  string	region 				= "CR_NoMassCut";//"all"; //all now means MMC > min MMC cut
+  string 	version 			= "v16";
+  bool 	kAddZtautau			= true;
+  bool 	kAddEWK				= true;
+  bool 	kAddQCD				= true;
+  bool 	kEmbedding 			= false; // false with default to alpgen
+  bool 	ApplyEventWeights	= true;
+  bool 	kNormalizeToDataLum = false;
+  bool	kApplyTrackfitNormQCDandZtautau = true; double fQCD = 0.7; double fZ = 0.3;
+  bool 	kUseMergedData		= true;
+  bool 	kUseMergedEmb		= true;
+  string 	variation 			= "nominal"; //nominal 
+  
+  //	string Zsample = kEmbedding ? "Embedding" : "MC";
+  
+  
+  string QCDmodel = "notOS"; // notOS SS
+  
+  string QCDmodel_mva_factory = 	
+  QCDmodel == "SS" 	? "bkg1" : 
+  QCDmodel == "notOS" ? "bkg2" :
+  "";
+  
+  typedef vector<string>::iterator ItrStr;
+  
+  vector<string> m_SignalTestTrain; // process : mass point : train sample : test sample
+  
+  if(category == "vbf"){ 
+	///only VBF signal
+	m_SignalTestTrain.push_back("VBF:100:0:0");		m_SignalTestTrain.push_back("GGF:100:0:0");
+	m_SignalTestTrain.push_back("VBF:105:0:0");		m_SignalTestTrain.push_back("GGF:105:0:0");
+	m_SignalTestTrain.push_back("VBF:110:0:0");		m_SignalTestTrain.push_back("GGF:110:0:0");
+	m_SignalTestTrain.push_back("VBF:115:0:0");		m_SignalTestTrain.push_back("GGF:115:0:0");
+	m_SignalTestTrain.push_back("VBF:120:0:0");		m_SignalTestTrain.push_back("GGF:120:0:0");
+	m_SignalTestTrain.push_back("VBF:125:1:1");		m_SignalTestTrain.push_back("GGF:125:0:0");
+	m_SignalTestTrain.push_back("VBF:130:0:0");		m_SignalTestTrain.push_back("GGF:130:0:0");
+	m_SignalTestTrain.push_back("VBF:135:0:0");		m_SignalTestTrain.push_back("GGF:135:0:0");
+	m_SignalTestTrain.push_back("VBF:140:0:0");		m_SignalTestTrain.push_back("GGF:140:0:0");
+	m_SignalTestTrain.push_back("VBF:145:0:0");		m_SignalTestTrain.push_back("GGF:145:0:0");
+	m_SignalTestTrain.push_back("VBF:150:0:0");		m_SignalTestTrain.push_back("GGF:150:0:0");
+	
+	m_SignalTestTrain.push_back("WH:100:0:0");		m_SignalTestTrain.push_back("ZH:100:0:0");
+	m_SignalTestTrain.push_back("WH:105:0:0");		m_SignalTestTrain.push_back("ZH:105:0:0");
+	m_SignalTestTrain.push_back("WH:110:0:0");		m_SignalTestTrain.push_back("ZH:110:0:0");
+	m_SignalTestTrain.push_back("WH:115:0:0");		m_SignalTestTrain.push_back("ZH:115:0:0");
+	m_SignalTestTrain.push_back("WH:120:0:0");		m_SignalTestTrain.push_back("ZH:120:0:0");
+	m_SignalTestTrain.push_back("WH:125:0:0");		m_SignalTestTrain.push_back("ZH:125:0:0");
+	m_SignalTestTrain.push_back("WH:130:0:0");		m_SignalTestTrain.push_back("ZH:130:0:0");
+	m_SignalTestTrain.push_back("WH:135:0:0");		m_SignalTestTrain.push_back("ZH:135:0:0");
+	m_SignalTestTrain.push_back("WH:140:0:0");		m_SignalTestTrain.push_back("ZH:140:0:0");
+	m_SignalTestTrain.push_back("WH:145:0:0");		m_SignalTestTrain.push_back("ZH:145:0:0");
+	m_SignalTestTrain.push_back("WH:150:0:0");		m_SignalTestTrain.push_back("ZH:150:0:0");
+  }else if (category == "boosted" || category == "1jet" || category == "0jet"){  
+	///only ggF signal (and VH ?)
+	m_SignalTestTrain.push_back("VBF:100:0:0");		m_SignalTestTrain.push_back("GGF:100:0:0");
+	m_SignalTestTrain.push_back("VBF:105:0:0");		m_SignalTestTrain.push_back("GGF:105:0:0");
+	m_SignalTestTrain.push_back("VBF:110:0:0");		m_SignalTestTrain.push_back("GGF:110:0:0");
+	m_SignalTestTrain.push_back("VBF:115:0:0");		m_SignalTestTrain.push_back("GGF:115:0:0");
+	m_SignalTestTrain.push_back("VBF:120:0:0");		m_SignalTestTrain.push_back("GGF:120:0:0");
+	m_SignalTestTrain.push_back("VBF:125:0:0");		m_SignalTestTrain.push_back("GGF:125:1:1");
+	m_SignalTestTrain.push_back("VBF:130:0:0");		m_SignalTestTrain.push_back("GGF:130:0:0");
+	m_SignalTestTrain.push_back("VBF:135:0:0");		m_SignalTestTrain.push_back("GGF:135:0:0");
+	m_SignalTestTrain.push_back("VBF:140:0:0");		m_SignalTestTrain.push_back("GGF:140:0:0");
+	m_SignalTestTrain.push_back("VBF:145:0:0");		m_SignalTestTrain.push_back("GGF:145:0:0");
+	m_SignalTestTrain.push_back("VBF:150:0:0");		m_SignalTestTrain.push_back("GGF:150:0:0");
+	
+	m_SignalTestTrain.push_back("WH:100:0:0");		m_SignalTestTrain.push_back("ZH:100:0:0");
+	m_SignalTestTrain.push_back("WH:105:0:0");		m_SignalTestTrain.push_back("ZH:105:0:0");
+	m_SignalTestTrain.push_back("WH:110:0:0");		m_SignalTestTrain.push_back("ZH:110:0:0");
+	m_SignalTestTrain.push_back("WH:115:0:0");		m_SignalTestTrain.push_back("ZH:115:0:0");
+	m_SignalTestTrain.push_back("WH:120:0:0");		m_SignalTestTrain.push_back("ZH:120:0:0");
+	m_SignalTestTrain.push_back("WH:125:1:1");		m_SignalTestTrain.push_back("ZH:125:1:1");
+	m_SignalTestTrain.push_back("WH:130:0:0");		m_SignalTestTrain.push_back("ZH:130:0:0");
+	m_SignalTestTrain.push_back("WH:135:0:0");		m_SignalTestTrain.push_back("ZH:135:0:0");
+	m_SignalTestTrain.push_back("WH:140:0:0");		m_SignalTestTrain.push_back("ZH:140:0:0");
+	m_SignalTestTrain.push_back("WH:145:0:0");		m_SignalTestTrain.push_back("ZH:145:0:0");
+	m_SignalTestTrain.push_back("WH:150:0:0");		m_SignalTestTrain.push_back("ZH:150:0:0");
+	
+  }else{
+	cout<<"Error. Undefined category. Exiting ..."<<endl; exit(0);
+  }	
+  
+  ///Higgs mass
+  string HiggsMass = "125"; /// important for file naming - "125", "all", "120_to_130", "125_126" etc
+  
+  ///Adaptive boost
+  bool 	kBDT 				=  myMethodList.SubString("BDT").Length() > 0;
+  //This is overwritten below!!!
+  string  BDT_NTrees			= "100";
+  string  BDT_nEventsMin		= "100";
+  string  BDT_MaxDepth		= "100000";
+  string 	BDT_BoostType		= "AdaBoost";
+  string 	BDT_AdaBoostBeta 	= "0.5";
+  string	BDT_UseYesNoLeaf	= "True";
+  
+  /// Gradient boost
+  bool 	kBDTG				= myMethodList.SubString("BDTG").Length() > 0;
+  
+  ///to define: This is a list of possible variables to use in the training.  Add the ones you wish to use
+  vector<string> mVars; 
+  
+  
+  ///overwrite BDT parameters
+  if(category == "vbf"){
+	BDT_NTrees 			= "50"; // Noel 47
+	BDT_nEventsMin		= "500"; // Noel 500
+	BDT_MaxDepth 		= "100000";
+	BDT_BoostType		= "AdaBoost";
+	BDT_AdaBoostBeta 	= "0.5";
+	BDT_UseYesNoLeaf	= "True";
+	
+  }else if (category == "boosted"){
+	BDT_NTrees 			= "53";
+	BDT_nEventsMin		= "440";
+	BDT_MaxDepth 		= "100000";
+	BDT_BoostType		= "AdaBoost";
+	BDT_AdaBoostBeta 	= "0.5";
+	BDT_UseYesNoLeaf	= "True";
+	
+  }else if (category == "1jet"){
+	BDT_NTrees 			= "53";
+	BDT_nEventsMin		= "440";
+	BDT_MaxDepth 		= "100000";
+	BDT_BoostType		= "AdaBoost";
+	BDT_AdaBoostBeta 	= "0.5";
+	BDT_UseYesNoLeaf	= "True";
+	
+  }else if (category == "0jet"){
+	BDT_NTrees 			= "53";
+	BDT_nEventsMin		= "440";
+	BDT_MaxDepth 		= "100000";
+	BDT_BoostType		= "AdaBoost";
+	BDT_AdaBoostBeta 	= "0.5";
+	BDT_UseYesNoLeaf	= "True";
+  }else{
+	
+  }
+  
+  ///variable lists
+  if(category == "vbf"){
+	//	  mVars.push_back("tau_0_BDT_score");//temp
+	//	  mVars.push_back("tau_1_BDT_score");//temp
+	
+	mVars.push_back("MMC_resonance_m");
+	mVars.push_back("ditau_dR");
+	mVars.push_back("ditau_dijet_met_VecSumPt");
+	mVars.push_back("dijet_mass");
+	mVars.push_back("dijet_dEta");
+	mVars.push_back("dijet_eta1_x_eta2");
+	mVars.push_back("tau_0_dijet_eta_centr");
+	mVars.push_back("tau_1_dijet_eta_centr");
+	mVars.push_back("met_centrality");
+	
+	// 		mVars.push_back("MMC_resonance_x0");
+	// 		mVars.push_back("MMC_resonance_x1");
+	// 		mVars.push_back("MMC_resonance_pt");
+	// 		mVars.push_back("MMC_resonance_jets_min_dEta");
+	// 		mVars.push_back("MMC_resonance_jets_min_dR");
+	// 		mVars.push_back("MMC_resonance_jets_min_dEta");
+	// 		mVars.push_back("MMC_resonance_dijet_vecSumPt");
+	// 		mVars.push_back("MMC_resonance_dijet_DeltaPt");
+	// 		mVars.push_back("MMC_resonance_dijet_DeltaPhi");
+	// 		mVars.push_back("MMC_resonance_jet_0_vecSumPt");
+	// 		mVars.push_back("MMC_resonance_jet_0_DeltaPt");
+	// 		mVars.push_back("MMC_resonance_jet_0_DeltaPhi");
+	// 				
+	
+	// 		//taus pT0 / pT1 ratio is missing
+	// 		mVars.push_back("ditau_VecSumPt");
+	
+	
+	
+	// 		mVars.push_back("ditau_met_dPhi");
+	// 		mVars.push_back("ditau_dEta");
+	// 		mVars.push_back("ditau_dijet_eta_centr0_x_centr1");
+	// 
+	
+	// 		mVars.push_back("dijet_dEta_x_sign1_x_sign2");
+	// 		mVars.push_back("dijet_dPhi");
+	// 
+	
+	// 		mVars.push_back("tau_0_BDT_score"); 
+	//		mVars.push_back("tau_1_BDT_score");
+	// 		
+	
+	// 		mVars.push_back("met_et");
+	// 		
+	// 		mVars.push_back("HT_jets");
+	// 		mVars.push_back("HT_jets_taus");
+	// 		mVars.push_back("HT_jets_taus_met");
+	// 
+	// 		mVars.push_back("esv_all_objects_sphericity");
+	// 		mVars.push_back("esv_all_objects_FoxWolfram_R1");
+	
+  }else if (category == "boosted"){
+	
+	
+	mVars.push_back("MMC_resonance_m");
+	mVars.push_back("ditau_dR");
+	mVars.push_back("ditau_pT_0_over_pT_1");
+	mVars.push_back("ditau_colapprox_x0");
+	mVars.push_back("ditau_colapprox_x1");
+	mVars.push_back("met_centrality");
+	mVars.push_back("HT_jets_taus");
+	
+	// 		mVars.push_back("MMC_resonance_x0");
+	// 		mVars.push_back("MMC_resonance_x1");
+	// 		mVars.push_back("MMC_resonance_pt");
+	// 		mVars.push_back("MMC_resonance_jets_min_dEta");
+	// 		mVars.push_back("MMC_resonance_jets_min_dR");
+	// 		mVars.push_back("MMC_resonance_jets_min_dEta");
+	// 		mVars.push_back("MMC_resonance_dijet_vecSumPt");
+	// 		mVars.push_back("MMC_resonance_dijet_DeltaPt");
+	// 		mVars.push_back("MMC_resonance_dijet_DeltaPhi");
+	// 		mVars.push_back("MMC_resonance_jet_0_vecSumPt");
+	// 		mVars.push_back("MMC_resonance_jet_0_DeltaPt");
+	// 		mVars.push_back("MMC_resonance_jet_0_DeltaPhi");
+	// 				
+	
+	// 		mVars.push_back("ditau_VecSumPt");
+	//  	        mVars.push_back("ditau_dijet_met_VecSumPt");
+	// 		mVars.push_back("ditau_met_dPhi");
+	// 		mVars.push_back("ditau_dEta");
+	// 		mVars.push_back("ditau_dijet_eta_centr0_x_centr1");
+	// 
+	// 		mVars.push_back("dijet_mass");
+	// 		mVars.push_back("dijet_dEta");
+	// 		mVars.push_back("dijet_eta1_x_eta2");
+	// 		mVars.push_back("dijet_dEta_x_sign1_x_sign2");
+	// 		mVars.push_back("dijet_dPhi");
+	// 
+	//  	        mVars.push_back("tau_0_dijet_eta_centr"); 
+	//		mVars.push_back("tau_1_dijet_eta_centr");
+	// 		mVars.push_back("tau_0_BDT_score"); 
+	//              mVars.push_back("tau_1_BDT_score");
+	// 		
+	
+	// 		mVars.push_back("met_et");
+	// 		
+	// 		mVars.push_back("HT_jets");
+	
+	// 		mVars.push_back("HT_jets_taus_met");
+	// 
+	// 		mVars.push_back("esv_all_objects_sphericity");
+	// 		mVars.push_back("esv_all_objects_FoxWolfram_R1");
+	
+	
+  }else if (category == "1jet"){
+	
+	mVars.push_back("MMC_resonance_m");
+	//		mVars.push_back("MMC_resonance_pt");
+	mVars.push_back("met_centrality");
+	mVars.push_back("ditau_dR");
+	mVars.push_back("ditau_pT_0_over_pT_1");
+	mVars.push_back("HT_jets_taus");
+	mVars.push_back("ditau_colapprox_x0");		
+	mVars.push_back("ditau_colapprox_x1");	
+	//	  mVars.push_back("esv_all_objects_sphericity");
+	
+	
+  }else if (category == "0jet"){
+	
+	mVars.push_back("MMC_resonance_m");
+	
+	//		mVars.push_back("MMC_resonance_pt");
+	mVars.push_back("met_centrality");
+	mVars.push_back("ditau_dR");
+	mVars.push_back("ditau_pT_0_over_pT_1");
+	mVars.push_back("HT_jets_taus");
+	mVars.push_back("ditau_colapprox_x0");		
+	mVars.push_back("ditau_colapprox_x1");	
+	
+	
+  }else{
+	//
+  }
+  
+  ///Default MVA methods to be trained + tested
+  std::map<std::string,int> Use;
+  
+  ///to define:  Boosted Decision Trees
+  Use["BDT"]             = kBDT; // uses Adaptive Boost
+  Use["BDTG"]            = kBDTG; // uses Gradient Boost
+  Use["BDTB"]            = 0; // uses Bagging
+  Use["BDTD"]            = 0; // decorrelation + Adaptive Boost
+  Use["BDTF"]            = 0; // allow usage of fisher discriminant for node splitting 
+  
+  ///external classes
+  gSystem->Load("../../HelperClass/HelperClass_cpp.so");
+  gSystem->Load("../../MonteCarloBank/MonteCarloBank_cpp.so");
+  
+  HelperClass hc;
+  hc.SetTreeName(treename);
+  hc.SetVersion(version);
+  //hc.SetPath("../../Ntuples"); // K
+  hc.SetPath("../../TreeMaker/"); // Z
+  
+  MonteCarloBank mcb;
+  
+  
+  
+  ///names
+  string	outPrefix = "TMVAClassificationHadHad";
+  string	classi  = kBDT ? "BDT" : kBDTG ? "BDTG" : "none";
+  string 	outCoreName = outPrefix + "_" + classi + "_PartTrained_"+PartUsedForTraining+"_harmonized_"+category+"_QCD_"+QCDmodel+"_H_"+HiggsMass+"_"+variation+"_"+version;
+  string 	outRootFileName = outCoreName+".root";
+  string	outputWeightFileName = outCoreName;
+  
+  ///list of MC samples
+  cout<<"\ncreating the MC list ..."<<endl;
+  vector<int> RunsVector = hc.GetRunsVector();
+  
+  ///get data tree
+  TTree *tdata; 	
+  if(kUseMergedData)
+	tdata = hc.GetTreeDataMerged();
+  else
+	tdata = hc.GetTreeData();
+  cout<<"\nData events "<<tdata->GetEntries()<<endl;
+  
+  ///embedding Z tau tau sample
+  TTree *tEmbedding;
+  if(kEmbedding){
+	cout<<"\ncreating tree map for embedding"<<endl;
+	if(kUseMergedData)
+	  tEmbedding = hc.GetTreeEmbeddingMerged( "" );
+	else
+	  tEmbedding = hc.GetTreeEmbedding( "" );
+	cout<<"embedding entries  "<<tEmbedding->GetEntries()<<endl;
+  }
+  
+  
+  ///get MC trees
+  cout<<"\ncreating tree map for mc"<<endl;
+  map<int, TTree *> tmap;
+  for(vector<int>::iterator it=RunsVector.begin(); it != RunsVector.end(); it++){
+	if( *it >= 800000) continue;
+	
+	tmap.insert ( pair<int, TTree *>(*it,  hc.GetTreeMC(hc.GetStringFromInt(*it), variation) ) );
+	
+	cout<<"MC "<<*it<<" entries "<<tmap[*it]->GetEntries()<<endl;
+  }
+  
+ 
+  ///data lumi
+  double DataLumi =  2.01113e7;//nb-1		
+  cout<<"\nActual data lumi "<<DataLumi<<" nb-1"<<endl<<endl;
+  
+  
+  /// This loads the library
+  TMVA::Tools::Instance();
+  
+  std::cout << std::endl;
+  std::cout << "==> Start TMVAClassificationHadHad" << std::endl;
+  
+  /// Select methods (don't look at this code - not of interest)
+  if (myMethodList != "") {
+	for (std::map<std::string,int>::iterator it = Use.begin(); it != Use.end(); it++) it->second = 0;
+	
+	std::vector<TString> mlist = TMVA::gTools().SplitString( myMethodList, ',' );
+	for (UInt_t i=0; i<mlist.size(); i++) {
+	  std::string regMethod(mlist[i]);
+	  
+	  if (Use.find(regMethod) == Use.end()) {
+		std::cout << "Method \"" << regMethod << "\" not known in TMVA under this name. Choose among the following:" << std::endl;
+		for (std::map<std::string,int>::iterator it = Use.begin(); it != Use.end(); it++) std::cout << it->first << " ";
+		std::cout << std::endl;
+		return;
+	  }
+	  Use[regMethod] = 1;
+	}
+  }
+  
+  
+  /// Create a ROOT output file where TMVA will store ntuples, histograms, etc.
+  TFile* outputRootFile = TFile::Open( outRootFileName.c_str(), "RECREATE" );
+  
+  /// The first argument is the base of the name of all the weightfiles in the directory weight/
+  /// The second argument is the output file for the training results
+  ///more options here http://tmva.sourceforge.net/optionRef.html#Factory
+  TMVA::Factory *factory = new TMVA::Factory( outputWeightFileName, outputRootFile, "!V:!Silent:Color:DrawProgressBar:Transformations=I;D;P;G,D:AnalysisType=Classification" );
+  
+  ///Adding training variables - loop
+  for(ItrStr it = mVars.begin(); it != mVars.end(); it++){
+	cout<<"Adding variable in factory: "<<*it<<endl;
+	factory->AddVariable( (*it).c_str(), /*(*it).c_str(), "",*/'F');
+  }
+  cout<<endl;
+  
+  ///  Register the training and test trees with factory
+  ///Cuts
+  
+  TCut cTrain	= 	
+  PartUsedForTraining == "A" 	? "rndm_gaussian < 0" : 
+  PartUsedForTraining == "B" 	? "rndm_gaussian > 0" : 
+  PartUsedForTraining == "AB" ? "" :  
+  "unknown";
+  
+  TCut cTest	= 	
+  PartUsedForTraining == "A" 	? "rndm_gaussian > 0" : 
+  PartUsedForTraining == "B" 	? "rndm_gaussian < 0" : 
+  PartUsedForTraining == "AB" ? "" : 
+  "unknown";
+  
+  TCut mycutS = "";//hc.GetCut(category, "OS", 	purpose, region) + cTrain;
+  TCut mycutB = "";//hc.GetCut(category, "bkg", 	purpose, region) + cTrain;
+  
+  TCut cutSignalTrain = hc.GetCut(category, "OS", 	purpose, region) + cTrain;
+  TCut cutSignalTest  = hc.GetCut(category, "OS", 	purpose, region) + cTest;
+  
+  TCut cutBackgroundTrain = hc.GetCut(category, QCDmodel_mva_factory, 	purpose, region) + cTrain;
+  TCut cutBackgroundTest  = hc.GetCut(category, QCDmodel_mva_factory, 	purpose, region) + cTest;
+  
+  TCut hweight("");
+  if (ApplyEventWeights){
+	hweight = "event_weight"; 
+	cout<<"\nincluding event weights : "<<hweight<<endl;
+  }
+  
+  
+  
+  ///Signal Train - Test
+  vector<string> sconf;
+  for(ItrStr it = m_SignalTestTrain.begin(); it != m_SignalTestTrain.end(); it++){
+	sconf  = split_string( *it, ':');
+	string proc	= sconf[0];
+	int mass 	= atoi( sconf[1].c_str() );
+	bool kTrain = atoi( sconf[2].c_str() );
+	bool kTest 	= atoi( sconf[3].c_str() );	
+	int mcid 	= hc.GetHiggsMCnumber(mass, proc);
+	double w = kNormalizeToDataLum ? mcb.Get_Norm(mcid, DataLumi) : mcb.Get_Norm(mcid);
+	
+	if(kTrain){
+	  cout<<"Adding "<<proc<<" mH = "<<mass<<" GeV in Training"<<endl;
+	  factory->AddTree(tmap[mcid], "Signal", w,  cutSignalTrain, "train");
+	}
+	if(kTest){
+	  cout<<"Adding "<<proc<<" mH = "<<mass<<" GeV in Testing"<<endl;
+	  factory->AddTree(tmap[mcid], "Signal", w, cutSignalTest,  "test");
+	}
+  }
+  
+  ///MC Bkg 
+  for(map<int, TTree *>::iterator it = tmap.begin(); it != tmap.end(); it++){
+	///Alpgen Z
+	if(kAddZtautau && !kEmbedding){
+	  if( hc.Is("Ztautau", it->first) ) {
+		cout<<"Adding Ztautau bkg "<<it->first<<" in factory"<<endl; 
+		double w = kNormalizeToDataLum ? mcb.Get_Norm(it->first, DataLumi) : mcb.Get_Norm(it->first);
+		factory->AddTree (it->second, "Background", w, hweight * cutBackgroundTrain, "train"); 
+		factory->AddTree (it->second, "Background", w, hweight * cutBackgroundTest, "test");
+	  }
+	  
+	}
+	/// EWK Bkg
+	if(kAddEWK){
+	  if( hc.Is("Electroweak", it->first) ) {
+		cout<<"Adding Ewk bkg "<<it->first<<" in factory"<<endl; 
+		double w = kNormalizeToDataLum ? mcb.Get_Norm(it->first, DataLumi) : mcb.Get_Norm(it->first);
+		factory->AddTree (it->second, "Background", w, hweight * cutBackgroundTrain, "train"); 
+		factory->AddTree (it->second, "Background", w, hweight * cutBackgroundTest, "test");
+	  }
+	}
+	
+  }///
+  
+  ///QCD Bkg
+  if(kAddQCD){
+	cout<<"Adding QCD bkg in factory"<<endl;
+	double w = 1.0;
+	factory->AddTree (tdata, "Background", w, cutBackgroundTrain, "train"); 
+	factory->AddTree (tdata, "Background", w, cutBackgroundTest, "test");
+  }
+  
+  ///EMBEDDING Z bkg
+  if(kAddZtautau && kEmbedding){	
+	cout<<"Adding Ztautau embedding in factory"<<endl;
+	double w = 1.0;
+	factory->AddTree (tEmbedding, "Background", w, hweight * cutBackgroundTrain, "train"); 
+	factory->AddTree (tEmbedding, "Background", w, hweight * cutBackgroundTest, "test");
+  }
+  
+  
+  ///Weights 
+  factory->SetWeightExpression("event_weight");
+  
+  /// DataSetFactory more options here  http://tmva.sourceforge.net/optionRef.html#DataSetFactory
+  factory->PrepareTrainingAndTestTree( mycutS, mycutB, "NormMode=None:!V" );
+  // EqualNumEvents is problematic
+  //NormMode=None  or NormMode=EqualNumEvents
+  //nTrain_Signal=0:nTrain_Background=0    Number of training events of class Signal/Bkg (default: 0 = all)
+  
+  
+  /// - Book MVA method
+  ///BDT: more options here http://tmva.sourceforge.net/optionRef.html#MVA::BDT
+  string BDTsettings = "!H:!V:NTrees="+BDT_NTrees+":nEventsMin="+BDT_nEventsMin+":MaxDepth="+BDT_MaxDepth+":BoostType="+BDT_BoostType+":AdaBoostBeta="+BDT_AdaBoostBeta+":SeparationType=GiniIndex:nCuts=20:PruneMethod=NoPruning:UseYesNoLeaf="+BDT_UseYesNoLeaf;
+  if ( Use["BDT"] )  // Adaptive Boost
+	factory->BookMethod( TMVA::Types::kBDT, "BDT", BDTsettings.c_str() );
+  
+  
+  string BDTGsettings ="!H:!V:NTrees=500:BoostType=Grad:Shrinkage=0.10:UseBaggedGrad:GradBaggingFraction=0.5:nCuts=20:NNodesMax=5";
+  if (Use["BDTG"]) // Gradient Boost
+	factory->BookMethod( TMVA::Types::kBDT, "BDTG",  BDTGsettings.c_str());
+  
+  
+  /// - Now you can tell the factory to train, test, and evaluate the MVAs
+  
+  /// Train MVAs using the set of training events
+  factory->TrainAllMethods();
+  
+  /// - Evaluate all MVAs using the set of test events
+  factory->TestAllMethods();
+  
+  /// -- Evaluate and compare performance of all configured MVAs
+  factory->EvaluateAllMethods();
+  
+  
+  /// Save the output
+  outputRootFile->Close();
+  
+  std::cout << "Writing root file: " << outRootFileName << std::endl;
+  
+  
+  delete factory;
+  
+  /// Launch the GUI for the root macros
+  if (!gROOT->IsBatch()) TMVAGui( outRootFileName.c_str() );
+  
+  cout<<"\nIn ApplicationClass.C  -- the order of variables is vitally important:"<<endl;
+  
+  
+  int ivar(0);
+  for(ItrStr it = mVars.begin(); it != mVars.end(); it++, ivar++){
+	string reader = "reader->AddVariable(\""+*it+"\", &var"+hc.GetStringFromInt(ivar)+");";
+	cout<<reader<<endl;
+  }		
+  
+  cout<<endl;
+  
+  ivar = 0;
+  for(ItrStr it = mVars.begin(); it != mVars.end(); it++, ivar++){
+	string eq = "var"+hc.GetStringFromInt(ivar)+" = "+(*it)+";";
+	cout<<eq<<endl;
+  }	
+  
+  cout<<"\n"<<category << " category has "<<mVars.size()<<" input training variables. "<<endl;
+  
+  std::cout << "K/Z: TMVAClassificationHadHad is done!" << std::endl;
+  
+  cout <<" Dear Katy & Zinonas, To launch the GUI :  . show.sh "<<outRootFileName<<endl;
+  
+  cout<<endl;
+}
+
+std::vector<std::string> split_string( const std::string &str, char delim){
+  
+  std::istringstream f(str);
+  std::string s;
+  vector<string> strings;
+  while (std::getline(f, s, delim)) {
+	strings.push_back(s);
+  }
+  
+  return strings;
+  
+}

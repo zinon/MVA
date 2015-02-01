@@ -1,0 +1,26 @@
+#!/bin/csh -f
+
+set version=v6
+#set dtype=mc
+set dtype=data
+
+
+setenv DIR ../../Ntuples/$version/$dtype
+foreach file (${DIR}/*.root)
+	echo $file
+	cp   $file  temp.root
+
+	cp weights/TMVAClassificationHadHadeven_BDT.weights.xml weights/TMVAClassificationHadHad_BDT.weights.xml
+	./run_BDT_EvenTraining.sh
+	cp NEW_TREE.root EvenTraining_BDT.root
+
+	cp weights/TMVAClassificationHadHadodd_BDT.weights.xml weights/TMVAClassificationHadHad_BDT.weights.xml
+	./run_BDT_OddTraining.sh
+	cp NEW_TREE.root OddTraining_BDT.root
+
+	hadd {$file}_BDT.root EvenTraining_BDT.root OddTraining_BDT.root
+
+	mv {$file}_BDT.root ../../Ntuples/$version/mva_$dtype/TrainedOnEvenOddEvents/.
+# mv ../../Ntuples/$version/$dtype/*BDT.root ../../Ntuples/$version/mva_$dtype/TrainedOn$TrainedHalf/.
+
+end

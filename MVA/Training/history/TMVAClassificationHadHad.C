@@ -1,0 +1,429 @@
+// @(#)root/tmva $Id: TMVAClassificationHadHad.C 75129 2013-03-08 11:51:15Z zenon $
+/**********************************************************************************
+ *                                  *
+ * The methods to be used can be switched on and off by means of booleans, or     *
+ * via the prompt command, for example:                                           *
+ *                                                                                *
+ *    root -l ./TMVAClassificationHadHad.C\(\"Fisher,Likelihood\"\)                     *
+ *                                                                                *
+ * Launch the GUI via the command:                                                *
+ *                                                                                *
+ *    root -l ./TMVAGui.C                                                         *
+ *                                                                                *
+ **********************************************************************************/
+
+#include <cstdlib>
+#include <iostream>
+#include <map>
+#include <string>
+
+#include "TChain.h"
+#include "TFile.h"
+#include "TTree.h"
+#include "TString.h"
+#include "TObjString.h"
+#include "TSystem.h"
+#include "TROOT.h"
+
+#include "TMVAGui.C"
+
+#if not defined(__CINT__) || defined(__MAKECINT__)
+// needs to be included when makecint runs (ACLIC)
+#include "TMVA/Factory.h"
+#include "TMVA/Tools.h"
+#endif
+
+void TMVAClassificationHadHad( TString myMethodList = "" )
+{
+  
+	gSystem->Load("../../HelperClass/HelperClass_cpp.so");
+	gSystem->Load("../../MonteCarloBank/MonteCarloBank_cpp.so");
+	 
+	string category = "vbf";
+	HelperClass hc;
+	//Set Even or Odd events for the Training.
+	//int EO_Flag = 0;//Even
+	int EO_Flag = 1;//Odd
+	 
+   // This loads the library
+   TMVA::Tools::Instance();
+
+   // Default MVA methods to be trained + tested
+   std::map<std::string,int> Use;
+
+   // 
+   // --- Boosted Decision Trees
+   Use["BDT"]             = 1; // uses Adaptive Boost
+   Use["BDTG"]            = 0; // uses Gradient Boost
+   Use["BDTB"]            = 0; // uses Bagging
+   Use["BDTD"]            = 0; // decorrelation + Adaptive Boost
+   Use["BDTF"]            = 0; // allow usage of fisher discriminant for node splitting 
+   // 
+  
+   std::cout << std::endl;
+   std::cout << "==> Start TMVAClassificationHadHad" << std::endl;
+
+   // Select methods (don't look at this code - not of interest)
+   if (myMethodList != "") {
+      for (std::map<std::string,int>::iterator it = Use.begin(); it != Use.end(); it++) it->second = 0;
+
+      std::vector<TString> mlist = TMVA::gTools().SplitString( myMethodList, ',' );
+      for (UInt_t i=0; i<mlist.size(); i++) {
+         std::string regMethod(mlist[i]);
+
+         if (Use.find(regMethod) == Use.end()) {
+            std::cout << "Method \"" << regMethod << "\" not known in TMVA under this name. Choose among the following:" << std::endl;
+            for (std::map<std::string,int>::iterator it = Use.begin(); it != Use.end(); it++) std::cout << it->first << " ";
+            std::cout << std::endl;
+            return;
+         }
+         Use[regMethod] = 1;
+      }
+   }
+
+   // --------------------------------------------------------------------------------------------------
+
+
+
+   // Create a ROOT output file where TMVA will store ntuples, histograms, etc.
+   TString outfileName( "TMVA.root" );
+   TFile* outputFile = TFile::Open( outfileName, "RECREATE" );
+
+   
+   // The first argument is the base of the name of all the
+   // weightfiles in the directory weight/
+   //
+   // The second argument is the output file for the training results
+   if(EO_Flag == 1){
+   TMVA::Factory *factory = new TMVA::Factory( "TMVAClassificationHadHadodd", outputFile,
+                                               "!V:!Silent:Color:DrawProgressBar:Transformations=I;D;P;G,D:AnalysisType=Classification" );
+   }
+   if(EO_Flag == 0){
+   TMVA::Factory *factory = new TMVA::Factory( "TMVAClassificationHadHadeven", outputFile,
+                                               "!V:!Silent:Color:DrawProgressBar:Transformations=I;D;P;G,D:AnalysisType=Classification" );
+   }
+
+
+
+
+   //This is a list of possible variables to use in the training.  Uncomment the ones you wish to use:
+   
+   //  factory->AddVariable( "tau_0_pt"        , "Leading Tau pT","",'F');
+   //  factory->AddVariable( "tau_0_eta"       ,"Leading Tau eta", "",'F');
+   //  factory->AddVariable( "tau_0_tracks"    ,"Tau0 tracks", "",'F');//probably not a good option
+   //  factory->AddVariable( "tau_0_tracks_recounted" ,"Tau0 recounted tracks", "",'F');//probably not a good option
+   factory->AddVariable( "tau_0_BDT_score" ,"Tau0 BDT score", "",'F');
+   //  factory->AddVariable( "tau_0_closest_jet_dR" ,"Tau0 dR closest jet", "",'F');
+   //  factory->AddVariable( "tau_0_jvtxf","Tau0 JVF", "",'F');
+   //   factory->AddVariable( "tau_0_dijet_min_dEta" ,"Tau0 min dEta jet", "",'F');
+   factory->AddVariable( "tau_0_dijet_eta_centr" ,"tau_0_dijet_eta_centr", "",'F');
+   
+   
+   //   factory->AddVariable( "tau_1_pt", "SubLeading Tau pT","",'F');
+   //   factory->AddVariable( "tau_1_eta", "SubLeading Tau eta","",'F');
+   //   factory->AddVariable( "tau_1_tracks","Tau1 tracks", "",'F'); //probably not a good option
+   //   factory->AddVariable( "tau_1_tracks_recounted" ,"Tau1 recounted tracks", "",'F'); //probably not a good option
+   factory->AddVariable( "tau_1_BDT_score" ,"Tau1 BDT score", "",'F');
+   //   factory->AddVariable( "tau_1_closest_jet_dR" , "Tau1 Closest jet dR",'F');
+   //   factory->AddVariable( "tau_1_jvtxf", "Tau1 JVF", "",'F');
+   //   factory->AddVariable( "tau_1_dijet_min_dEta" , "Tau1 Closest jet deta","",'F');
+   factory->AddVariable( "tau_1_dijet_eta_centr" ,"tau_1_dijet_eta_centr", "",'F');
+   
+   //   factory->AddVariable( "ditau_mass_mmc"  ,"MMC", "",'F');
+   //   factory->AddVariable( "ditau_mass_col"  , "Collinear Mass","",'F');
+   //   factory->AddVariable( "ditau_colapprox_x0" ,"x0", "",'F');
+   //   factory->AddVariable( "ditau_colapprox_x1" ,"x1", "",'F');
+   //   factory->AddVariable( "ditau_mass_vis","vis mass", "",'F');
+   factory->AddVariable( "ditau_dR","ditau dR", "",'F');
+   //   factory->AddVariable( "ditau_dEta","ditau dEta", "",'F');
+     
+   //   factory->AddVariable( "ditau_dPhi","ditau dPhi", "",'F');
+   //   factory->AddVariable( "ditau_HT"," ditau HT"        , "",'F');
+   factory->AddVariable( "ditau_VecSumPt","ditau VecSumPt"  , "",'F');
+   //   factory->AddVariable( "ditau_cosTheta","ditau cos theta"  , "",'F');
+   //   //   factory->AddVariable( "ditau_cosThetaStar","ditau cosThetaStar", "",'F');//broken
+   //
+   //   factory->AddVariable( "ditau_met_out_min_dPhi" ,"ditau_met_out_min_dPhi", "",'F');
+
+   factory->AddVariable( "ditau_met_dPhi","ditau met dPhi"  , "",'F');// Using this to simulate "MET cent"
+
+   //   factory->AddVariable( "ditau_met_VecSumPt" ,"ditau_met_VecSumPt", "",'F');
+   //   factory->AddVariable( "ditau_met_Mt","ditau met MT"    , "",'F');
+   //   factory->AddVariable( "ditau_VecSumPt", "",'F');//////<------
+   //   factory->AddVariable( "ditau_dijet_met_VecSumPt" ,"ditau_dijet_met_VecSumPt", "",'F');
+   
+   //Dijet:  
+   //   factory->AddVariable( "dijet_dPhi","dijet dphi"     , "",'F');
+   //   factory->AddVariable( "dijet_dEta","dijet dEta"     , "",'F');
+      factory->AddVariable( "dijet_dEta_x_sign1_x_sign2" ,"dijet_dEta_x_sign1_x_sign2", "",'F');
+   factory->AddVariable( "dijet_mass","dijet mass"      , "",'F');
+   //   factory->AddVariable( "dijet_HT" ,"dijet HT"       , "",'F');
+   //   factory->AddVariable( "dijet_VecSumPt","dijet VecSumPt", "",'F');
+   factory->AddVariable( "dijet_eta1_x_eta2" ,"dijet_eta1_x_eta2", "",'F');
+   //   factory->AddVariable( "dijet_cosTheta","dijet cosTheta"  , "",'F');
+   //   factory->AddVariable( "Njets_pt25","njets above pt = 25"      , "",'F');
+   
+   //factory->AddVariable( "Njets_pt30      , "",'F');
+   //factory->AddVariable( "Njets_pt40      , "",'F');
+   //factory->AddVariable( "Njets_pt50      , "",'F');
+   //factory->AddVariable( "Njets_pt60      , "",'F');
+   //factory->AddVariable( "Njets_pt25_jvtxf50 , "",'F');
+   //factory->AddVariable( "Njets_pt30_jvtxf50 , "",'F');
+   //factory->AddVariable( "Njets_pt40_jvtxf50 , "",'F');
+   //factory->AddVariable( "Njets_pt50_jvtxf50 , "",'F');
+   //factory->AddVariable( "Njets_pt60_jvtxf50 , "",'F');
+   //factory->AddVariable( "Njets_pt25_jvtxf75 , "",'F');
+   //factory->AddVariable( "Njets_pt30_jvtxf75 , "",'F');
+   //factory->AddVariable( "Njets_pt40_jvtxf75 , "",'F');
+   //factory->AddVariable( "Njets_pt50_jvtxf75 , "",'F');
+   //factory->AddVariable( "Njets_pt60_jvtxf75 , "",'F');
+   //factory->AddVariable( "Njets_pt25      , "",'F');
+   //factory->AddVariable( "Njets_pt30      , "",'F');
+   //factory->AddVariable( "Njets_pt40      , "",'F');
+   //factory->AddVariable( "Njets_pt50      , "",'F');
+   //factory->AddVariable( "Njets_pt60      , "",'F');
+   //factory->AddVariable( "Njets_pt25_jvtxf50 , "",'F');
+   //factory->AddVariable( "Njets_pt30_jvtxf50 , "",'F');
+   //factory->AddVariable( "Njets_pt40_jvtxf50 , "",'F');
+   //factory->AddVariable( "Njets_pt50_jvtxf50 , "",'F');
+   //factory->AddVariable( "Njets_pt60_jvtxf50 , "",'F');
+   //factory->AddVariable( "Njets_pt25_jvtxf75 , "",'F');
+   //factory->AddVariable( "Njets_pt30_jvtxf75 , "",'F');
+   //factory->AddVariable( "Njets_pt40_jvtxf75 , "",'F');
+   //factory->AddVariable( "Njets_pt50_jvtxf75 , "",'F');
+   //factory->AddVariable( "Njets_pt60_jvtxf75 , "",'F');
+   //factory->AddVariable( "jet_N_pt25      , "",'F');
+   //factory->AddVariable( "jet_N_pt30      , "",'F');
+   //factory->AddVariable( "jet_N_pt40      , "",'F');
+   //factory->AddVariable( "jet_N_pt50      , "",'F');
+   //factory->AddVariable( "jet_N_pt60      , "",'F');
+   
+   //   factory->AddVariable( "dijet_inbetween_Njets_pt40","dijet_inbetween_Njets_pt40"     , "",'F');
+   //   factory->AddVariable( "dijet_extra_Njets_pt40","dijet_inbetween_Njets_pt40"     , "",'F');
+
+   // You can add so-called "Spectator variables", which are not used in the MVA training,
+   // but will appear in the final "TestTree" produced by TMVA. This TestTree will contain the
+   // input variables, the response values of all trained MVAs, and the spectator variables
+   /*
+   factory->AddSpectator( "spec1 := var1*2",  "Spectator 1", "units", 'F' );
+   factory->AddSpectator( "spec2 := var1*3",  "Spectator 2", "units", 'F' );
+   */
+
+
+   // Read training and test data
+  
+   TString fname = "./tmva_class_example.root";
+   
+   if (gSystem->AccessPathName( fname ))  // file does not exist in local directory
+      gSystem->Exec("wget http://root.cern.ch/files/tmva_class_example.root");
+      
+   TFile *input(0);
+   TFile *inputb(0);
+   TFile *input_ggf(0);
+   TFile *input_Z0(0);
+   TFile *input_Z1(0);
+   TFile *input_Z2(0);
+   TFile *input_Z3(0);   
+   TFile *input_Z4(0);
+   TFile *input_Z5(0);
+
+   //Read in Signal Files
+   TString fname = "../../Ntuples/v6/mc/mc.161617.root";//vbf 125 
+   TString fname_ggf = "../../Ntuples/v6/mc/mc.161577.root";//ggf  90k events
+   
+
+   
+	   
+   //Read in Background Files:
+   // TString fname1 = "../../Ntuples/v6/data/data.200842.root";//one data file as a check
+//    TString fname1 = "../../Ntuples/v6/mva_data/SummedFiles.root";//hadd of all data files
+   TString fname_ZNp0 = "../../Ntuples/v6/mc/mc.107670.root";
+   TString fname_ZNp1 = "../../Ntuples/v6/mc/mc.107671.root";
+   TString fname_ZNp2 = "../../Ntuples/v6/mc/mc.107672.root";
+   TString fname_ZNp3 = "../../Ntuples/v6/mc/mc.107673.root";
+   TString fname_ZNp4 = "../../Ntuples/v6/mc/mc.107674.root";
+   TString fname_ZNp5 = "../../Ntuples/v6/mc/mc.107675.root";
+
+   if (!gSystem->AccessPathName( fname )) {
+     input = TFile::Open( fname ); // check if file in local directory exists
+   } 
+//    inputb = TFile::Open( fname1 );
+   input_ggf = TFile::Open( fname_ggf );
+   input_Z0 = TFile::Open( fname_ZNp0 );
+   input_Z1 = TFile::Open( fname_ZNp1 );
+   input_Z2 = TFile::Open( fname_ZNp2 );
+   input_Z3 = TFile::Open( fname_ZNp3 );
+   input_Z4 = TFile::Open( fname_ZNp4 );
+   input_Z5 = TFile::Open( fname_ZNp5 );
+   
+   //Get normalizations for Z alpgen jet bins from the MonteCarloBank (../../MonteCarloBank/MonteCarloBank.cpp)
+   MonteCarloBank b;
+   Float_t  Ztt0_scale, Ztt1_scale, Ztt2_scale , Ztt3_scale , Ztt4_scale , Ztt5_scale;
+   Ztt0_scale = b.Get_Norm(107670);
+   Ztt1_scale = b.Get_Norm(107671);
+   Ztt2_scale = b.Get_Norm(107672);
+   Ztt3_scale = b.Get_Norm(107673);
+   Ztt4_scale = b.Get_Norm(107674);
+   Ztt5_scale = b.Get_Norm(107675);
+   
+
+   // --- Register the training and test trees.  Use the HelperClass (../../HelperClass) to merge the Data trees
+   	hc.SetTreeName("mva");
+	string version = "v6";
+	hc.SetPath("../../Ntuples/"+version);
+   	TTree *backgroundQCD = hc.GetTreeData();
+	cout<<"QCD tree entries : "<<backgroundQCD->GetEntries()<<endl;
+// 	hc.SetLumiPerRunMap();
+
+   TTree *signal     = (TTree*)input->Get("mva");
+//    TTree *backgroundQCD = (TTree*)inputb->Get("mva");
+
+   TTree *backgroundZ0 = (TTree*)input_Z0->Get("mva");
+   TTree *backgroundZ1 = (TTree*)input_Z1->Get("mva");
+   TTree *backgroundZ2 = (TTree*)input_Z2->Get("mva");
+   TTree *backgroundZ3 = (TTree*)input_Z3->Get("mva");
+   TTree *backgroundZ4 = (TTree*)input_Z4->Get("mva");
+   TTree *backgroundZ5 = (TTree*)input_Z5->Get("mva");
+   
+   TTree *signal_ggf     = (TTree*)input_ggf->Get("mva");
+
+   Double_t signalWeight       = 1.0; //Change this to normalize to the total num bkg events
+   Double_t nullsignalWeight   = 0.0; // To turn off a signal
+   Double_t backgroundWeight   = 1.0;
+
+   Double_t backgroundWeightZ0 = Ztt0_scale;
+   Double_t backgroundWeightZ1 = Ztt1_scale;
+   Double_t backgroundWeightZ2 = Ztt2_scale;
+   Double_t backgroundWeightZ3 = Ztt3_scale;
+   Double_t backgroundWeightZ4 = Ztt4_scale;
+   Double_t backgroundWeightZ5 = Ztt5_scale;
+   
+   // You can add an arbitrary number of signal or background trees
+   factory->AddSignalTree    ( signal,     signalWeight     );
+   factory->AddSignalTree    ( signal_ggf, nullsignalWeight     );
+   factory->AddBackgroundTree( backgroundQCD, backgroundWeight );//QCD
+
+   factory->AddBackgroundTree( backgroundZ0, backgroundWeightZ0 );
+   factory->AddBackgroundTree( backgroundZ1, backgroundWeightZ1 );
+   factory->AddBackgroundTree( backgroundZ2, backgroundWeightZ2 );
+   factory->AddBackgroundTree( backgroundZ3, backgroundWeightZ3 );
+   factory->AddBackgroundTree( backgroundZ4, backgroundWeightZ4 );
+   factory->AddBackgroundTree( backgroundZ5, backgroundWeightZ5 );
+
+
+   // To give different trees for training and testing, do as follows:
+   //    factory->AddSignalTree( signalTrainingTree, signalTrainWeight, "Training" );
+   //    factory->AddSignalTree( signalTestTree,     signalTestWeight,  "Test" );
+   
+   // --- end of tree registration 
+
+   // Set individual event weights (the variables must exist in the original TTree)
+   //    for signal    : factory->SetSignalWeightExpression    ("weight1*weight2");
+   //    for background: factory->SetBackgroundWeightExpression("weight1*weight2");
+
+   //   factory->SetBackgroundWeightExpression( "weight" ); katy commenting out
+
+   //    factory->SetBackgroundWeightExpression("event_weight*(1+(data_type-1)*60.)");//this gives spikey weights...
+   //    factory->SetBackgroundWeightExpression("(1+(data_type-1)*60.)");
+   //    factory->SetSignalWeightExpression("event_weight");
+   
+
+   //Preselection except lep veto, vtx match, centrality
+    TCut TwoMediumTaus = "tau_0_BDT_medium && tau_1_BDT_medium";
+    TCut TempMediumTaus = "tau_0_BDT_medium";
+    TCut OneTightTau =   "tau_0_BDT_tight || tau_1_BDT_tight";
+    TCut TaupT = "tau_0_pt > 40. && tau_1_pt> 25.";
+    TCut TauEta = "abs(tau_0_eta)<2.5 && abs(tau_1_eta)<2.5";
+    TCut OS = "(tau_0_Q * tau_1_Q) ==-1";
+    TCut notOS = "(data_type == 1 && (tau_0_Q * tau_1_Q) !=-1) || (data_type ==2 && (tau_0_Q * tau_1_Q) ==-1)";
+    TCut NumberofTauTracks = "(tau_0_tracks==1 ||tau_0_tracks==3)  && (tau_1_tracks==1 || tau_1_tracks==3)";//not recounted tracks...
+    TCut MET = "met_et > 20.0";   
+    TCut TaudR_dEta = "ditau_dR <2.8 && ditau_dR >0.8 && ditau_dEta <1.5";
+    TCut NumJets = "jet_N_pt50>0 ";//"jet_N_tagging>0";
+    TCut VBFjets = "jet_0_pt > 50. && jet_1_pt >30. ";
+    TCut DiJet   = "dijet_ok";
+    TCut MMC  = "ditau_mass_mmc_ok && ditau_mass_mmc > 65.0";
+
+    if(EO_Flag==0)    TCut select_evenodd =  "mu % 2 ==0";  //even
+    if(EO_Flag==1)    TCut select_evenodd =  "mu % 2 ==1"; //odd
+
+    TCut mycuts = OS    && TwoMediumTaus && TaupT && MMC && NumberofTauTracks && VBFjets && select_evenodd;
+    TCut mycutb = notOS && TwoMediumTaus && TaupT && MMC && NumberofTauTracks && VBFjets && select_evenodd; 
+
+
+//The Cuts are now defined in ../../HelperClass/HelperClass.cpp.  "category" is defined above
+//   TCut mycuts = hc.GetCut(category, "OS");
+//   TCut mycutb = hc.GetCut(category, "bkg");
+ 
+
+   // If no numbers of events are given, half of the events in the tree are used 
+   // for training, and the other half for testing:
+   //    factory->PrepareTrainingAndTestTree( mycut, "SplitMode=random:!V" );
+   // To also specify the number of testing events, use:
+   //    factory->PrepareTrainingAndTestTree( mycut,
+   //                                         "NSigTrain=3000:NBkgTrain=3000:NSigTest=3000:NBkgTest=3000:SplitMode=Random:!V" );
+//    factory->PrepareTrainingAndTestTree( mycuts, mycutb,
+//                                         "nTrain_Signal=0:nTrain_Background=0:SplitMode=Random:NormMode=NumEvents:!V" );
+
+   factory->PrepareTrainingAndTestTree( mycuts, mycutb,
+                                        "nTrain_Signal=0:nTrain_Background=0:SplitMode=Random:NormMode=EqualNumEvents:!V" );
+   // ---- Book MVA methods
+  
+   // Boosted Decision Trees
+//    if (Use["BDTG"]) // Gradient Boost
+//       factory->BookMethod( TMVA::Types::kBDT, "BDTG",
+//                            "!H:!V:NTrees=1000:BoostType=Grad:Shrinkage=0.10:UseBaggedGrad:GradBaggingFraction=0.5:nCuts=20:NNodesMax=5" );
+
+   if (Use["BDT"])  // Adaptive Boost
+      factory->BookMethod( TMVA::Types::kBDT, "BDT",
+                           "!H:!V:NTrees=850:nEventsMin=150:MaxDepth=3:BoostType=AdaBoost:AdaBoostBeta=0.5:SeparationType=GiniIndex:nCuts=20:PruneMethod=NoPruning" );
+
+
+//    if (Use["BDTB"]) // Bagging
+//       factory->BookMethod( TMVA::Types::kBDT, "BDTB",
+//                            "!H:!V:NTrees=400:BoostType=Bagging:SeparationType=GiniIndex:nCuts=20:PruneMethod=NoPruning" );
+// 
+//    if (Use["BDTD"]) // Decorrelation + Adaptive Boost
+//       factory->BookMethod( TMVA::Types::kBDT, "BDTD",
+//                            "!H:!V:NTrees=400:nEventsMin=400:MaxDepth=3:BoostType=AdaBoost:SeparationType=GiniIndex:nCuts=20:PruneMethod=NoPruning:VarTransform=Decorrelate" );
+// 
+//    if (Use["BDTF"])  // Allow Using Fisher discriminant in node splitting for (strong) linearly correlated variables
+//       factory->BookMethod( TMVA::Types::kBDT, "BDTMitFisher",
+//                            "!H:!V:NTrees=50:nEventsMin=150:UseFisherCuts:MaxDepth=3:BoostType=AdaBoost:AdaBoostBeta=0.5:SeparationType=GiniIndex:nCuts=20:PruneMethod=NoPruning" );
+
+  
+   // For an example of the category classifier usage, see: TMVAClassificationHadHadCategory
+
+   // --------------------------------------------------------------------------------------------------
+
+   // ---- Now you can optimize the setting (configuration) of the MVAs using the set of training events
+
+   // factory->OptimizeAllMethods("SigEffAt001","Scan");
+   // factory->OptimizeAllMethods("ROCIntegral","GA");
+
+   // --------------------------------------------------------------------------------------------------
+
+   // ---- Now you can tell the factory to train, test, and evaluate the MVAs
+
+   // Train MVAs using the set of training events
+   factory->TrainAllMethods();
+
+   // ---- Evaluate all MVAs using the set of test events
+   factory->TestAllMethods();
+
+   // ----- Evaluate and compare performance of all configured MVAs
+   factory->EvaluateAllMethods();
+
+   // --------------------------------------------------------------
+
+   // Save the output
+   outputFile->Close();
+
+   std::cout << "==> Wrote root file: " << outputFile->GetName() << std::endl;
+   std::cout << "==> TMVAClassificationHadHad is done!" << std::endl;
+
+   delete factory;
+
+   // Launch the GUI for the root macros
+   if (!gROOT->IsBatch()) TMVAGui( outfileName );
+}

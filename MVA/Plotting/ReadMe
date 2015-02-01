@@ -1,0 +1,55 @@
+Plot all BDT input variables using:
+
+root -l RunGenericVariable.C
+note that currently adding anymore "}else if(myVariable_s == "
+lines will make it crash
+
+_________________________________________________________________
+
+Plot BDTscore using
+root -l RunBDTscore.C
+
+inside BDTscore.C it is necessary to set the QCD and Z normalization 
+double  QCD_TrackFitFactor = X 
+double  Z_TrackFitFactor = X
+
+
+You can also set the bin size.  This requires modifying these lines:
+
+static const int NumVarBins = 31;
+...
+if(i<=30) this_value += 0.033; //divide range by number of bins
+
+
+Use 1000 bins if you want to do the rebinning after.
+
+
+Output is plot_BDTscore_2jet_125_CR_v8.root
+If this has no 0 bkg bins it can be used in the limit setting.
+Copy the file into WorkSpace_Soshi2/ZK_rootfiles/
+And run the limits with this file:
+WorkSpace_Soshi2/config/TauTau_channel_HH_Higgs125_minV8.xml
+_________________________________________________________________
+
+Use RebinHistograms.C to turn the 1000 bin histograms into histograms with
+no empty bins.  Currently the bins are summed from left to right
+such that this line is fufilled:
+   if((Content_Ztt_tmp + Content_QCD_tmp + Content_ewbkg_tmp) > 0 ){
+
+Output from this histogram can be used in the limit setting.
+
+_________________________________________________________________
+
+Use transform.C to rebin the 1000 bin histogram such that each bin has below
+a certain percent of stat error on the background content.
+Run like this:
+
+.L transform.C+
+transform("plot_BDTscore_2jet_125_SR_v8_1000bins.root",0.10, "test.root")
+
+where you can set the input as the BDTscore.C output and set the % error you want.
+
+You can set the limits with this output file, but it currently has histograms 
+with different names than the other
+outputs so I use the file WorkSpace_Soshi2/config/TauTau_channel_HH_Higgs125_transformfile.xml when
+setting the limits.  This lists each histogram name correctly.

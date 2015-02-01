@@ -1,0 +1,2328 @@
+
+dijet_mass Vs dijet_mass Chi2/NDF: 0.006743
+dijet_mass Vs dijet_eta1_x_eta2 Chi2/NDF: -0.071596
+dijet_mass Vs dijet_dEta Chi2/NDF: 0.010675
+dijet_mass Vs tau_0_dijet_eta_centr Chi2/NDF: -0.000000
+dijet_mass Vs tau_1_dijet_eta_centr Chi2/NDF: -0.000000
+dijet_mass Vs ditau_dijet_met_VecSumPt Chi2/NDF: 0.712876
+dijet_mass Vs ditau_pT_0_over_pT_1 Chi2/NDF: 0.006552
+dijet_mass Vs ditau_colapprox_x0 Chi2/NDF: 0.000000
+dijet_mass Vs ditau_colapprox_x1 Chi2/NDF: 0.000000
+dijet_mass Vs HT_jets_taus Chi2/NDF: 0.438853
+dijet_eta1_x_eta2 Vs ditau_mass_mmc Chi2/NDF: 0.174487
+dijet_eta1_x_eta2 Vs ditau_dR Chi2/NDF: 0.006405
+dijet_eta1_x_eta2 Vs met_centrality Chi2/NDF: 0.000000
+dijet_eta1_x_eta2 Vs dijet_mass Chi2/NDF: 1.290704
+dijet_eta1_x_eta2 Vs dijet_eta1_x_eta2 Chi2/NDF: 0.000609
+dijet_eta1_x_eta2 Vs dijet_dEta Chi2/NDF: 0.004353
+dijet_eta1_x_eta2 Vs tau_0_dijet_eta_centr Chi2/NDF: -0.000000
+dijet_eta1_x_eta2 Vs tau_1_dijet_eta_centr Chi2/NDF: -0.000000
+dijet_eta1_x_eta2 Vs ditau_dijet_met_VecSumPt Chi2/NDF: 0.514824
+dijet_eta1_x_eta2 Vs ditau_pT_0_over_pT_1 Chi2/NDF: 0.006022
+dijet_eta1_x_eta2 Vs ditau_colapprox_x0 Chi2/NDF: 0.000000
+dijet_eta1_x_eta2 Vs ditau_colapprox_x1 Chi2/NDF: 0.000000
+dijet_eta1_x_eta2 Vs HT_jets_taus Chi2/NDF: 1.011055
+dijet_dEta Vs ditau_mass_mmc Chi2/NDF: 0.185985
+dijet_dEta Vs ditau_dR Chi2/NDF: 0.005694
+dijet_dEta Vs met_centrality Chi2/NDF: 0.000000
+dijet_dEta Vs dijet_mass Chi2/NDF: 1.267110
+dijet_dEta Vs dijet_eta1_x_eta2 Chi2/NDF: -0.005858
+dijet_dEta Vs dijet_dEta Chi2/NDF: 0.000091
+dijet_dEta Vs tau_0_dijet_eta_centr Chi2/NDF: -0.000000
+dijet_dEta Vs tau_1_dijet_eta_centr Chi2/NDF: -0.000000
+dijet_dEta Vs ditau_dijet_met_VecSumPt Chi2/NDF: 0.668728
+dijet_dEta Vs ditau_pT_0_over_pT_1 Chi2/NDF: 0.008800
+dijet_dEta Vs ditau_colapprox_x0 Chi2/NDF: 0.000000
+dijet_dEta Vs ditau_colapprox_x1 Chi2/NDF: 0.000000
+dijet_dEta Vs HT_jets_taus Chi2/NDF: 0.907317
+tau_0_dijet_eta_centr Vs ditau_mass_mmc Chi2/NDF: 0.091284
+tau_0_dijet_eta_centr Vs ditau_dR Chi2/NDF: 0.003698
+tau_0_dijet_eta_centr Vs met_centrality Chi2/NDF: 0.000000
+tau_0_dijet_eta_centr Vs dijet_mass Chi2/NDF: 1.924419
+tau_0_dijet_eta_centr Vs dijet_eta1_x_eta2 Chi2/NDF: -0.034961
+tau_0_dijet_eta_centr Vs dijet_dEta Chi2/NDF: 0.013272
+tau_0_dijet_eta_centr Vs tau_0_dijet_eta_centr Chi2/NDF: -0.000000
+tau_0_dijet_eta_centr Vs tau_1_dijet_eta_centr Chi2/NDF: -0.000000
+tau_0_dijet_eta_centr Vs ditau_dijet_met_VecSumPt Chi2/NDF: 0.252782
+tau_0_dijet_eta_centr Vs ditau_pT_0_over_pT_1 Chi2/NDF: 0.009285
+tau_0_dijet_eta_centr Vs ditau_colapprox_x0 Chi2/NDF: 0.000000
+tau_0_dijet_eta_centr Vs ditau_colapprox_x1 Chi2/NDF: 0.000000
+tau_0_dijet_eta_centr Vs HT_jets_taus Chi2/NDF: 0.507555
+tau_1_dijet_eta_centr Vs ditau_mass_mmc Chi2/NDF: 0.089106
+tau_1_dijet_eta_centr Vs ditau_dR Chi2/NDF: 0.002016
+tau_1_dijet_eta_centr Vs met_centrality Chi2/NDF: 0.000000
+tau_1_dijet_eta_centr Vs dijet_mass Chi2/NDF: 1.451423
+tau_1_dijet_eta_centr Vs dijet_eta1_x_eta2 Chi2/NDF: -0.023713
+tau_1_dijet_eta_centr Vs dijet_dEta Chi2/NDF: 0.006205
+tau_1_dijet_eta_centr Vs tau_0_dijet_eta_centr Chi2/NDF: -0.000000
+tau_1_dijet_eta_centr Vs tau_1_dijet_eta_centr Chi2/NDF: -0.000000
+tau_1_dijet_eta_centr Vs ditau_dijet_met_VecSumPt Chi2/NDF: 0.346667
+tau_1_dijet_eta_centr Vs ditau_pT_0_over_pT_1 Chi2/NDF: 0.003485
+tau_1_dijet_eta_centr Vs ditau_colapprox_x0 Chi2/NDF: 0.000000
+tau_1_dijet_eta_centr Vs ditau_colapprox_x1 Chi2/NDF: 0.000000
+tau_1_dijet_eta_centr Vs HT_jets_taus Chi2/NDF: 0.541996
+ditau_dijet_met_VecSumPt Vs ditau_mass_mmc Chi2/NDF: 0.100024
+ditau_dijet_met_VecSumPt Vs ditau_dR Chi2/NDF: 0.007272
+ditau_dijet_met_VecSumPt Vs met_centrality Chi2/NDF: 0.000000
+ditau_dijet_met_VecSumPt Vs dijet_mass Chi2/NDF: 7.379424
+ditau_dijet_met_VecSumPt Vs dijet_eta1_x_eta2 Chi2/NDF: 0.000000
+ditau_dijet_met_VecSumPt Vs dijet_dEta Chi2/NDF: 0.132220
+ditau_dijet_met_VecSumPt Vs tau_0_dijet_eta_centr Chi2/NDF: -0.000000
+ditau_dijet_met_VecSumPt Vs tau_1_dijet_eta_centr Chi2/NDF: 0.000000
+ditau_dijet_met_VecSumPt Vs ditau_dijet_met_VecSumPt Chi2/NDF: 0.002266
+ditau_dijet_met_VecSumPt Vs ditau_pT_0_over_pT_1 Chi2/NDF: 0.003131
+ditau_dijet_met_VecSumPt Vs ditau_colapprox_x0 Chi2/NDF: 0.000000
+ditau_dijet_met_VecSumPt Vs ditau_colapprox_x1 Chi2/NDF: 0.000000
+ditau_dijet_met_VecSumPt Vs HT_jets_taus Chi2/NDF: 0.360996
+ditau_pT_0_over_pT_1 Vs ditau_mass_mmc Chi2/NDF: 0.239388
+ditau_pT_0_over_pT_1 Vs ditau_dR Chi2/NDF: 0.005597
+ditau_pT_0_over_pT_1 Vs met_centrality Chi2/NDF: 0.000000
+ditau_pT_0_over_pT_1 Vs dijet_mass Chi2/NDF: 4.604213
+ditau_pT_0_over_pT_1 Vs dijet_eta1_x_eta2 Chi2/NDF: 1.011812
+ditau_pT_0_over_pT_1 Vs dijet_dEta Chi2/NDF: 0.181158
+ditau_pT_0_over_pT_1 Vs tau_0_dijet_eta_centr Chi2/NDF: -0.000000
+ditau_pT_0_over_pT_1 Vs tau_1_dijet_eta_centr Chi2/NDF: -0.000000
+ditau_pT_0_over_pT_1 Vs ditau_dijet_met_VecSumPt Chi2/NDF: 1.679845
+ditau_pT_0_over_pT_1 Vs ditau_pT_0_over_pT_1 Chi2/NDF: 0.000105
+ditau_pT_0_over_pT_1 Vs ditau_colapprox_x0 Chi2/NDF: 0.000000
+ditau_pT_0_over_pT_1 Vs ditau_colapprox_x1 Chi2/NDF: 0.000000
+ditau_pT_0_over_pT_1 Vs HT_jets_taus Chi2/NDF: 0.390576
+ditau_colapprox_x0 Vs ditau_mass_mmc Chi2/NDF: 0.000000
+ditau_colapprox_x0 Vs ditau_dR Chi2/NDF: 0.000000
+ditau_colapprox_x0 Vs met_centrality Chi2/NDF: 0.000000
+ditau_colapprox_x0 Vs dijet_mass Chi2/NDF: 0.000000
+ditau_colapprox_x0 Vs dijet_eta1_x_eta2 Chi2/NDF: 0.000000
+ditau_colapprox_x0 Vs dijet_dEta Chi2/NDF: 0.000000
+ditau_colapprox_x0 Vs tau_0_dijet_eta_centr Chi2/NDF: 0.000000
+ditau_colapprox_x0 Vs tau_1_dijet_eta_centr Chi2/NDF: 0.000000
+ditau_colapprox_x0 Vs ditau_dijet_met_VecSumPt Chi2/NDF: 0.000000
+ditau_colapprox_x0 Vs ditau_pT_0_over_pT_1 Chi2/NDF: 0.000000
+ditau_colapprox_x0 Vs ditau_colapprox_x0 Chi2/NDF: 0.000000
+ditau_colapprox_x0 Vs ditau_colapprox_x1 Chi2/NDF: 0.000000
+ditau_colapprox_x0 Vs HT_jets_taus Chi2/NDF: 0.000000
+ditau_colapprox_x1 Vs ditau_mass_mmc Chi2/NDF: 0.000000
+ditau_colapprox_x1 Vs ditau_dR Chi2/NDF: 0.000000
+ditau_colapprox_x1 Vs met_centrality Chi2/NDF: 0.000000
+ditau_colapprox_x1 Vs dijet_mass Chi2/NDF: 0.000000
+ditau_colapprox_x1 Vs dijet_eta1_x_eta2 Chi2/NDF: 0.000000
+ditau_colapprox_x1 Vs dijet_dEta Chi2/NDF: 0.000000
+ditau_colapprox_x1 Vs tau_0_dijet_eta_centr Chi2/NDF: 0.000000
+ditau_colapprox_x1 Vs tau_1_dijet_eta_centr Chi2/NDF: 0.000000
+ditau_colapprox_x1 Vs ditau_dijet_met_VecSumPt Chi2/NDF: 0.000000
+ditau_colapprox_x1 Vs ditau_pT_0_over_pT_1 Chi2/NDF: 0.000000
+ditau_colapprox_x1 Vs ditau_colapprox_x0 Chi2/NDF: 0.000000
+ditau_colapprox_x1 Vs ditau_colapprox_x1 Chi2/NDF: 0.000000
+ditau_colapprox_x1 Vs HT_jets_taus Chi2/NDF: 0.000000
+HT_jets_taus Vs ditau_mass_mmc Chi2/NDF: 0.099483
+HT_jets_taus Vs ditau_dR Chi2/NDF: 0.002195
+HT_jets_taus Vs met_centrality Chi2/NDF: 0.000000
+HT_jets_taus Vs dijet_mass Chi2/NDF: 1.439824
+HT_jets_taus Vs dijet_eta1_x_eta2 Chi2/NDF: 0.000000
+HT_jets_taus Vs dijet_dEta Chi2/NDF: 0.008204
+HT_jets_taus Vs tau_0_dijet_eta_centr Chi2/NDF: -0.000000
+HT_jets_taus Vs tau_1_dijet_eta_centr Chi2/NDF: -0.000000
+HT_jets_taus Vs ditau_dijet_met_VecSumPt Chi2/NDF: 0.307748
+HT_jets_taus Vs ditau_pT_0_over_pT_1 Chi2/NDF: 0.012904
+HT_jets_taus Vs ditau_colapprox_x0 Chi2/NDF: 0.000000
+HT_jets_taus Vs ditau_colapprox_x1 Chi2/NDF: 0.000000
+HT_jets_taus Vs HT_jets_taus Chi2/NDF: 0.002830
+ditau_mass_mmc Vs ditau_mass_mmc Chi2/NDF: 1.193580
+ditau_mass_mmc Vs ditau_dR Chi2/NDF: 0.085118
+ditau_mass_mmc Vs met_centrality Chi2/NDF: 0.000323
+ditau_mass_mmc Vs dijet_mass Chi2/NDF: 18.335787
+ditau_mass_mmc Vs dijet_eta1_x_eta2 Chi2/NDF: 1.375861
+ditau_mass_mmc Vs dijet_dEta Chi2/NDF: 0.116574
+ditau_mass_mmc Vs tau_0_dijet_eta_centr Chi2/NDF: -0.000000
+ditau_mass_mmc Vs tau_1_dijet_eta_centr Chi2/NDF: -0.000000
+ditau_mass_mmc Vs ditau_dijet_met_VecSumPt Chi2/NDF: 3.768735
+ditau_mass_mmc Vs ditau_pT_0_over_pT_1 Chi2/NDF: 0.084350
+ditau_mass_mmc Vs ditau_colapprox_x0 Chi2/NDF: 0.007722
+ditau_mass_mmc Vs ditau_colapprox_x1 Chi2/NDF: 0.173257
+ditau_mass_mmc Vs HT_jets_taus Chi2/NDF: 22.376980
+ditau_dR Vs ditau_mass_mmc Chi2/NDF: 0.028306
+ditau_dR Vs ditau_dR Chi2/NDF: 0.000000
+ditau_dR Vs met_centrality Chi2/NDF: 0.000133
+ditau_dR Vs dijet_mass Chi2/NDF: 1.466299
+ditau_dR Vs dijet_eta1_x_eta2 Chi2/NDF: -0.000000
+ditau_dR Vs dijet_dEta Chi2/NDF: 0.006546
+ditau_dR Vs tau_0_dijet_eta_centr Chi2/NDF: -0.000000
+ditau_dR Vs tau_1_dijet_eta_centr Chi2/NDF: -0.000000
+ditau_dR Vs ditau_dijet_met_VecSumPt Chi2/NDF: 0.052026
+ditau_dR Vs ditau_pT_0_over_pT_1 Chi2/NDF: 0.000941
+ditau_dR Vs ditau_colapprox_x0 Chi2/NDF: -0.000000
+ditau_dR Vs ditau_colapprox_x1 Chi2/NDF: -0.000000
+ditau_dR Vs HT_jets_taus Chi2/NDF: 0.148252
+met_centrality Vs ditau_mass_mmc Chi2/NDF: 0.022637
+met_centrality Vs ditau_dR Chi2/NDF: 0.000124
+met_centrality Vs met_centrality Chi2/NDF: 0.000000
+met_centrality Vs dijet_mass Chi2/NDF: 1.085331
+met_centrality Vs dijet_eta1_x_eta2 Chi2/NDF: -0.000000
+met_centrality Vs dijet_dEta Chi2/NDF: 0.005172
+met_centrality Vs tau_0_dijet_eta_centr Chi2/NDF: -0.000000
+met_centrality Vs tau_1_dijet_eta_centr Chi2/NDF: -0.000000
+met_centrality Vs ditau_dijet_met_VecSumPt Chi2/NDF: 0.052023
+met_centrality Vs ditau_pT_0_over_pT_1 Chi2/NDF: 0.001246
+met_centrality Vs ditau_colapprox_x0 Chi2/NDF: -0.000000
+met_centrality Vs ditau_colapprox_x1 Chi2/NDF: -0.000000
+met_centrality Vs HT_jets_taus Chi2/NDF: 0.052980
+dijet_mass Vs ditau_mass_mmc Chi2/NDF: 0.103942
+dijet_mass Vs ditau_dR Chi2/NDF: 0.001555
+dijet_mass Vs met_centrality Chi2/NDF: 0.000834
+dijet_mass Vs dijet_mass Chi2/NDF: 0.006743
+dijet_mass Vs dijet_eta1_x_eta2 Chi2/NDF: -0.071596
+dijet_mass Vs dijet_dEta Chi2/NDF: 0.010675
+dijet_mass Vs tau_0_dijet_eta_centr Chi2/NDF: -0.000000
+dijet_mass Vs tau_1_dijet_eta_centr Chi2/NDF: -0.000000
+dijet_mass Vs ditau_dijet_met_VecSumPt Chi2/NDF: 0.712876
+dijet_mass Vs ditau_pT_0_over_pT_1 Chi2/NDF: 0.006552
+dijet_mass Vs ditau_colapprox_x0 Chi2/NDF: -0.000000
+dijet_mass Vs ditau_colapprox_x1 Chi2/NDF: 0.000000
+dijet_mass Vs HT_jets_taus Chi2/NDF: 0.438853
+dijet_eta1_x_eta2 Vs ditau_mass_mmc Chi2/NDF: 0.174487
+dijet_eta1_x_eta2 Vs ditau_dR Chi2/NDF: 0.002650
+dijet_eta1_x_eta2 Vs met_centrality Chi2/NDF: 0.001469
+dijet_eta1_x_eta2 Vs dijet_mass Chi2/NDF: 1.290704
+dijet_eta1_x_eta2 Vs dijet_eta1_x_eta2 Chi2/NDF: 0.000609
+dijet_eta1_x_eta2 Vs dijet_dEta Chi2/NDF: 0.004353
+dijet_eta1_x_eta2 Vs tau_0_dijet_eta_centr Chi2/NDF: -0.000000
+dijet_eta1_x_eta2 Vs tau_1_dijet_eta_centr Chi2/NDF: -0.000000
+dijet_eta1_x_eta2 Vs ditau_dijet_met_VecSumPt Chi2/NDF: 0.514824
+dijet_eta1_x_eta2 Vs ditau_pT_0_over_pT_1 Chi2/NDF: 0.006022
+dijet_eta1_x_eta2 Vs ditau_colapprox_x0 Chi2/NDF: 0.000000
+dijet_eta1_x_eta2 Vs ditau_colapprox_x1 Chi2/NDF: 0.244540
+dijet_eta1_x_eta2 Vs HT_jets_taus Chi2/NDF: 1.011055
+dijet_dEta Vs ditau_mass_mmc Chi2/NDF: 0.185985
+dijet_dEta Vs ditau_dR Chi2/NDF: 0.003509
+dijet_dEta Vs met_centrality Chi2/NDF: 0.002314
+dijet_dEta Vs dijet_mass Chi2/NDF: 1.267110
+dijet_dEta Vs dijet_eta1_x_eta2 Chi2/NDF: -0.005858
+dijet_dEta Vs dijet_dEta Chi2/NDF: 0.000091
+dijet_dEta Vs tau_0_dijet_eta_centr Chi2/NDF: -0.000000
+dijet_dEta Vs tau_1_dijet_eta_centr Chi2/NDF: -0.000000
+dijet_dEta Vs ditau_dijet_met_VecSumPt Chi2/NDF: 0.668728
+dijet_dEta Vs ditau_pT_0_over_pT_1 Chi2/NDF: 0.008800
+dijet_dEta Vs ditau_colapprox_x0 Chi2/NDF: 0.000000
+tau_1_dijet_eta_centr Vs ditau_mass_mmc Chi2/NDF: 0.089106
+tau_1_dijet_eta_centr Vs ditau_dR Chi2/NDF: 0.002016
+tau_1_dijet_eta_centr Vs met_centrality Chi2/NDF: 0.001262
+tau_1_dijet_eta_centr Vs dijet_mass Chi2/NDF: 1.451423
+tau_1_dijet_eta_centr Vs dijet_eta1_x_eta2 Chi2/NDF: -0.023713
+tau_1_dijet_eta_centr Vs dijet_dEta Chi2/NDF: 0.006205
+tau_1_dijet_eta_centr Vs tau_0_dijet_eta_centr Chi2/NDF: -0.000000
+tau_1_dijet_eta_centr Vs tau_1_dijet_eta_centr Chi2/NDF: -0.000000
+tau_1_dijet_eta_centr Vs ditau_dijet_met_VecSumPt Chi2/NDF: 0.346667
+tau_1_dijet_eta_centr Vs ditau_pT_0_over_pT_1 Chi2/NDF: 0.003485
+tau_1_dijet_eta_centr Vs ditau_colapprox_x0 Chi2/NDF: -0.000000
+tau_1_dijet_eta_centr Vs ditau_colapprox_x1 Chi2/NDF: -0.000000
+tau_1_dijet_eta_centr Vs HT_jets_taus Chi2/NDF: 0.541996
+ditau_dijet_met_VecSumPt Vs ditau_mass_mmc Chi2/NDF: 0.100024
+ditau_dijet_met_VecSumPt Vs ditau_dR Chi2/NDF: 0.007272
+ditau_dijet_met_VecSumPt Vs met_centrality Chi2/NDF: 0.008880
+ditau_dijet_met_VecSumPt Vs dijet_mass Chi2/NDF: 7.379424
+ditau_dijet_met_VecSumPt Vs dijet_eta1_x_eta2 Chi2/NDF: 0.000000
+ditau_dijet_met_VecSumPt Vs dijet_dEta Chi2/NDF: 0.132220
+ditau_dijet_met_VecSumPt Vs tau_0_dijet_eta_centr Chi2/NDF: -0.000000
+ditau_dijet_met_VecSumPt Vs tau_1_dijet_eta_centr Chi2/NDF: 0.000000
+ditau_dijet_met_VecSumPt Vs ditau_dijet_met_VecSumPt Chi2/NDF: 0.002266
+ditau_dijet_met_VecSumPt Vs ditau_pT_0_over_pT_1 Chi2/NDF: 0.003131
+ditau_dijet_met_VecSumPt Vs ditau_colapprox_x0 Chi2/NDF: -0.000000
+ditau_dijet_met_VecSumPt Vs ditau_colapprox_x1 Chi2/NDF: -0.000000
+ditau_dijet_met_VecSumPt Vs HT_jets_taus Chi2/NDF: 0.360996
+ditau_pT_0_over_pT_1 Vs ditau_mass_mmc Chi2/NDF: 0.239388
+ditau_pT_0_over_pT_1 Vs ditau_dR Chi2/NDF: 0.005597
+ditau_pT_0_over_pT_1 Vs met_centrality Chi2/NDF: 0.039786
+ditau_pT_0_over_pT_1 Vs dijet_mass Chi2/NDF: 4.604213
+ditau_pT_0_over_pT_1 Vs dijet_eta1_x_eta2 Chi2/NDF: 1.011812
+ditau_pT_0_over_pT_1 Vs dijet_dEta Chi2/NDF: 0.181158
+ditau_pT_0_over_pT_1 Vs tau_0_dijet_eta_centr Chi2/NDF: -0.000000
+ditau_pT_0_over_pT_1 Vs tau_1_dijet_eta_centr Chi2/NDF: -0.000000
+ditau_pT_0_over_pT_1 Vs ditau_dijet_met_VecSumPt Chi2/NDF: 1.679845
+ditau_pT_0_over_pT_1 Vs ditau_pT_0_over_pT_1 Chi2/NDF: 0.000105
+ditau_pT_0_over_pT_1 Vs ditau_colapprox_x0 Chi2/NDF: 0.058577
+ditau_pT_0_over_pT_1 Vs ditau_colapprox_x1 Chi2/NDF: 0.322616
+ditau_pT_0_over_pT_1 Vs HT_jets_taus Chi2/NDF: 0.390576
+ditau_colapprox_x0 Vs ditau_mass_mmc Chi2/NDF: 0.784148
+ditau_colapprox_x0 Vs ditau_dR Chi2/NDF: 0.029946
+ditau_colapprox_x0 Vs met_centrality Chi2/NDF: 0.025829
+ditau_colapprox_x0 Vs dijet_mass Chi2/NDF: 37.241930
+ditau_colapprox_x0 Vs dijet_eta1_x_eta2 Chi2/NDF: 1.786306
+ditau_colapprox_x0 Vs dijet_dEta Chi2/NDF: 0.372539
+ditau_colapprox_x0 Vs tau_0_dijet_eta_centr Chi2/NDF: -0.000000
+ditau_colapprox_x0 Vs tau_1_dijet_eta_centr Chi2/NDF: -0.000000
+ditau_colapprox_x0 Vs ditau_dijet_met_VecSumPt Chi2/NDF: 8.979609
+ditau_colapprox_x0 Vs ditau_pT_0_over_pT_1 Chi2/NDF: 0.005070
+ditau_colapprox_x0 Vs ditau_colapprox_x0 Chi2/NDF: -0.000000
+ditau_colapprox_x0 Vs ditau_colapprox_x1 Chi2/NDF: 0.209755
+ditau_colapprox_x0 Vs HT_jets_taus Chi2/NDF: 10.591749
+ditau_colapprox_x1 Vs ditau_mass_mmc Chi2/NDF: 1.030998
+ditau_colapprox_x1 Vs ditau_dR Chi2/NDF: 0.020101
+ditau_colapprox_x1 Vs met_centrality Chi2/NDF: 0.000000
+ditau_colapprox_x1 Vs dijet_mass Chi2/NDF: 31.190607
+ditau_colapprox_x1 Vs dijet_eta1_x_eta2 Chi2/NDF: 1.643768
+ditau_colapprox_x1 Vs dijet_dEta Chi2/NDF: 0.174628
+ditau_colapprox_x1 Vs tau_0_dijet_eta_centr Chi2/NDF: -0.000000
+ditau_colapprox_x1 Vs tau_1_dijet_eta_centr Chi2/NDF: -0.000000
+ditau_colapprox_x1 Vs ditau_dijet_met_VecSumPt Chi2/NDF: 2.331034
+ditau_colapprox_x1 Vs ditau_pT_0_over_pT_1 Chi2/NDF: 0.021918
+ditau_colapprox_x1 Vs ditau_colapprox_x0 Chi2/NDF: -0.000000
+ditau_colapprox_x1 Vs ditau_colapprox_x1 Chi2/NDF: 0.000000
+ditau_colapprox_x1 Vs HT_jets_taus Chi2/NDF: 4.531235
+HT_jets_taus Vs ditau_mass_mmc Chi2/NDF: 0.099483
+HT_jets_taus Vs ditau_dR Chi2/NDF: 0.002195
+HT_jets_taus Vs met_centrality Chi2/NDF: 0.003437
+HT_jets_taus Vs dijet_mass Chi2/NDF: 1.439824
+HT_jets_taus Vs dijet_eta1_x_eta2 Chi2/NDF: 0.000000
+HT_jets_taus Vs dijet_dEta Chi2/NDF: 0.008204
+HT_jets_taus Vs tau_0_dijet_eta_centr Chi2/NDF: -0.000000
+HT_jets_taus Vs tau_1_dijet_eta_centr Chi2/NDF: -0.000000
+HT_jets_taus Vs ditau_dijet_met_VecSumPt Chi2/NDF: 0.307748
+HT_jets_taus Vs ditau_pT_0_over_pT_1 Chi2/NDF: 0.012904
+HT_jets_taus Vs ditau_colapprox_x0 Chi2/NDF: 0.000000
+HT_jets_taus Vs ditau_colapprox_x1 Chi2/NDF: -0.000000
+HT_jets_taus Vs HT_jets_taus Chi2/NDF: 0.002830
+dijet_dEta Vs dijet_dEta Chi2/NDF: 3.484547
+dijet_dEta Vs ditau_dijet_met_VecSumPt Chi2/NDF: 2.515517
+dijet_dEta Vs dijet_dEta Chi2/NDF: 3.056766
+dijet_dEta Vs ditau_dijet_met_VecSumPt Chi2/NDF: 2.297349
+ditau_dijet_met_VecSumPt Vs dijet_dEta Chi2/NDF: 2.303377
+ditau_dijet_met_VecSumPt Vs ditau_dijet_met_VecSumPt Chi2/NDF: 4.689671
+dijet_dEta Vs dijet_dEta Chi2/NDF: 3.056766
+dijet_dEta Vs ditau_dijet_met_VecSumPt Chi2/NDF: 2.323340
+ditau_dijet_met_VecSumPt Vs dijet_dEta Chi2/NDF: 2.326988
+ditau_dijet_met_VecSumPt Vs ditau_dijet_met_VecSumPt Chi2/NDF: 5.807904
+dijet_dEta Vs dijet_dEta Chi2/NDF from Profile: 0.000090
+dijet_dEta Vs ditau_dijet_met_VecSumPt Chi2/NDF from Profile: 0.468231
+ditau_dijet_met_VecSumPt Vs dijet_dEta Chi2/NDF from Profile: 0.144199
+ditau_dijet_met_VecSumPt Vs ditau_dijet_met_VecSumPt Chi2/NDF from Profile: 0.002381
+dijet_dEta Vs dijet_dEta Chi2/NDF from Profile: 0.000090
+dijet_dEta Vs ditau_dijet_met_VecSumPt Chi2/NDF from Profile: 0.468231
+ditau_dijet_met_VecSumPt Vs dijet_dEta Chi2/NDF from Profile: 0.144199
+ditau_dijet_met_VecSumPt Vs ditau_dijet_met_VecSumPt Chi2/NDF from Profile: 0.002381
+ditau_mass_mmc Vs ditau_mass_mmc Profile Chi2/NDF from Profile: 1.193299
+ditau_mass_mmc Vs ditau_mass_mmc 2D Chi2/NDF from 2D Plot: 1.580208
+ditau_mass_mmc Vs ditau_dR Profile Chi2/NDF from Profile: 0.008867
+ditau_mass_mmc Vs ditau_dR 2D Chi2/NDF from 2D Plot: 2.582207
+ditau_mass_mmc Vs met_centrality Profile Chi2/NDF from Profile: 0.007079
+ditau_mass_mmc Vs met_centrality 2D Chi2/NDF from 2D Plot: 1727.905232
+ditau_mass_mmc Vs dijet_mass Profile Chi2/NDF from Profile: 22.973553
+ditau_mass_mmc Vs dijet_mass 2D Chi2/NDF from 2D Plot: 2011.344627
+ditau_mass_mmc Vs dijet_eta1_x_eta2 Profile Chi2/NDF from Profile: -0.169147
+ditau_mass_mmc Vs dijet_eta1_x_eta2 2D Chi2/NDF from 2D Plot: 1279.182677
+ditau_mass_mmc Vs dijet_dEta Profile Chi2/NDF from Profile: 0.158578
+ditau_mass_mmc Vs dijet_dEta 2D Chi2/NDF from 2D Plot: 1.551119
+ditau_mass_mmc Vs tau_0_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+ditau_mass_mmc Vs tau_0_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 1.712028
+ditau_mass_mmc Vs tau_1_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+ditau_mass_mmc Vs tau_1_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 1642.041453
+ditau_mass_mmc Vs ditau_dijet_met_VecSumPt Profile Chi2/NDF from Profile: 5.171932
+ditau_mass_mmc Vs ditau_dijet_met_VecSumPt 2D Chi2/NDF from 2D Plot: 1.633707
+ditau_mass_mmc Vs ditau_pT_0_over_pT_1 Profile Chi2/NDF from Profile: 0.101743
+ditau_mass_mmc Vs ditau_pT_0_over_pT_1 2D Chi2/NDF from 2D Plot: 1.842690
+ditau_mass_mmc Vs ditau_colapprox_x0 Profile Chi2/NDF from Profile: 0.000000
+ditau_mass_mmc Vs ditau_colapprox_x0 2D Chi2/NDF from 2D Plot: 1.082711
+ditau_mass_mmc Vs ditau_colapprox_x1 Profile Chi2/NDF from Profile: 0.358182
+ditau_mass_mmc Vs ditau_colapprox_x1 2D Chi2/NDF from 2D Plot: 1.553055
+ditau_mass_mmc Vs HT_jets_taus Profile Chi2/NDF from Profile: 23.868732
+ditau_mass_mmc Vs HT_jets_taus 2D Chi2/NDF from 2D Plot: 10934.638217
+ditau_dR Vs ditau_mass_mmc Profile Chi2/NDF from Profile: 0.148158
+ditau_dR Vs ditau_mass_mmc 2D Chi2/NDF from 2D Plot: 2.586452
+ditau_dR Vs ditau_dR Profile Chi2/NDF from Profile: 0.000000
+ditau_dR Vs ditau_dR 2D Chi2/NDF from 2D Plot: 1.540504
+ditau_dR Vs met_centrality Profile Chi2/NDF from Profile: 0.015864
+ditau_dR Vs met_centrality 2D Chi2/NDF from 2D Plot: 1.453804
+ditau_dR Vs dijet_mass Profile Chi2/NDF from Profile: 2.871432
+ditau_dR Vs dijet_mass 2D Chi2/NDF from 2D Plot: 2.782658
+ditau_dR Vs dijet_eta1_x_eta2 Profile Chi2/NDF from Profile: -0.103062
+ditau_dR Vs dijet_eta1_x_eta2 2D Chi2/NDF from 2D Plot: 1346.813798
+ditau_dR Vs dijet_dEta Profile Chi2/NDF from Profile: 0.007467
+ditau_dR Vs dijet_dEta 2D Chi2/NDF from 2D Plot: 2.504136
+ditau_dR Vs tau_0_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+ditau_dR Vs tau_0_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 1.949961
+ditau_dR Vs tau_1_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+ditau_dR Vs tau_1_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 1.874067
+ditau_dR Vs ditau_dijet_met_VecSumPt Profile Chi2/NDF from Profile: 0.966973
+ditau_dR Vs ditau_dijet_met_VecSumPt 2D Chi2/NDF from 2D Plot: 2.001615
+ditau_dR Vs ditau_pT_0_over_pT_1 Profile Chi2/NDF from Profile: 0.010295
+ditau_dR Vs ditau_pT_0_over_pT_1 2D Chi2/NDF from 2D Plot: 1.735809
+ditau_dR Vs ditau_colapprox_x0 Profile Chi2/NDF from Profile: -0.000000
+ditau_dR Vs ditau_colapprox_x0 2D Chi2/NDF from 2D Plot: 1.752324
+ditau_dR Vs ditau_colapprox_x1 Profile Chi2/NDF from Profile: -0.000000
+ditau_dR Vs ditau_colapprox_x1 2D Chi2/NDF from 2D Plot: 765.417782
+ditau_dR Vs HT_jets_taus Profile Chi2/NDF from Profile: 1.179978
+ditau_dR Vs HT_jets_taus 2D Chi2/NDF from 2D Plot: 536.758234
+met_centrality Vs ditau_mass_mmc Profile Chi2/NDF from Profile: 12.581360
+met_centrality Vs ditau_mass_mmc 2D Chi2/NDF from 2D Plot: 1713.496586
+met_centrality Vs ditau_dR Profile Chi2/NDF from Profile: 0.346716
+met_centrality Vs ditau_dR 2D Chi2/NDF from 2D Plot: 1.400659
+met_centrality Vs met_centrality Profile Chi2/NDF from Profile: -1.149401
+met_centrality Vs met_centrality 2D Chi2/NDF from 2D Plot: 2.207897
+met_centrality Vs dijet_mass Profile Chi2/NDF from Profile: 62.989540
+met_centrality Vs dijet_mass 2D Chi2/NDF from 2D Plot: 2.391942
+met_centrality Vs dijet_eta1_x_eta2 Profile Chi2/NDF from Profile: -2.614047
+met_centrality Vs dijet_eta1_x_eta2 2D Chi2/NDF from 2D Plot: 1336.418272
+met_centrality Vs dijet_dEta Profile Chi2/NDF from Profile: 0.523121
+met_centrality Vs dijet_dEta 2D Chi2/NDF from 2D Plot: 1.155589
+met_centrality Vs tau_0_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+met_centrality Vs tau_0_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 2.122408
+met_centrality Vs tau_1_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+met_centrality Vs tau_1_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 1.386572
+met_centrality Vs ditau_dijet_met_VecSumPt Profile Chi2/NDF from Profile: 7.942570
+met_centrality Vs ditau_dijet_met_VecSumPt 2D Chi2/NDF from 2D Plot: 4.367272
+met_centrality Vs ditau_pT_0_over_pT_1 Profile Chi2/NDF from Profile: 0.224524
+met_centrality Vs ditau_pT_0_over_pT_1 2D Chi2/NDF from 2D Plot: 1.550162
+met_centrality Vs ditau_colapprox_x0 Profile Chi2/NDF from Profile: 0.636624
+met_centrality Vs ditau_colapprox_x0 2D Chi2/NDF from 2D Plot: 1.653673
+met_centrality Vs ditau_colapprox_x1 Profile Chi2/NDF from Profile: -1.581625
+met_centrality Vs ditau_colapprox_x1 2D Chi2/NDF from 2D Plot: 891.547742
+met_centrality Vs HT_jets_taus Profile Chi2/NDF from Profile: 31.603951
+met_centrality Vs HT_jets_taus 2D Chi2/NDF from 2D Plot: 2371.379066
+dijet_mass Vs ditau_mass_mmc Profile Chi2/NDF from Profile: 0.369324
+dijet_mass Vs ditau_mass_mmc 2D Chi2/NDF from 2D Plot: 2018.920036
+dijet_mass Vs ditau_dR Profile Chi2/NDF from Profile: 0.009167
+dijet_mass Vs ditau_dR 2D Chi2/NDF from 2D Plot: 2.701253
+dijet_mass Vs met_centrality Profile Chi2/NDF from Profile: 0.012679
+dijet_mass Vs met_centrality 2D Chi2/NDF from 2D Plot: 2.372307
+dijet_mass Vs dijet_mass Profile Chi2/NDF from Profile: 0.007156
+dijet_mass Vs dijet_mass 2D Chi2/NDF from 2D Plot: 2.249939
+dijet_mass Vs dijet_eta1_x_eta2 Profile Chi2/NDF from Profile: -0.329845
+dijet_mass Vs dijet_eta1_x_eta2 2D Chi2/NDF from 2D Plot: 2.521853
+dijet_mass Vs dijet_dEta Profile Chi2/NDF from Profile: 0.002313
+dijet_mass Vs dijet_dEta 2D Chi2/NDF from 2D Plot: 2.899968
+dijet_mass Vs tau_0_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+dijet_mass Vs tau_0_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 2092.276384
+dijet_mass Vs tau_1_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+dijet_mass Vs tau_1_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 755.805620
+dijet_mass Vs ditau_dijet_met_VecSumPt Profile Chi2/NDF from Profile: 0.910379
+dijet_mass Vs ditau_dijet_met_VecSumPt 2D Chi2/NDF from 2D Plot: 3.284573
+dijet_mass Vs ditau_pT_0_over_pT_1 Profile Chi2/NDF from Profile: 0.006925
+dijet_mass Vs ditau_pT_0_over_pT_1 2D Chi2/NDF from 2D Plot: 3.237633
+dijet_mass Vs ditau_colapprox_x0 Profile Chi2/NDF from Profile: -0.000000
+dijet_mass Vs ditau_colapprox_x0 2D Chi2/NDF from 2D Plot: 4.411079
+dijet_mass Vs ditau_colapprox_x1 Profile Chi2/NDF from Profile: 0.108478
+dijet_mass Vs ditau_colapprox_x1 2D Chi2/NDF from 2D Plot: 583.641337
+dijet_mass Vs HT_jets_taus Profile Chi2/NDF from Profile: 0.724338
+dijet_mass Vs HT_jets_taus 2D Chi2/NDF from 2D Plot: 902.189381
+dijet_eta1_x_eta2 Vs ditau_mass_mmc Profile Chi2/NDF from Profile: 6.778232
+dijet_eta1_x_eta2 Vs ditau_mass_mmc 2D Chi2/NDF from 2D Plot: 1269.007230
+dijet_eta1_x_eta2 Vs ditau_dR Profile Chi2/NDF from Profile: 0.139229
+dijet_eta1_x_eta2 Vs ditau_dR 2D Chi2/NDF from 2D Plot: 1247.676923
+dijet_eta1_x_eta2 Vs met_centrality Profile Chi2/NDF from Profile: 0.130201
+dijet_eta1_x_eta2 Vs met_centrality 2D Chi2/NDF from 2D Plot: 1324.411947
+dijet_eta1_x_eta2 Vs dijet_mass Profile Chi2/NDF from Profile: 19.624322
+dijet_eta1_x_eta2 Vs dijet_mass 2D Chi2/NDF from 2D Plot: 2.615959
+dijet_eta1_x_eta2 Vs dijet_eta1_x_eta2 Profile Chi2/NDF from Profile: -5.014441
+dijet_eta1_x_eta2 Vs dijet_eta1_x_eta2 2D Chi2/NDF from 2D Plot: 1.936285
+dijet_eta1_x_eta2 Vs dijet_dEta Profile Chi2/NDF from Profile: 0.151290
+dijet_eta1_x_eta2 Vs dijet_dEta 2D Chi2/NDF from 2D Plot: 3.454518
+dijet_eta1_x_eta2 Vs tau_0_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+dijet_eta1_x_eta2 Vs tau_0_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 1.305548
+dijet_eta1_x_eta2 Vs tau_1_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+dijet_eta1_x_eta2 Vs tau_1_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 1488.152149
+dijet_eta1_x_eta2 Vs ditau_dijet_met_VecSumPt Profile Chi2/NDF from Profile: 5.490354
+dijet_eta1_x_eta2 Vs ditau_dijet_met_VecSumPt 2D Chi2/NDF from 2D Plot: 6.886879
+dijet_eta1_x_eta2 Vs ditau_pT_0_over_pT_1 Profile Chi2/NDF from Profile: 0.111045
+dijet_eta1_x_eta2 Vs ditau_pT_0_over_pT_1 2D Chi2/NDF from 2D Plot: 1.347044
+dijet_eta1_x_eta2 Vs ditau_colapprox_x0 Profile Chi2/NDF from Profile: 0.204324
+dijet_eta1_x_eta2 Vs ditau_colapprox_x0 2D Chi2/NDF from 2D Plot: 1.241616
+dijet_eta1_x_eta2 Vs ditau_colapprox_x1 Profile Chi2/NDF from Profile: 0.255444
+dijet_eta1_x_eta2 Vs ditau_colapprox_x1 2D Chi2/NDF from 2D Plot: 1.694538
+dijet_eta1_x_eta2 Vs HT_jets_taus Profile Chi2/NDF from Profile: 23.987628
+dijet_eta1_x_eta2 Vs HT_jets_taus 2D Chi2/NDF from 2D Plot: 1631.307969
+dijet_dEta Vs ditau_mass_mmc Profile Chi2/NDF from Profile: 0.439324
+dijet_dEta Vs ditau_mass_mmc 2D Chi2/NDF from 2D Plot: 1.553831
+dijet_dEta Vs ditau_dR Profile Chi2/NDF from Profile: 0.007134
+dijet_dEta Vs ditau_dR 2D Chi2/NDF from 2D Plot: 2.542858
+dijet_dEta Vs met_centrality Profile Chi2/NDF from Profile: 0.034044
+dijet_dEta Vs met_centrality 2D Chi2/NDF from 2D Plot: 1.182208
+dijet_dEta Vs dijet_mass Profile Chi2/NDF from Profile: 1.822147
+dijet_dEta Vs dijet_mass 2D Chi2/NDF from 2D Plot: 3.015369
+dijet_dEta Vs dijet_eta1_x_eta2 Profile Chi2/NDF from Profile: -0.029595
+dijet_dEta Vs dijet_eta1_x_eta2 2D Chi2/NDF from 2D Plot: 3.368485
+dijet_dEta Vs dijet_dEta Profile Chi2/NDF from Profile: 0.000151
+dijet_dEta Vs dijet_dEta 2D Chi2/NDF from 2D Plot: 2.095215
+dijet_dEta Vs tau_0_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+dijet_dEta Vs tau_0_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 1.519114
+dijet_dEta Vs tau_1_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+dijet_dEta Vs tau_1_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 1.424440
+dijet_dEta Vs ditau_dijet_met_VecSumPt Profile Chi2/NDF from Profile: 1.350318
+dijet_dEta Vs ditau_dijet_met_VecSumPt 2D Chi2/NDF from 2D Plot: 1.463095
+dijet_dEta Vs ditau_pT_0_over_pT_1 Profile Chi2/NDF from Profile: 0.006682
+dijet_dEta Vs ditau_pT_0_over_pT_1 2D Chi2/NDF from 2D Plot: 2.102225
+dijet_dEta Vs ditau_colapprox_x0 Profile Chi2/NDF from Profile: -0.000000
+dijet_dEta Vs ditau_colapprox_x0 2D Chi2/NDF from 2D Plot: 1.259610
+dijet_dEta Vs ditau_colapprox_x1 Profile Chi2/NDF from Profile: 0.092408
+dijet_dEta Vs ditau_colapprox_x1 2D Chi2/NDF from 2D Plot: 829.052362
+dijet_dEta Vs HT_jets_taus Profile Chi2/NDF from Profile: 1.361967
+dijet_dEta Vs HT_jets_taus 2D Chi2/NDF from 2D Plot: 3.927176
+tau_0_dijet_eta_centr Vs ditau_mass_mmc Profile Chi2/NDF from Profile: 0.286932
+tau_0_dijet_eta_centr Vs ditau_mass_mmc 2D Chi2/NDF from 2D Plot: 1.679268
+tau_0_dijet_eta_centr Vs ditau_dR Profile Chi2/NDF from Profile: 0.008232
+tau_0_dijet_eta_centr Vs ditau_dR 2D Chi2/NDF from 2D Plot: 1.932552
+tau_0_dijet_eta_centr Vs met_centrality Profile Chi2/NDF from Profile: 0.009670
+tau_0_dijet_eta_centr Vs met_centrality 2D Chi2/NDF from 2D Plot: 2.217279
+tau_0_dijet_eta_centr Vs dijet_mass Profile Chi2/NDF from Profile: 3.450999
+tau_0_dijet_eta_centr Vs dijet_mass 2D Chi2/NDF from 2D Plot: 2056.872493
+tau_0_dijet_eta_centr Vs dijet_eta1_x_eta2 Profile Chi2/NDF from Profile: -0.049088
+tau_0_dijet_eta_centr Vs dijet_eta1_x_eta2 2D Chi2/NDF from 2D Plot: 1.296942
+tau_0_dijet_eta_centr Vs dijet_dEta Profile Chi2/NDF from Profile: 0.006153
+tau_0_dijet_eta_centr Vs dijet_dEta 2D Chi2/NDF from 2D Plot: 1.480696
+tau_0_dijet_eta_centr Vs tau_0_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+tau_0_dijet_eta_centr Vs tau_0_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 2.330933
+tau_0_dijet_eta_centr Vs tau_1_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+tau_0_dijet_eta_centr Vs tau_1_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 1.372280
+tau_0_dijet_eta_centr Vs ditau_dijet_met_VecSumPt Profile Chi2/NDF from Profile: 0.809828
+tau_0_dijet_eta_centr Vs ditau_dijet_met_VecSumPt 2D Chi2/NDF from 2D Plot: 1.849504
+tau_0_dijet_eta_centr Vs ditau_pT_0_over_pT_1 Profile Chi2/NDF from Profile: 0.011133
+tau_0_dijet_eta_centr Vs ditau_pT_0_over_pT_1 2D Chi2/NDF from 2D Plot: 1.869163
+tau_0_dijet_eta_centr Vs ditau_colapprox_x0 Profile Chi2/NDF from Profile: -0.000000
+tau_0_dijet_eta_centr Vs ditau_colapprox_x0 2D Chi2/NDF from 2D Plot: 2.097202
+tau_0_dijet_eta_centr Vs ditau_colapprox_x1 Profile Chi2/NDF from Profile: 0.135229
+tau_0_dijet_eta_centr Vs ditau_colapprox_x1 2D Chi2/NDF from 2D Plot: 758.912839
+tau_0_dijet_eta_centr Vs HT_jets_taus Profile Chi2/NDF from Profile: 0.734351
+tau_0_dijet_eta_centr Vs HT_jets_taus 2D Chi2/NDF from 2D Plot: 2064.739595
+tau_1_dijet_eta_centr Vs ditau_mass_mmc Profile Chi2/NDF from Profile: 0.361507
+tau_1_dijet_eta_centr Vs ditau_mass_mmc 2D Chi2/NDF from 2D Plot: 1654.573325
+tau_1_dijet_eta_centr Vs ditau_dR Profile Chi2/NDF from Profile: 0.012309
+tau_1_dijet_eta_centr Vs ditau_dR 2D Chi2/NDF from 2D Plot: 1.841989
+tau_1_dijet_eta_centr Vs met_centrality Profile Chi2/NDF from Profile: 0.003350
+tau_1_dijet_eta_centr Vs met_centrality 2D Chi2/NDF from 2D Plot: 1.413496
+tau_1_dijet_eta_centr Vs dijet_mass Profile Chi2/NDF from Profile: 3.720876
+tau_1_dijet_eta_centr Vs dijet_mass 2D Chi2/NDF from 2D Plot: 707.311820
+tau_1_dijet_eta_centr Vs dijet_eta1_x_eta2 Profile Chi2/NDF from Profile: -0.134908
+tau_1_dijet_eta_centr Vs dijet_eta1_x_eta2 2D Chi2/NDF from 2D Plot: 1560.601676
+tau_1_dijet_eta_centr Vs dijet_dEta Profile Chi2/NDF from Profile: 0.010623
+tau_1_dijet_eta_centr Vs dijet_dEta 2D Chi2/NDF from 2D Plot: 1.394642
+tau_1_dijet_eta_centr Vs tau_0_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+tau_1_dijet_eta_centr Vs tau_0_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 1.379595
+tau_1_dijet_eta_centr Vs tau_1_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+tau_1_dijet_eta_centr Vs tau_1_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 1.392588
+tau_1_dijet_eta_centr Vs ditau_dijet_met_VecSumPt Profile Chi2/NDF from Profile: 1.526719
+tau_1_dijet_eta_centr Vs ditau_dijet_met_VecSumPt 2D Chi2/NDF from 2D Plot: 1.661563
+tau_1_dijet_eta_centr Vs ditau_pT_0_over_pT_1 Profile Chi2/NDF from Profile: 0.011020
+tau_1_dijet_eta_centr Vs ditau_pT_0_over_pT_1 2D Chi2/NDF from 2D Plot: 1.596555
+tau_1_dijet_eta_centr Vs ditau_colapprox_x0 Profile Chi2/NDF from Profile: -0.000000
+tau_1_dijet_eta_centr Vs ditau_colapprox_x0 2D Chi2/NDF from 2D Plot: 7.737829
+tau_1_dijet_eta_centr Vs ditau_colapprox_x1 Profile Chi2/NDF from Profile: 0.000000
+tau_1_dijet_eta_centr Vs ditau_colapprox_x1 2D Chi2/NDF from 2D Plot: 1.947489
+tau_1_dijet_eta_centr Vs HT_jets_taus Profile Chi2/NDF from Profile: 1.735640
+tau_1_dijet_eta_centr Vs HT_jets_taus 2D Chi2/NDF from 2D Plot: 3.399498
+ditau_dijet_met_VecSumPt Vs ditau_mass_mmc Profile Chi2/NDF from Profile: 0.358269
+ditau_dijet_met_VecSumPt Vs ditau_mass_mmc 2D Chi2/NDF from 2D Plot: 1.651198
+ditau_dijet_met_VecSumPt Vs ditau_dR Profile Chi2/NDF from Profile: 0.012942
+ditau_dijet_met_VecSumPt Vs ditau_dR 2D Chi2/NDF from 2D Plot: 2.011892
+ditau_dijet_met_VecSumPt Vs met_centrality Profile Chi2/NDF from Profile: 0.016390
+ditau_dijet_met_VecSumPt Vs met_centrality 2D Chi2/NDF from 2D Plot: 4.385837
+ditau_dijet_met_VecSumPt Vs dijet_mass Profile Chi2/NDF from Profile: 0.901555
+ditau_dijet_met_VecSumPt Vs dijet_mass 2D Chi2/NDF from 2D Plot: 3.364534
+ditau_dijet_met_VecSumPt Vs dijet_eta1_x_eta2 Profile Chi2/NDF from Profile: -0.705729
+ditau_dijet_met_VecSumPt Vs dijet_eta1_x_eta2 2D Chi2/NDF from 2D Plot: 6.780210
+ditau_dijet_met_VecSumPt Vs dijet_dEta Profile Chi2/NDF from Profile: 0.010141
+ditau_dijet_met_VecSumPt Vs dijet_dEta 2D Chi2/NDF from 2D Plot: 1.475847
+ditau_dijet_met_VecSumPt Vs tau_0_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+ditau_dijet_met_VecSumPt Vs tau_0_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 1.889308
+ditau_dijet_met_VecSumPt Vs tau_1_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+ditau_dijet_met_VecSumPt Vs tau_1_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 1.684882
+ditau_dijet_met_VecSumPt Vs ditau_dijet_met_VecSumPt Profile Chi2/NDF from Profile: 0.001906
+ditau_dijet_met_VecSumPt Vs ditau_dijet_met_VecSumPt 2D Chi2/NDF from 2D Plot: 1.750702
+ditau_dijet_met_VecSumPt Vs ditau_pT_0_over_pT_1 Profile Chi2/NDF from Profile: 0.016954
+ditau_dijet_met_VecSumPt Vs ditau_pT_0_over_pT_1 2D Chi2/NDF from 2D Plot: 2.289251
+ditau_dijet_met_VecSumPt Vs ditau_colapprox_x0 Profile Chi2/NDF from Profile: 0.000000
+ditau_dijet_met_VecSumPt Vs ditau_colapprox_x0 2D Chi2/NDF from 2D Plot: 6.393582
+ditau_dijet_met_VecSumPt Vs ditau_colapprox_x1 Profile Chi2/NDF from Profile: 0.000000
+ditau_dijet_met_VecSumPt Vs ditau_colapprox_x1 2D Chi2/NDF from 2D Plot: 1.590401
+ditau_dijet_met_VecSumPt Vs HT_jets_taus Profile Chi2/NDF from Profile: 0.976987
+ditau_dijet_met_VecSumPt Vs HT_jets_taus 2D Chi2/NDF from 2D Plot: 1.417336
+ditau_colapprox_x0 Vs ditau_mass_mmc Profile Chi2/NDF from Profile: 33.597558
+ditau_colapprox_x0 Vs ditau_mass_mmc 2D Chi2/NDF from 2D Plot: 1.087756
+ditau_colapprox_x0 Vs ditau_dR Profile Chi2/NDF from Profile: 0.691528
+ditau_colapprox_x0 Vs ditau_dR 2D Chi2/NDF from 2D Plot: 1.753755
+ditau_colapprox_x0 Vs met_centrality Profile Chi2/NDF from Profile: 0.001071
+ditau_colapprox_x0 Vs met_centrality 2D Chi2/NDF from 2D Plot: 1.655409
+ditau_colapprox_x0 Vs dijet_mass Profile Chi2/NDF from Profile: 142.720919
+ditau_colapprox_x0 Vs dijet_mass 2D Chi2/NDF from 2D Plot: 4.471887
+ditau_colapprox_x0 Vs dijet_eta1_x_eta2 Profile Chi2/NDF from Profile: -0.673148
+ditau_colapprox_x0 Vs dijet_eta1_x_eta2 2D Chi2/NDF from 2D Plot: 1.245714
+ditau_colapprox_x0 Vs dijet_dEta Profile Chi2/NDF from Profile: 1.374245
+ditau_colapprox_x0 Vs dijet_dEta 2D Chi2/NDF from 2D Plot: 1.268568
+ditau_colapprox_x0 Vs tau_0_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+ditau_colapprox_x0 Vs tau_0_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 2.121121
+ditau_colapprox_x0 Vs tau_1_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+ditau_colapprox_x0 Vs tau_1_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 7.697735
+ditau_colapprox_x0 Vs ditau_dijet_met_VecSumPt Profile Chi2/NDF from Profile: 18.748057
+ditau_colapprox_x0 Vs ditau_dijet_met_VecSumPt 2D Chi2/NDF from 2D Plot: 6.436078
+ditau_colapprox_x0 Vs ditau_pT_0_over_pT_1 Profile Chi2/NDF from Profile: 0.609283
+ditau_colapprox_x0 Vs ditau_pT_0_over_pT_1 2D Chi2/NDF from 2D Plot: 1.627947
+ditau_colapprox_x0 Vs ditau_colapprox_x0 Profile Chi2/NDF from Profile: -0.593838
+ditau_colapprox_x0 Vs ditau_colapprox_x0 2D Chi2/NDF from 2D Plot: 0.956040
+ditau_colapprox_x0 Vs ditau_colapprox_x1 Profile Chi2/NDF from Profile: 0.000000
+ditau_colapprox_x0 Vs ditau_colapprox_x1 2D Chi2/NDF from 2D Plot: 1.138645
+ditau_colapprox_x0 Vs HT_jets_taus Profile Chi2/NDF from Profile: 123.993395
+ditau_colapprox_x0 Vs HT_jets_taus 2D Chi2/NDF from 2D Plot: 1.615496
+ditau_colapprox_x1 Vs ditau_mass_mmc Profile Chi2/NDF from Profile: 1.581443
+ditau_colapprox_x1 Vs ditau_mass_mmc 2D Chi2/NDF from 2D Plot: 1.557734
+ditau_colapprox_x1 Vs ditau_dR Profile Chi2/NDF from Profile: 0.278810
+ditau_colapprox_x1 Vs ditau_dR 2D Chi2/NDF from 2D Plot: 730.187558
+ditau_colapprox_x1 Vs met_centrality Profile Chi2/NDF from Profile: 0.012868
+ditau_colapprox_x1 Vs met_centrality 2D Chi2/NDF from 2D Plot: 894.133099
+ditau_colapprox_x1 Vs dijet_mass Profile Chi2/NDF from Profile: -3.884316
+ditau_colapprox_x1 Vs dijet_mass 2D Chi2/NDF from 2D Plot: 528.678794
+ditau_colapprox_x1 Vs dijet_eta1_x_eta2 Profile Chi2/NDF from Profile: 0.927261
+ditau_colapprox_x1 Vs dijet_eta1_x_eta2 2D Chi2/NDF from 2D Plot: 1.701037
+ditau_colapprox_x1 Vs dijet_dEta Profile Chi2/NDF from Profile: 0.573574
+ditau_colapprox_x1 Vs dijet_dEta 2D Chi2/NDF from 2D Plot: 768.142753
+ditau_colapprox_x1 Vs tau_0_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+ditau_colapprox_x1 Vs tau_0_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 727.080726
+ditau_colapprox_x1 Vs tau_1_dijet_eta_centr Profile Chi2/NDF from Profile: 0.000000
+ditau_colapprox_x1 Vs tau_1_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 1.971372
+ditau_colapprox_x1 Vs ditau_dijet_met_VecSumPt Profile Chi2/NDF from Profile: 10.393941
+ditau_colapprox_x1 Vs ditau_dijet_met_VecSumPt 2D Chi2/NDF from 2D Plot: 1.587073
+ditau_colapprox_x1 Vs ditau_pT_0_over_pT_1 Profile Chi2/NDF from Profile: 0.375162
+ditau_colapprox_x1 Vs ditau_pT_0_over_pT_1 2D Chi2/NDF from 2D Plot: 1.492832
+ditau_colapprox_x1 Vs ditau_colapprox_x0 Profile Chi2/NDF from Profile: 0.000000
+ditau_colapprox_x1 Vs ditau_colapprox_x0 2D Chi2/NDF from 2D Plot: 1.141012
+ditau_colapprox_x1 Vs ditau_colapprox_x1 Profile Chi2/NDF from Profile: -340732866544478.500000
+ditau_colapprox_x1 Vs ditau_colapprox_x1 2D Chi2/NDF from 2D Plot: 1.187109
+ditau_colapprox_x1 Vs HT_jets_taus Profile Chi2/NDF from Profile: 43.881076
+ditau_colapprox_x1 Vs HT_jets_taus 2D Chi2/NDF from 2D Plot: 1.815116
+HT_jets_taus Vs ditau_mass_mmc Profile Chi2/NDF from Profile: 0.592987
+HT_jets_taus Vs ditau_mass_mmc 2D Chi2/NDF from 2D Plot: 10644.984653
+HT_jets_taus Vs ditau_dR Profile Chi2/NDF from Profile: 0.005903
+HT_jets_taus Vs ditau_dR 2D Chi2/NDF from 2D Plot: 515.346054
+HT_jets_taus Vs met_centrality Profile Chi2/NDF from Profile: 0.010745
+HT_jets_taus Vs met_centrality 2D Chi2/NDF from 2D Plot: 2375.072734
+HT_jets_taus Vs dijet_mass Profile Chi2/NDF from Profile: 5.200384
+HT_jets_taus Vs dijet_mass 2D Chi2/NDF from 2D Plot: 819.650916
+HT_jets_taus Vs dijet_eta1_x_eta2 Profile Chi2/NDF from Profile: -0.127715
+HT_jets_taus Vs dijet_eta1_x_eta2 2D Chi2/NDF from 2D Plot: 1592.880099
+HT_jets_taus Vs dijet_dEta Profile Chi2/NDF from Profile: 0.015226
+HT_jets_taus Vs dijet_dEta 2D Chi2/NDF from 2D Plot: 3.898373
+HT_jets_taus Vs tau_0_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+HT_jets_taus Vs tau_0_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 2017.223624
+HT_jets_taus Vs tau_1_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+HT_jets_taus Vs tau_1_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 3.446405
+HT_jets_taus Vs ditau_dijet_met_VecSumPt Profile Chi2/NDF from Profile: 0.352251
+HT_jets_taus Vs ditau_dijet_met_VecSumPt 2D Chi2/NDF from 2D Plot: 1.403367
+HT_jets_taus Vs ditau_pT_0_over_pT_1 Profile Chi2/NDF from Profile: 0.023882
+HT_jets_taus Vs ditau_pT_0_over_pT_1 2D Chi2/NDF from 2D Plot: 3.601634
+HT_jets_taus Vs ditau_colapprox_x0 Profile Chi2/NDF from Profile: 0.000000
+HT_jets_taus Vs ditau_colapprox_x0 2D Chi2/NDF from 2D Plot: 1.591739
+HT_jets_taus Vs ditau_colapprox_x1 Profile Chi2/NDF from Profile: 0.264323
+HT_jets_taus Vs ditau_colapprox_x1 2D Chi2/NDF from 2D Plot: 1.786975
+HT_jets_taus Vs HT_jets_taus Profile Chi2/NDF from Profile: 0.001295
+HT_jets_taus Vs HT_jets_taus 2D Chi2/NDF from 2D Plot: 1.597375
+ditau_mass_mmc Vs ditau_mass_mmc Profile Chi2/NDF from Profile: 0.033340
+ditau_mass_mmc Vs ditau_mass_mmc 2D Chi2/NDF from 2D Plot: 6.824802
+ditau_mass_mmc Vs ditau_dR Profile Chi2/NDF from Profile: 0.002704
+ditau_mass_mmc Vs ditau_dR 2D Chi2/NDF from 2D Plot: 3.543194
+ditau_mass_mmc Vs met_centrality Profile Chi2/NDF from Profile: 0.007688
+ditau_mass_mmc Vs met_centrality 2D Chi2/NDF from 2D Plot: 4.020202
+ditau_mass_mmc Vs dijet_mass Profile Chi2/NDF from Profile: 4.105885
+ditau_mass_mmc Vs dijet_mass 2D Chi2/NDF from 2D Plot: 4.353703
+ditau_mass_mmc Vs dijet_eta1_x_eta2 Profile Chi2/NDF from Profile: 0.487679
+ditau_mass_mmc Vs dijet_eta1_x_eta2 2D Chi2/NDF from 2D Plot: 2.368845
+ditau_mass_mmc Vs dijet_dEta Profile Chi2/NDF from Profile: 0.073602
+ditau_mass_mmc Vs dijet_dEta 2D Chi2/NDF from 2D Plot: 2.960934
+ditau_mass_mmc Vs tau_0_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+ditau_mass_mmc Vs tau_0_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 3.601113
+ditau_mass_mmc Vs tau_1_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+ditau_mass_mmc Vs tau_1_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 4321.015430
+ditau_mass_mmc Vs ditau_dijet_met_VecSumPt Profile Chi2/NDF from Profile: 1.915623
+ditau_mass_mmc Vs ditau_dijet_met_VecSumPt 2D Chi2/NDF from 2D Plot: 3.739228
+ditau_mass_mmc Vs ditau_pT_0_over_pT_1 Profile Chi2/NDF from Profile: 0.031489
+ditau_mass_mmc Vs ditau_pT_0_over_pT_1 2D Chi2/NDF from 2D Plot: 3.428487
+ditau_mass_mmc Vs ditau_colapprox_x0 Profile Chi2/NDF from Profile: 0.000000
+ditau_mass_mmc Vs ditau_colapprox_x0 2D Chi2/NDF from 2D Plot: 2.153800
+ditau_mass_mmc Vs ditau_colapprox_x1 Profile Chi2/NDF from Profile: 0.000000
+ditau_mass_mmc Vs ditau_colapprox_x1 2D Chi2/NDF from 2D Plot: 6.656366
+ditau_mass_mmc Vs HT_jets_taus Profile Chi2/NDF from Profile: 0.598568
+ditau_mass_mmc Vs HT_jets_taus 2D Chi2/NDF from 2D Plot: 2.144387
+ditau_dR Vs ditau_mass_mmc Profile Chi2/NDF from Profile: 12.278732
+ditau_dR Vs ditau_mass_mmc 2D Chi2/NDF from 2D Plot: 3.542788
+ditau_dR Vs ditau_dR Profile Chi2/NDF from Profile: 0.000000
+ditau_dR Vs ditau_dR 2D Chi2/NDF from 2D Plot: 3.080244
+ditau_dR Vs met_centrality Profile Chi2/NDF from Profile: 0.020067
+ditau_dR Vs met_centrality 2D Chi2/NDF from 2D Plot: 2.514809
+ditau_dR Vs dijet_mass Profile Chi2/NDF from Profile: 13.998844
+ditau_dR Vs dijet_mass 2D Chi2/NDF from 2D Plot: 2.286537
+ditau_dR Vs dijet_eta1_x_eta2 Profile Chi2/NDF from Profile: 0.528631
+ditau_dR Vs dijet_eta1_x_eta2 2D Chi2/NDF from 2D Plot: 1.955435
+ditau_dR Vs dijet_dEta Profile Chi2/NDF from Profile: 0.151206
+ditau_dR Vs dijet_dEta 2D Chi2/NDF from 2D Plot: 1.983031
+ditau_dR Vs tau_0_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+ditau_dR Vs tau_0_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 2322.795193
+ditau_dR Vs tau_1_dijet_eta_centr Profile Chi2/NDF from Profile: 0.000000
+ditau_dR Vs tau_1_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 2.172317
+ditau_dR Vs ditau_dijet_met_VecSumPt Profile Chi2/NDF from Profile: -64.568204
+ditau_dR Vs ditau_dijet_met_VecSumPt 2D Chi2/NDF from 2D Plot: 2.381841
+ditau_dR Vs ditau_pT_0_over_pT_1 Profile Chi2/NDF from Profile: 0.116673
+ditau_dR Vs ditau_pT_0_over_pT_1 2D Chi2/NDF from 2D Plot: 1.944957
+ditau_dR Vs ditau_colapprox_x0 Profile Chi2/NDF from Profile: -0.000000
+ditau_dR Vs ditau_colapprox_x0 2D Chi2/NDF from 2D Plot: 1.974484
+ditau_dR Vs ditau_colapprox_x1 Profile Chi2/NDF from Profile: -47.401722
+ditau_dR Vs ditau_colapprox_x1 2D Chi2/NDF from 2D Plot: 4.499043
+ditau_dR Vs HT_jets_taus Profile Chi2/NDF from Profile: -173.652922
+ditau_dR Vs HT_jets_taus 2D Chi2/NDF from 2D Plot: 3.154888
+met_centrality Vs ditau_mass_mmc Profile Chi2/NDF from Profile: 43.718187
+met_centrality Vs ditau_mass_mmc 2D Chi2/NDF from 2D Plot: 4.016705
+met_centrality Vs ditau_dR Profile Chi2/NDF from Profile: 0.598158
+met_centrality Vs ditau_dR 2D Chi2/NDF from 2D Plot: 2.478689
+met_centrality Vs met_centrality Profile Chi2/NDF from Profile: -0.128801
+met_centrality Vs met_centrality 2D Chi2/NDF from 2D Plot: 1.483669
+met_centrality Vs dijet_mass Profile Chi2/NDF from Profile: 43.140103
+met_centrality Vs dijet_mass 2D Chi2/NDF from 2D Plot: 2.520953
+met_centrality Vs dijet_eta1_x_eta2 Profile Chi2/NDF from Profile: 0.525961
+met_centrality Vs dijet_eta1_x_eta2 2D Chi2/NDF from 2D Plot: 2.408056
+met_centrality Vs dijet_dEta Profile Chi2/NDF from Profile: 0.655054
+met_centrality Vs dijet_dEta 2D Chi2/NDF from 2D Plot: 2.903026
+met_centrality Vs tau_0_dijet_eta_centr Profile Chi2/NDF from Profile: 0.000000
+met_centrality Vs tau_0_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 2095.122288
+met_centrality Vs tau_1_dijet_eta_centr Profile Chi2/NDF from Profile: 0.000000
+met_centrality Vs tau_1_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 2.415033
+met_centrality Vs ditau_dijet_met_VecSumPt Profile Chi2/NDF from Profile: 6.355958
+met_centrality Vs ditau_dijet_met_VecSumPt 2D Chi2/NDF from 2D Plot: 3.320297
+met_centrality Vs ditau_pT_0_over_pT_1 Profile Chi2/NDF from Profile: 1.088144
+met_centrality Vs ditau_pT_0_over_pT_1 2D Chi2/NDF from 2D Plot: 2.984849
+met_centrality Vs ditau_colapprox_x0 Profile Chi2/NDF from Profile: 0.631574
+met_centrality Vs ditau_colapprox_x0 2D Chi2/NDF from 2D Plot: 3.281803
+met_centrality Vs ditau_colapprox_x1 Profile Chi2/NDF from Profile: -2.384412
+met_centrality Vs ditau_colapprox_x1 2D Chi2/NDF from 2D Plot: 3.163962
+met_centrality Vs HT_jets_taus Profile Chi2/NDF from Profile: 78.072765
+met_centrality Vs HT_jets_taus 2D Chi2/NDF from 2D Plot: 3.245877
+dijet_mass Vs ditau_mass_mmc Profile Chi2/NDF from Profile: 1.575260
+dijet_mass Vs ditau_mass_mmc 2D Chi2/NDF from 2D Plot: 4.436040
+dijet_mass Vs ditau_dR Profile Chi2/NDF from Profile: 0.017719
+dijet_mass Vs ditau_dR 2D Chi2/NDF from 2D Plot: 2.255462
+dijet_mass Vs met_centrality Profile Chi2/NDF from Profile: 0.038916
+dijet_mass Vs met_centrality 2D Chi2/NDF from 2D Plot: 2.566747
+dijet_mass Vs dijet_mass Profile Chi2/NDF from Profile: 0.105455
+dijet_mass Vs dijet_mass 2D Chi2/NDF from 2D Plot: 3.238789
+dijet_mass Vs dijet_eta1_x_eta2 Profile Chi2/NDF from Profile: 0.030134
+dijet_mass Vs dijet_eta1_x_eta2 2D Chi2/NDF from 2D Plot: 1814.531887
+dijet_mass Vs dijet_dEta Profile Chi2/NDF from Profile: 0.078941
+dijet_mass Vs dijet_dEta 2D Chi2/NDF from 2D Plot: 2.049030
+dijet_mass Vs tau_0_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+dijet_mass Vs tau_0_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 1652.587393
+dijet_mass Vs tau_1_dijet_eta_centr Profile Chi2/NDF from Profile: 0.474693
+dijet_mass Vs tau_1_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 2.413863
+dijet_mass Vs ditau_dijet_met_VecSumPt Profile Chi2/NDF from Profile: 3.345619
+dijet_mass Vs ditau_dijet_met_VecSumPt 2D Chi2/NDF from 2D Plot: 3.800564
+dijet_mass Vs ditau_pT_0_over_pT_1 Profile Chi2/NDF from Profile: 0.053781
+dijet_mass Vs ditau_pT_0_over_pT_1 2D Chi2/NDF from 2D Plot: 1.875931
+dijet_mass Vs ditau_colapprox_x0 Profile Chi2/NDF from Profile: 0.374433
+dijet_mass Vs ditau_colapprox_x0 2D Chi2/NDF from 2D Plot: 3.724769
+dijet_mass Vs ditau_colapprox_x1 Profile Chi2/NDF from Profile: 4.354465
+dijet_mass Vs ditau_colapprox_x1 2D Chi2/NDF from 2D Plot: 2.301454
+dijet_mass Vs HT_jets_taus Profile Chi2/NDF from Profile: 4.631249
+dijet_mass Vs HT_jets_taus 2D Chi2/NDF from 2D Plot: 2.696877
+dijet_eta1_x_eta2 Vs ditau_mass_mmc Profile Chi2/NDF from Profile: 9.482524
+dijet_eta1_x_eta2 Vs ditau_mass_mmc 2D Chi2/NDF from 2D Plot: 2.378104
+dijet_eta1_x_eta2 Vs ditau_dR Profile Chi2/NDF from Profile: 0.114251
+dijet_eta1_x_eta2 Vs ditau_dR 2D Chi2/NDF from 2D Plot: 1.957211
+dijet_eta1_x_eta2 Vs met_centrality Profile Chi2/NDF from Profile: 0.316432
+dijet_eta1_x_eta2 Vs met_centrality 2D Chi2/NDF from 2D Plot: 2.432260
+dijet_eta1_x_eta2 Vs dijet_mass Profile Chi2/NDF from Profile: 76.655952
+dijet_eta1_x_eta2 Vs dijet_mass 2D Chi2/NDF from 2D Plot: 1782.365332
+dijet_eta1_x_eta2 Vs dijet_eta1_x_eta2 Profile Chi2/NDF from Profile: -0.241201
+dijet_eta1_x_eta2 Vs dijet_eta1_x_eta2 2D Chi2/NDF from 2D Plot: 1.630264
+dijet_eta1_x_eta2 Vs dijet_dEta Profile Chi2/NDF from Profile: 0.305153
+dijet_eta1_x_eta2 Vs dijet_dEta 2D Chi2/NDF from 2D Plot: 3.453824
+dijet_eta1_x_eta2 Vs tau_0_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+dijet_eta1_x_eta2 Vs tau_0_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 8312.456287
+dijet_eta1_x_eta2 Vs tau_1_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+dijet_eta1_x_eta2 Vs tau_1_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 2.040409
+dijet_eta1_x_eta2 Vs ditau_dijet_met_VecSumPt Profile Chi2/NDF from Profile: 5.536818
+dijet_eta1_x_eta2 Vs ditau_dijet_met_VecSumPt 2D Chi2/NDF from 2D Plot: 4.994640
+dijet_eta1_x_eta2 Vs ditau_pT_0_over_pT_1 Profile Chi2/NDF from Profile: 0.105547
+dijet_eta1_x_eta2 Vs ditau_pT_0_over_pT_1 2D Chi2/NDF from 2D Plot: 1.743223
+dijet_eta1_x_eta2 Vs ditau_colapprox_x0 Profile Chi2/NDF from Profile: 0.895914
+dijet_eta1_x_eta2 Vs ditau_colapprox_x0 2D Chi2/NDF from 2D Plot: 1.964070
+dijet_eta1_x_eta2 Vs ditau_colapprox_x1 Profile Chi2/NDF from Profile: 0.304642
+dijet_eta1_x_eta2 Vs ditau_colapprox_x1 2D Chi2/NDF from 2D Plot: 2.838637
+dijet_eta1_x_eta2 Vs HT_jets_taus Profile Chi2/NDF from Profile: 14.020867
+dijet_eta1_x_eta2 Vs HT_jets_taus 2D Chi2/NDF from 2D Plot: 2107.184151
+dijet_dEta Vs ditau_mass_mmc Profile Chi2/NDF from Profile: 13.515259
+dijet_dEta Vs ditau_mass_mmc 2D Chi2/NDF from 2D Plot: 3.028179
+dijet_dEta Vs ditau_dR Profile Chi2/NDF from Profile: 0.190278
+dijet_dEta Vs ditau_dR 2D Chi2/NDF from 2D Plot: 1.988520
+dijet_dEta Vs met_centrality Profile Chi2/NDF from Profile: 0.139780
+dijet_dEta Vs met_centrality 2D Chi2/NDF from 2D Plot: 2.924752
+dijet_dEta Vs dijet_mass Profile Chi2/NDF from Profile: 80.202976
+dijet_dEta Vs dijet_mass 2D Chi2/NDF from 2D Plot: 2.040116
+dijet_dEta Vs dijet_eta1_x_eta2 Profile Chi2/NDF from Profile: -0.910365
+dijet_dEta Vs dijet_eta1_x_eta2 2D Chi2/NDF from 2D Plot: 3.444095
+dijet_dEta Vs dijet_dEta Profile Chi2/NDF from Profile: 0.548335
+dijet_dEta Vs dijet_dEta 2D Chi2/NDF from 2D Plot: 3.518818
+dijet_dEta Vs tau_0_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+dijet_dEta Vs tau_0_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 1.694002
+dijet_dEta Vs tau_1_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+dijet_dEta Vs tau_1_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 1.685560
+dijet_dEta Vs ditau_dijet_met_VecSumPt Profile Chi2/NDF from Profile: 13.118582
+dijet_dEta Vs ditau_dijet_met_VecSumPt 2D Chi2/NDF from 2D Plot: 2.007762
+dijet_dEta Vs ditau_pT_0_over_pT_1 Profile Chi2/NDF from Profile: 0.211360
+dijet_dEta Vs ditau_pT_0_over_pT_1 2D Chi2/NDF from 2D Plot: 3.397565
+dijet_dEta Vs ditau_colapprox_x0 Profile Chi2/NDF from Profile: 0.542931
+dijet_dEta Vs ditau_colapprox_x0 2D Chi2/NDF from 2D Plot: 1.673664
+dijet_dEta Vs ditau_colapprox_x1 Profile Chi2/NDF from Profile: 0.040561
+dijet_dEta Vs ditau_colapprox_x1 2D Chi2/NDF from 2D Plot: 3.347524
+dijet_dEta Vs HT_jets_taus Profile Chi2/NDF from Profile: 29.987427
+dijet_dEta Vs HT_jets_taus 2D Chi2/NDF from 2D Plot: 2.337741
+tau_0_dijet_eta_centr Vs ditau_mass_mmc Profile Chi2/NDF from Profile: 0.611882
+tau_0_dijet_eta_centr Vs ditau_mass_mmc 2D Chi2/NDF from 2D Plot: 3.569689
+tau_0_dijet_eta_centr Vs ditau_dR Profile Chi2/NDF from Profile: 0.018864
+tau_0_dijet_eta_centr Vs ditau_dR 2D Chi2/NDF from 2D Plot: 2378.181577
+tau_0_dijet_eta_centr Vs met_centrality Profile Chi2/NDF from Profile: 0.064965
+tau_0_dijet_eta_centr Vs met_centrality 2D Chi2/NDF from 2D Plot: 2116.864188
+tau_0_dijet_eta_centr Vs dijet_mass Profile Chi2/NDF from Profile: 5.665858
+tau_0_dijet_eta_centr Vs dijet_mass 2D Chi2/NDF from 2D Plot: 1667.445780
+tau_0_dijet_eta_centr Vs dijet_eta1_x_eta2 Profile Chi2/NDF from Profile: 1.354722
+tau_0_dijet_eta_centr Vs dijet_eta1_x_eta2 2D Chi2/NDF from 2D Plot: 8298.902312
+tau_0_dijet_eta_centr Vs dijet_dEta Profile Chi2/NDF from Profile: 0.044063
+tau_0_dijet_eta_centr Vs dijet_dEta 2D Chi2/NDF from 2D Plot: 1.684284
+tau_0_dijet_eta_centr Vs tau_0_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+tau_0_dijet_eta_centr Vs tau_0_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 2.114905
+tau_0_dijet_eta_centr Vs tau_1_dijet_eta_centr Profile Chi2/NDF from Profile: 0.000000
+tau_0_dijet_eta_centr Vs tau_1_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 1887.822315
+tau_0_dijet_eta_centr Vs ditau_dijet_met_VecSumPt Profile Chi2/NDF from Profile: 2.561634
+tau_0_dijet_eta_centr Vs ditau_dijet_met_VecSumPt 2D Chi2/NDF from 2D Plot: 2.621506
+tau_0_dijet_eta_centr Vs ditau_pT_0_over_pT_1 Profile Chi2/NDF from Profile: 0.138294
+tau_0_dijet_eta_centr Vs ditau_pT_0_over_pT_1 2D Chi2/NDF from 2D Plot: 2.296470
+tau_0_dijet_eta_centr Vs ditau_colapprox_x0 Profile Chi2/NDF from Profile: 0.000000
+tau_0_dijet_eta_centr Vs ditau_colapprox_x0 2D Chi2/NDF from 2D Plot: 2.501843
+tau_0_dijet_eta_centr Vs ditau_colapprox_x1 Profile Chi2/NDF from Profile: 0.500616
+tau_0_dijet_eta_centr Vs ditau_colapprox_x1 2D Chi2/NDF from 2D Plot: 2.959380
+tau_0_dijet_eta_centr Vs HT_jets_taus Profile Chi2/NDF from Profile: 0.855999
+tau_0_dijet_eta_centr Vs HT_jets_taus 2D Chi2/NDF from 2D Plot: 2308.775719
+tau_1_dijet_eta_centr Vs ditau_mass_mmc Profile Chi2/NDF from Profile: 0.248173
+tau_1_dijet_eta_centr Vs ditau_mass_mmc 2D Chi2/NDF from 2D Plot: 4202.443679
+tau_1_dijet_eta_centr Vs ditau_dR Profile Chi2/NDF from Profile: 0.005728
+tau_1_dijet_eta_centr Vs ditau_dR 2D Chi2/NDF from 2D Plot: 2.136371
+tau_1_dijet_eta_centr Vs met_centrality Profile Chi2/NDF from Profile: 0.014290
+tau_1_dijet_eta_centr Vs met_centrality 2D Chi2/NDF from 2D Plot: 2.402513
+tau_1_dijet_eta_centr Vs dijet_mass Profile Chi2/NDF from Profile: 7.559702
+tau_1_dijet_eta_centr Vs dijet_mass 2D Chi2/NDF from 2D Plot: 2.422435
+tau_1_dijet_eta_centr Vs dijet_eta1_x_eta2 Profile Chi2/NDF from Profile: 0.629346
+tau_1_dijet_eta_centr Vs dijet_eta1_x_eta2 2D Chi2/NDF from 2D Plot: 2.044480
+tau_1_dijet_eta_centr Vs dijet_dEta Profile Chi2/NDF from Profile: 0.037422
+tau_1_dijet_eta_centr Vs dijet_dEta 2D Chi2/NDF from 2D Plot: 1.684855
+tau_1_dijet_eta_centr Vs tau_0_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+tau_1_dijet_eta_centr Vs tau_0_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 1977.949577
+tau_1_dijet_eta_centr Vs tau_1_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+tau_1_dijet_eta_centr Vs tau_1_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 1.211825
+tau_1_dijet_eta_centr Vs ditau_dijet_met_VecSumPt Profile Chi2/NDF from Profile: 2.203777
+tau_1_dijet_eta_centr Vs ditau_dijet_met_VecSumPt 2D Chi2/NDF from 2D Plot: 2.445311
+tau_1_dijet_eta_centr Vs ditau_pT_0_over_pT_1 Profile Chi2/NDF from Profile: 0.031953
+tau_1_dijet_eta_centr Vs ditau_pT_0_over_pT_1 2D Chi2/NDF from 2D Plot: 1.424475
+tau_1_dijet_eta_centr Vs ditau_colapprox_x0 Profile Chi2/NDF from Profile: 0.000000
+tau_1_dijet_eta_centr Vs ditau_colapprox_x0 2D Chi2/NDF from 2D Plot: 1.336669
+tau_1_dijet_eta_centr Vs ditau_colapprox_x1 Profile Chi2/NDF from Profile: 0.000000
+tau_1_dijet_eta_centr Vs ditau_colapprox_x1 2D Chi2/NDF from 2D Plot: 3.686373
+tau_1_dijet_eta_centr Vs HT_jets_taus Profile Chi2/NDF from Profile: 1.601965
+tau_1_dijet_eta_centr Vs HT_jets_taus 2D Chi2/NDF from 2D Plot: 3.225014
+ditau_dijet_met_VecSumPt Vs ditau_mass_mmc Profile Chi2/NDF from Profile: 0.401549
+ditau_dijet_met_VecSumPt Vs ditau_mass_mmc 2D Chi2/NDF from 2D Plot: 3.736113
+ditau_dijet_met_VecSumPt Vs ditau_dR Profile Chi2/NDF from Profile: 0.008553
+ditau_dijet_met_VecSumPt Vs ditau_dR 2D Chi2/NDF from 2D Plot: 2.332413
+ditau_dijet_met_VecSumPt Vs met_centrality Profile Chi2/NDF from Profile: 0.009506
+ditau_dijet_met_VecSumPt Vs met_centrality 2D Chi2/NDF from 2D Plot: 3.336798
+ditau_dijet_met_VecSumPt Vs dijet_mass Profile Chi2/NDF from Profile: 9.156513
+ditau_dijet_met_VecSumPt Vs dijet_mass 2D Chi2/NDF from 2D Plot: 3.866492
+ditau_dijet_met_VecSumPt Vs dijet_eta1_x_eta2 Profile Chi2/NDF from Profile: 0.130511
+ditau_dijet_met_VecSumPt Vs dijet_eta1_x_eta2 2D Chi2/NDF from 2D Plot: 4.880144
+ditau_dijet_met_VecSumPt Vs dijet_dEta Profile Chi2/NDF from Profile: 0.016086
+ditau_dijet_met_VecSumPt Vs dijet_dEta 2D Chi2/NDF from 2D Plot: 2.008888
+ditau_dijet_met_VecSumPt Vs tau_0_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+ditau_dijet_met_VecSumPt Vs tau_0_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 2.638097
+ditau_dijet_met_VecSumPt Vs tau_1_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+ditau_dijet_met_VecSumPt Vs tau_1_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 2.444302
+ditau_dijet_met_VecSumPt Vs ditau_dijet_met_VecSumPt Profile Chi2/NDF from Profile: 0.001752
+ditau_dijet_met_VecSumPt Vs ditau_dijet_met_VecSumPt 2D Chi2/NDF from 2D Plot: 2.950433
+ditau_dijet_met_VecSumPt Vs ditau_pT_0_over_pT_1 Profile Chi2/NDF from Profile: 0.019995
+ditau_dijet_met_VecSumPt Vs ditau_pT_0_over_pT_1 2D Chi2/NDF from 2D Plot: 2.003573
+ditau_dijet_met_VecSumPt Vs ditau_colapprox_x0 Profile Chi2/NDF from Profile: -0.000000
+ditau_dijet_met_VecSumPt Vs ditau_colapprox_x0 2D Chi2/NDF from 2D Plot: 3.151007
+ditau_dijet_met_VecSumPt Vs ditau_colapprox_x1 Profile Chi2/NDF from Profile: 0.000000
+ditau_dijet_met_VecSumPt Vs ditau_colapprox_x1 2D Chi2/NDF from 2D Plot: 4.532225
+ditau_dijet_met_VecSumPt Vs HT_jets_taus Profile Chi2/NDF from Profile: 3.037121
+ditau_dijet_met_VecSumPt Vs HT_jets_taus 2D Chi2/NDF from 2D Plot: 4.880130
+ditau_colapprox_x0 Vs ditau_mass_mmc Profile Chi2/NDF from Profile: 12.688811
+ditau_colapprox_x0 Vs ditau_mass_mmc 2D Chi2/NDF from 2D Plot: 2.158563
+ditau_colapprox_x0 Vs ditau_dR Profile Chi2/NDF from Profile: 0.122951
+ditau_colapprox_x0 Vs ditau_dR 2D Chi2/NDF from 2D Plot: 1.967005
+ditau_colapprox_x0 Vs met_centrality Profile Chi2/NDF from Profile: 0.034502
+ditau_colapprox_x0 Vs met_centrality 2D Chi2/NDF from 2D Plot: 3.284595
+ditau_colapprox_x0 Vs dijet_mass Profile Chi2/NDF from Profile: 79.830995
+ditau_colapprox_x0 Vs dijet_mass 2D Chi2/NDF from 2D Plot: 3.741434
+ditau_colapprox_x0 Vs dijet_eta1_x_eta2 Profile Chi2/NDF from Profile: 2.384309
+ditau_colapprox_x0 Vs dijet_eta1_x_eta2 2D Chi2/NDF from 2D Plot: 1.949017
+ditau_colapprox_x0 Vs dijet_dEta Profile Chi2/NDF from Profile: 0.714216
+ditau_colapprox_x0 Vs dijet_dEta 2D Chi2/NDF from 2D Plot: 1.679945
+ditau_colapprox_x0 Vs tau_0_dijet_eta_centr Profile Chi2/NDF from Profile: 0.000000
+ditau_colapprox_x0 Vs tau_0_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 2.489428
+ditau_colapprox_x0 Vs tau_1_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+ditau_colapprox_x0 Vs tau_1_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 1.337120
+ditau_colapprox_x0 Vs ditau_dijet_met_VecSumPt Profile Chi2/NDF from Profile: 15.551373
+ditau_colapprox_x0 Vs ditau_dijet_met_VecSumPt 2D Chi2/NDF from 2D Plot: 3.179272
+ditau_colapprox_x0 Vs ditau_pT_0_over_pT_1 Profile Chi2/NDF from Profile: 0.202146
+ditau_colapprox_x0 Vs ditau_pT_0_over_pT_1 2D Chi2/NDF from 2D Plot: 1.488483
+ditau_colapprox_x0 Vs ditau_colapprox_x0 Profile Chi2/NDF from Profile: -85331361360704.171875
+ditau_colapprox_x0 Vs ditau_colapprox_x0 2D Chi2/NDF from 2D Plot: 1.409344
+ditau_colapprox_x0 Vs ditau_colapprox_x1 Profile Chi2/NDF from Profile: -0.000000
+ditau_colapprox_x0 Vs ditau_colapprox_x1 2D Chi2/NDF from 2D Plot: 1.787176
+ditau_colapprox_x0 Vs HT_jets_taus Profile Chi2/NDF from Profile: 42.464585
+ditau_colapprox_x0 Vs HT_jets_taus 2D Chi2/NDF from 2D Plot: 2.228549
+ditau_colapprox_x1 Vs ditau_mass_mmc Profile Chi2/NDF from Profile: 17.608585
+ditau_colapprox_x1 Vs ditau_mass_mmc 2D Chi2/NDF from 2D Plot: 6.750143
+ditau_colapprox_x1 Vs ditau_dR Profile Chi2/NDF from Profile: 0.126960
+ditau_colapprox_x1 Vs ditau_dR 2D Chi2/NDF from 2D Plot: 4.531761
+ditau_colapprox_x1 Vs met_centrality Profile Chi2/NDF from Profile: 0.169588
+ditau_colapprox_x1 Vs met_centrality 2D Chi2/NDF from 2D Plot: 3.186219
+ditau_colapprox_x1 Vs dijet_mass Profile Chi2/NDF from Profile: 648.615476
+ditau_colapprox_x1 Vs dijet_mass 2D Chi2/NDF from 2D Plot: 2.302501
+ditau_colapprox_x1 Vs dijet_eta1_x_eta2 Profile Chi2/NDF from Profile: -10.756226
+ditau_colapprox_x1 Vs dijet_eta1_x_eta2 2D Chi2/NDF from 2D Plot: 2.815814
+ditau_colapprox_x1 Vs dijet_dEta Profile Chi2/NDF from Profile: 1.741849
+ditau_colapprox_x1 Vs dijet_dEta 2D Chi2/NDF from 2D Plot: 3.328822
+ditau_colapprox_x1 Vs tau_0_dijet_eta_centr Profile Chi2/NDF from Profile: 0.163850
+ditau_colapprox_x1 Vs tau_0_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 3.012653
+ditau_colapprox_x1 Vs tau_1_dijet_eta_centr Profile Chi2/NDF from Profile: -17.706177
+ditau_colapprox_x1 Vs tau_1_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 3.710393
+ditau_colapprox_x1 Vs ditau_dijet_met_VecSumPt Profile Chi2/NDF from Profile: 34.775334
+ditau_colapprox_x1 Vs ditau_dijet_met_VecSumPt 2D Chi2/NDF from 2D Plot: 4.531747
+ditau_colapprox_x1 Vs ditau_pT_0_over_pT_1 Profile Chi2/NDF from Profile: 0.077536
+ditau_colapprox_x1 Vs ditau_pT_0_over_pT_1 2D Chi2/NDF from 2D Plot: 3.563310
+ditau_colapprox_x1 Vs ditau_colapprox_x0 Profile Chi2/NDF from Profile: -0.000000
+ditau_colapprox_x1 Vs ditau_colapprox_x0 2D Chi2/NDF from 2D Plot: 1.784610
+ditau_colapprox_x1 Vs ditau_colapprox_x1 Profile Chi2/NDF from Profile: 0.000000
+ditau_colapprox_x1 Vs ditau_colapprox_x1 2D Chi2/NDF from 2D Plot: 2.927217
+ditau_colapprox_x1 Vs HT_jets_taus Profile Chi2/NDF from Profile: 25.511273
+ditau_colapprox_x1 Vs HT_jets_taus 2D Chi2/NDF from 2D Plot: 4.232427
+HT_jets_taus Vs ditau_mass_mmc Profile Chi2/NDF from Profile: 3.154212
+HT_jets_taus Vs ditau_mass_mmc 2D Chi2/NDF from 2D Plot: 2.130246
+HT_jets_taus Vs ditau_dR Profile Chi2/NDF from Profile: 0.013970
+HT_jets_taus Vs ditau_dR 2D Chi2/NDF from 2D Plot: 3.159342
+HT_jets_taus Vs met_centrality Profile Chi2/NDF from Profile: 0.107131
+HT_jets_taus Vs met_centrality 2D Chi2/NDF from 2D Plot: 3.258736
+HT_jets_taus Vs dijet_mass Profile Chi2/NDF from Profile: 1.567365
+HT_jets_taus Vs dijet_mass 2D Chi2/NDF from 2D Plot: 2.658371
+HT_jets_taus Vs dijet_eta1_x_eta2 Profile Chi2/NDF from Profile: 0.470456
+HT_jets_taus Vs dijet_eta1_x_eta2 2D Chi2/NDF from 2D Plot: 2056.736736
+HT_jets_taus Vs dijet_dEta Profile Chi2/NDF from Profile: 0.023700
+HT_jets_taus Vs dijet_dEta 2D Chi2/NDF from 2D Plot: 2.300137
+HT_jets_taus Vs tau_0_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+HT_jets_taus Vs tau_0_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 2251.251089
+HT_jets_taus Vs tau_1_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+HT_jets_taus Vs tau_1_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 3.236982
+HT_jets_taus Vs ditau_dijet_met_VecSumPt Profile Chi2/NDF from Profile: 0.513883
+HT_jets_taus Vs ditau_dijet_met_VecSumPt 2D Chi2/NDF from 2D Plot: 4.868128
+HT_jets_taus Vs ditau_pT_0_over_pT_1 Profile Chi2/NDF from Profile: 0.105144
+HT_jets_taus Vs ditau_pT_0_over_pT_1 2D Chi2/NDF from 2D Plot: 2.694956
+HT_jets_taus Vs ditau_colapprox_x0 Profile Chi2/NDF from Profile: 0.000000
+HT_jets_taus Vs ditau_colapprox_x0 2D Chi2/NDF from 2D Plot: 2.215921
+HT_jets_taus Vs ditau_colapprox_x1 Profile Chi2/NDF from Profile: -0.000000
+HT_jets_taus Vs ditau_colapprox_x1 2D Chi2/NDF from 2D Plot: 4.188296
+HT_jets_taus Vs HT_jets_taus Profile Chi2/NDF from Profile: 6.407854
+HT_jets_taus Vs HT_jets_taus 2D Chi2/NDF from 2D Plot: 4.242251
+ditau_mass_mmc Vs ditau_mass_mmc Profile Chi2/NDF from Profile: 0.000879
+ditau_mass_mmc Vs ditau_mass_mmc 2D Chi2/NDF from 2D Plot: 3.404415
+ditau_mass_mmc Vs ditau_dR Profile Chi2/NDF from Profile: 0.000145
+ditau_mass_mmc Vs ditau_dR 2D Chi2/NDF from 2D Plot: 1.919689
+ditau_mass_mmc Vs met_centrality Profile Chi2/NDF from Profile: 0.000105
+ditau_mass_mmc Vs met_centrality 2D Chi2/NDF from 2D Plot: 1.750134
+ditau_mass_mmc Vs dijet_mass Profile Chi2/NDF from Profile: 1.332940
+ditau_mass_mmc Vs dijet_mass 2D Chi2/NDF from 2D Plot: 1.525189
+ditau_mass_mmc Vs dijet_eta1_x_eta2 Profile Chi2/NDF from Profile: 0.415819
+ditau_mass_mmc Vs dijet_eta1_x_eta2 2D Chi2/NDF from 2D Plot: 1.376068
+ditau_mass_mmc Vs dijet_dEta Profile Chi2/NDF from Profile: 0.022307
+ditau_mass_mmc Vs dijet_dEta 2D Chi2/NDF from 2D Plot: 1.484720
+ditau_mass_mmc Vs tau_0_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+ditau_mass_mmc Vs tau_0_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 2.304745
+ditau_mass_mmc Vs tau_1_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+ditau_mass_mmc Vs tau_1_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 1.424936
+ditau_mass_mmc Vs ditau_dijet_met_VecSumPt Profile Chi2/NDF from Profile: 0.789976
+ditau_mass_mmc Vs ditau_dijet_met_VecSumPt 2D Chi2/NDF from 2D Plot: 2.876754
+ditau_mass_mmc Vs ditau_pT_0_over_pT_1 Profile Chi2/NDF from Profile: 0.001660
+ditau_mass_mmc Vs ditau_pT_0_over_pT_1 2D Chi2/NDF from 2D Plot: 1.815448
+ditau_mass_mmc Vs ditau_colapprox_x0 Profile Chi2/NDF from Profile: 0.033210
+ditau_mass_mmc Vs ditau_colapprox_x0 2D Chi2/NDF from 2D Plot: 3.801430
+ditau_mass_mmc Vs ditau_colapprox_x1 Profile Chi2/NDF from Profile: -0.000000
+ditau_mass_mmc Vs ditau_colapprox_x1 2D Chi2/NDF from 2D Plot: 1.367680
+ditau_mass_mmc Vs HT_jets_taus Profile Chi2/NDF from Profile: 0.066483
+ditau_mass_mmc Vs HT_jets_taus 2D Chi2/NDF from 2D Plot: 2.291477
+ditau_dR Vs ditau_mass_mmc Profile Chi2/NDF from Profile: 0.010399
+ditau_dR Vs ditau_mass_mmc 2D Chi2/NDF from 2D Plot: 1.919372
+ditau_dR Vs ditau_dR Profile Chi2/NDF from Profile: 0.000000
+ditau_dR Vs ditau_dR 2D Chi2/NDF from 2D Plot: 1.873213
+ditau_dR Vs met_centrality Profile Chi2/NDF from Profile: 0.000849
+ditau_dR Vs met_centrality 2D Chi2/NDF from 2D Plot: 2.433160
+ditau_dR Vs dijet_mass Profile Chi2/NDF from Profile: 0.898020
+ditau_dR Vs dijet_mass 2D Chi2/NDF from 2D Plot: 1.436423
+ditau_dR Vs dijet_eta1_x_eta2 Profile Chi2/NDF from Profile: 0.112628
+ditau_dR Vs dijet_eta1_x_eta2 2D Chi2/NDF from 2D Plot: 1.314331
+ditau_dR Vs dijet_dEta Profile Chi2/NDF from Profile: 0.007459
+ditau_dR Vs dijet_dEta 2D Chi2/NDF from 2D Plot: 1.354572
+ditau_dR Vs tau_0_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+ditau_dR Vs tau_0_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 11.758631
+ditau_dR Vs tau_1_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+ditau_dR Vs tau_1_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 1.708268
+ditau_dR Vs ditau_dijet_met_VecSumPt Profile Chi2/NDF from Profile: 0.271155
+ditau_dR Vs ditau_dijet_met_VecSumPt 2D Chi2/NDF from 2D Plot: 1.954916
+ditau_dR Vs ditau_pT_0_over_pT_1 Profile Chi2/NDF from Profile: 0.000665
+ditau_dR Vs ditau_pT_0_over_pT_1 2D Chi2/NDF from 2D Plot: 2.012319
+ditau_dR Vs ditau_colapprox_x0 Profile Chi2/NDF from Profile: -0.000000
+ditau_dR Vs ditau_colapprox_x0 2D Chi2/NDF from 2D Plot: 6114.821037
+ditau_dR Vs ditau_colapprox_x1 Profile Chi2/NDF from Profile: -0.000000
+ditau_dR Vs ditau_colapprox_x1 2D Chi2/NDF from 2D Plot: 2.037034
+ditau_dR Vs HT_jets_taus Profile Chi2/NDF from Profile: 0.045503
+ditau_dR Vs HT_jets_taus 2D Chi2/NDF from 2D Plot: 5.015538
+met_centrality Vs ditau_mass_mmc Profile Chi2/NDF from Profile: 0.238201
+met_centrality Vs ditau_mass_mmc 2D Chi2/NDF from 2D Plot: 1.745198
+met_centrality Vs ditau_dR Profile Chi2/NDF from Profile: 0.000246
+met_centrality Vs ditau_dR 2D Chi2/NDF from 2D Plot: 2.433087
+met_centrality Vs met_centrality Profile Chi2/NDF from Profile: -0.000000
+met_centrality Vs met_centrality 2D Chi2/NDF from 2D Plot: 2.360290
+met_centrality Vs dijet_mass Profile Chi2/NDF from Profile: 8.284437
+met_centrality Vs dijet_mass 2D Chi2/NDF from 2D Plot: 1.428709
+met_centrality Vs dijet_eta1_x_eta2 Profile Chi2/NDF from Profile: 0.456277
+met_centrality Vs dijet_eta1_x_eta2 2D Chi2/NDF from 2D Plot: 1.121056
+met_centrality Vs dijet_dEta Profile Chi2/NDF from Profile: 0.105984
+met_centrality Vs dijet_dEta 2D Chi2/NDF from 2D Plot: 1.318959
+met_centrality Vs tau_0_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+met_centrality Vs tau_0_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 1.220138
+met_centrality Vs tau_1_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+met_centrality Vs tau_1_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 1.218374
+met_centrality Vs ditau_dijet_met_VecSumPt Profile Chi2/NDF from Profile: 1.538953
+met_centrality Vs ditau_dijet_met_VecSumPt 2D Chi2/NDF from 2D Plot: 3.345727
+met_centrality Vs ditau_pT_0_over_pT_1 Profile Chi2/NDF from Profile: 0.002703
+met_centrality Vs ditau_pT_0_over_pT_1 2D Chi2/NDF from 2D Plot: 1.715740
+met_centrality Vs ditau_colapprox_x0 Profile Chi2/NDF from Profile: 0.029458
+met_centrality Vs ditau_colapprox_x0 2D Chi2/NDF from 2D Plot: 3.483374
+met_centrality Vs ditau_colapprox_x1 Profile Chi2/NDF from Profile: -0.100983
+met_centrality Vs ditau_colapprox_x1 2D Chi2/NDF from 2D Plot: 1.328353
+met_centrality Vs HT_jets_taus Profile Chi2/NDF from Profile: 1.220436
+met_centrality Vs HT_jets_taus 2D Chi2/NDF from 2D Plot: 2.355081
+dijet_mass Vs ditau_mass_mmc Profile Chi2/NDF from Profile: 0.399139
+dijet_mass Vs ditau_mass_mmc 2D Chi2/NDF from 2D Plot: 1.542017
+dijet_mass Vs ditau_dR Profile Chi2/NDF from Profile: 0.007238
+dijet_mass Vs ditau_dR 2D Chi2/NDF from 2D Plot: 1.453041
+dijet_mass Vs met_centrality Profile Chi2/NDF from Profile: 0.022493
+dijet_mass Vs met_centrality 2D Chi2/NDF from 2D Plot: 1.450057
+dijet_mass Vs dijet_mass Profile Chi2/NDF from Profile: 0.018397
+dijet_mass Vs dijet_mass 2D Chi2/NDF from 2D Plot: 1.471007
+dijet_mass Vs dijet_eta1_x_eta2 Profile Chi2/NDF from Profile: -0.801515
+dijet_mass Vs dijet_eta1_x_eta2 2D Chi2/NDF from 2D Plot: 1.441176
+dijet_mass Vs dijet_dEta Profile Chi2/NDF from Profile: 0.060484
+dijet_mass Vs dijet_dEta 2D Chi2/NDF from 2D Plot: 1.502408
+dijet_mass Vs tau_0_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+dijet_mass Vs tau_0_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 1.392891
+dijet_mass Vs tau_1_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+dijet_mass Vs tau_1_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 1.446008
+dijet_mass Vs ditau_dijet_met_VecSumPt Profile Chi2/NDF from Profile: 1.446811
+dijet_mass Vs ditau_dijet_met_VecSumPt 2D Chi2/NDF from 2D Plot: 2.469251
+dijet_mass Vs ditau_pT_0_over_pT_1 Profile Chi2/NDF from Profile: 0.004406
+dijet_mass Vs ditau_pT_0_over_pT_1 2D Chi2/NDF from 2D Plot: 1.560871
+dijet_mass Vs ditau_colapprox_x0 Profile Chi2/NDF from Profile: -0.000000
+dijet_mass Vs ditau_colapprox_x0 2D Chi2/NDF from 2D Plot: 3.677102
+dijet_mass Vs ditau_colapprox_x1 Profile Chi2/NDF from Profile: 0.161458
+dijet_mass Vs ditau_colapprox_x1 2D Chi2/NDF from 2D Plot: 1.954668
+dijet_mass Vs HT_jets_taus Profile Chi2/NDF from Profile: 1.328495
+dijet_mass Vs HT_jets_taus 2D Chi2/NDF from 2D Plot: 2.454233
+dijet_eta1_x_eta2 Vs ditau_mass_mmc Profile Chi2/NDF from Profile: 0.424215
+dijet_eta1_x_eta2 Vs ditau_mass_mmc 2D Chi2/NDF from 2D Plot: 1.375166
+dijet_eta1_x_eta2 Vs ditau_dR Profile Chi2/NDF from Profile: 0.005470
+dijet_eta1_x_eta2 Vs ditau_dR 2D Chi2/NDF from 2D Plot: 1.312221
+dijet_eta1_x_eta2 Vs met_centrality Profile Chi2/NDF from Profile: 0.011558
+dijet_eta1_x_eta2 Vs met_centrality 2D Chi2/NDF from 2D Plot: 1.129079
+dijet_eta1_x_eta2 Vs dijet_mass Profile Chi2/NDF from Profile: 1.290707
+dijet_eta1_x_eta2 Vs dijet_mass 2D Chi2/NDF from 2D Plot: 1.415820
+dijet_eta1_x_eta2 Vs dijet_eta1_x_eta2 Profile Chi2/NDF from Profile: -0.001304
+dijet_eta1_x_eta2 Vs dijet_eta1_x_eta2 2D Chi2/NDF from 2D Plot: 1.808478
+dijet_eta1_x_eta2 Vs dijet_dEta Profile Chi2/NDF from Profile: 0.008509
+dijet_eta1_x_eta2 Vs dijet_dEta 2D Chi2/NDF from 2D Plot: 1.427475
+dijet_eta1_x_eta2 Vs tau_0_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+dijet_eta1_x_eta2 Vs tau_0_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 1.366350
+dijet_eta1_x_eta2 Vs tau_1_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+dijet_eta1_x_eta2 Vs tau_1_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 1.359790
+dijet_eta1_x_eta2 Vs ditau_dijet_met_VecSumPt Profile Chi2/NDF from Profile: 0.989426
+dijet_eta1_x_eta2 Vs ditau_dijet_met_VecSumPt 2D Chi2/NDF from 2D Plot: 2.293693
+dijet_eta1_x_eta2 Vs ditau_pT_0_over_pT_1 Profile Chi2/NDF from Profile: 0.004414
+dijet_eta1_x_eta2 Vs ditau_pT_0_over_pT_1 2D Chi2/NDF from 2D Plot: 1.386649
+dijet_eta1_x_eta2 Vs ditau_colapprox_x0 Profile Chi2/NDF from Profile: 0.085757
+dijet_eta1_x_eta2 Vs ditau_colapprox_x0 2D Chi2/NDF from 2D Plot: 3.278472
+dijet_eta1_x_eta2 Vs ditau_colapprox_x1 Profile Chi2/NDF from Profile: 0.000000
+dijet_eta1_x_eta2 Vs ditau_colapprox_x1 2D Chi2/NDF from 2D Plot: 1.877235
+dijet_eta1_x_eta2 Vs HT_jets_taus Profile Chi2/NDF from Profile: 0.434973
+dijet_eta1_x_eta2 Vs HT_jets_taus 2D Chi2/NDF from 2D Plot: 1.733761
+dijet_dEta Vs ditau_mass_mmc Profile Chi2/NDF from Profile: 0.311842
+dijet_dEta Vs ditau_mass_mmc 2D Chi2/NDF from 2D Plot: 1.493823
+dijet_dEta Vs ditau_dR Profile Chi2/NDF from Profile: 0.005880
+dijet_dEta Vs ditau_dR 2D Chi2/NDF from 2D Plot: 1.371718
+dijet_dEta Vs met_centrality Profile Chi2/NDF from Profile: 0.018132
+dijet_dEta Vs met_centrality 2D Chi2/NDF from 2D Plot: 1.340874
+dijet_dEta Vs dijet_mass Profile Chi2/NDF from Profile: 0.442044
+dijet_dEta Vs dijet_mass 2D Chi2/NDF from 2D Plot: 1.494612
+dijet_dEta Vs dijet_eta1_x_eta2 Profile Chi2/NDF from Profile: 0.014549
+dijet_dEta Vs dijet_eta1_x_eta2 2D Chi2/NDF from 2D Plot: 1.431614
+dijet_dEta Vs dijet_dEta Profile Chi2/NDF from Profile: 0.000353
+dijet_dEta Vs dijet_dEta 2D Chi2/NDF from 2D Plot: 2.384200
+dijet_dEta Vs tau_0_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+dijet_dEta Vs tau_0_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 1.359286
+dijet_dEta Vs tau_1_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+dijet_dEta Vs tau_1_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 1.468088
+dijet_dEta Vs ditau_dijet_met_VecSumPt Profile Chi2/NDF from Profile: 1.238746
+dijet_dEta Vs ditau_dijet_met_VecSumPt 2D Chi2/NDF from 2D Plot: 3.707018
+dijet_dEta Vs ditau_pT_0_over_pT_1 Profile Chi2/NDF from Profile: 0.004022
+dijet_dEta Vs ditau_pT_0_over_pT_1 2D Chi2/NDF from 2D Plot: 1.496165
+dijet_dEta Vs ditau_colapprox_x0 Profile Chi2/NDF from Profile: 0.113226
+dijet_dEta Vs ditau_colapprox_x0 2D Chi2/NDF from 2D Plot: 3.729190
+dijet_dEta Vs ditau_colapprox_x1 Profile Chi2/NDF from Profile: 0.183335
+dijet_dEta Vs ditau_colapprox_x1 2D Chi2/NDF from 2D Plot: 1.985639
+dijet_dEta Vs HT_jets_taus Profile Chi2/NDF from Profile: 0.211385
+dijet_dEta Vs HT_jets_taus 2D Chi2/NDF from 2D Plot: 2.011255
+tau_0_dijet_eta_centr Vs ditau_mass_mmc Profile Chi2/NDF from Profile: 0.195830
+tau_0_dijet_eta_centr Vs ditau_mass_mmc 2D Chi2/NDF from 2D Plot: 2.308612
+tau_0_dijet_eta_centr Vs ditau_dR Profile Chi2/NDF from Profile: 0.005880
+tau_0_dijet_eta_centr Vs ditau_dR 2D Chi2/NDF from 2D Plot: 11.905436
+tau_0_dijet_eta_centr Vs met_centrality Profile Chi2/NDF from Profile: 0.022768
+tau_0_dijet_eta_centr Vs met_centrality 2D Chi2/NDF from 2D Plot: 1.236835
+tau_0_dijet_eta_centr Vs dijet_mass Profile Chi2/NDF from Profile: 1.308183
+tau_0_dijet_eta_centr Vs dijet_mass 2D Chi2/NDF from 2D Plot: 1.385019
+tau_0_dijet_eta_centr Vs dijet_eta1_x_eta2 Profile Chi2/NDF from Profile: -0.327573
+tau_0_dijet_eta_centr Vs dijet_eta1_x_eta2 2D Chi2/NDF from 2D Plot: 1.369369
+tau_0_dijet_eta_centr Vs dijet_dEta Profile Chi2/NDF from Profile: 0.029380
+tau_0_dijet_eta_centr Vs dijet_dEta 2D Chi2/NDF from 2D Plot: 1.355134
+tau_0_dijet_eta_centr Vs tau_0_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+tau_0_dijet_eta_centr Vs tau_0_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 1.391620
+tau_0_dijet_eta_centr Vs tau_1_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+tau_0_dijet_eta_centr Vs tau_1_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 1.530137
+tau_0_dijet_eta_centr Vs ditau_dijet_met_VecSumPt Profile Chi2/NDF from Profile: 0.607706
+tau_0_dijet_eta_centr Vs ditau_dijet_met_VecSumPt 2D Chi2/NDF from 2D Plot: 3.405290
+tau_0_dijet_eta_centr Vs ditau_pT_0_over_pT_1 Profile Chi2/NDF from Profile: 0.004239
+tau_0_dijet_eta_centr Vs ditau_pT_0_over_pT_1 2D Chi2/NDF from 2D Plot: 2.022347
+tau_0_dijet_eta_centr Vs ditau_colapprox_x0 Profile Chi2/NDF from Profile: 0.000000
+tau_0_dijet_eta_centr Vs ditau_colapprox_x0 2D Chi2/NDF from 2D Plot: 1.872719
+tau_0_dijet_eta_centr Vs ditau_colapprox_x1 Profile Chi2/NDF from Profile: -0.000000
+tau_0_dijet_eta_centr Vs ditau_colapprox_x1 2D Chi2/NDF from 2D Plot: 2.523739
+tau_0_dijet_eta_centr Vs HT_jets_taus Profile Chi2/NDF from Profile: 0.544707
+tau_0_dijet_eta_centr Vs HT_jets_taus 2D Chi2/NDF from 2D Plot: 2.142896
+tau_1_dijet_eta_centr Vs ditau_mass_mmc Profile Chi2/NDF from Profile: 0.127783
+tau_1_dijet_eta_centr Vs ditau_mass_mmc 2D Chi2/NDF from 2D Plot: 1.417408
+tau_1_dijet_eta_centr Vs ditau_dR Profile Chi2/NDF from Profile: 0.003250
+tau_1_dijet_eta_centr Vs ditau_dR 2D Chi2/NDF from 2D Plot: 1.714221
+tau_1_dijet_eta_centr Vs met_centrality Profile Chi2/NDF from Profile: 0.017311
+tau_1_dijet_eta_centr Vs met_centrality 2D Chi2/NDF from 2D Plot: 1.229463
+tau_1_dijet_eta_centr Vs dijet_mass Profile Chi2/NDF from Profile: 1.884523
+tau_1_dijet_eta_centr Vs dijet_mass 2D Chi2/NDF from 2D Plot: 1.431330
+tau_1_dijet_eta_centr Vs dijet_eta1_x_eta2 Profile Chi2/NDF from Profile: 0.438273
+tau_1_dijet_eta_centr Vs dijet_eta1_x_eta2 2D Chi2/NDF from 2D Plot: 1.358156
+tau_1_dijet_eta_centr Vs dijet_dEta Profile Chi2/NDF from Profile: 0.025138
+tau_1_dijet_eta_centr Vs dijet_dEta 2D Chi2/NDF from 2D Plot: 1.451687
+tau_1_dijet_eta_centr Vs tau_0_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+tau_1_dijet_eta_centr Vs tau_0_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 1.527978
+tau_1_dijet_eta_centr Vs tau_1_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+tau_1_dijet_eta_centr Vs tau_1_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 1.871904
+tau_1_dijet_eta_centr Vs ditau_dijet_met_VecSumPt Profile Chi2/NDF from Profile: 0.397919
+tau_1_dijet_eta_centr Vs ditau_dijet_met_VecSumPt 2D Chi2/NDF from 2D Plot: 1.720568
+tau_1_dijet_eta_centr Vs ditau_pT_0_over_pT_1 Profile Chi2/NDF from Profile: 0.003257
+tau_1_dijet_eta_centr Vs ditau_pT_0_over_pT_1 2D Chi2/NDF from 2D Plot: 1.796116
+tau_1_dijet_eta_centr Vs ditau_colapprox_x0 Profile Chi2/NDF from Profile: 0.000000
+tau_1_dijet_eta_centr Vs ditau_colapprox_x0 2D Chi2/NDF from 2D Plot: 4.128803
+tau_1_dijet_eta_centr Vs ditau_colapprox_x1 Profile Chi2/NDF from Profile: 0.107964
+tau_1_dijet_eta_centr Vs ditau_colapprox_x1 2D Chi2/NDF from 2D Plot: 1.325938
+tau_1_dijet_eta_centr Vs HT_jets_taus Profile Chi2/NDF from Profile: 0.330097
+tau_1_dijet_eta_centr Vs HT_jets_taus 2D Chi2/NDF from 2D Plot: 1.685735
+ditau_dijet_met_VecSumPt Vs ditau_mass_mmc Profile Chi2/NDF from Profile: 0.129643
+ditau_dijet_met_VecSumPt Vs ditau_mass_mmc 2D Chi2/NDF from 2D Plot: 2.856579
+ditau_dijet_met_VecSumPt Vs ditau_dR Profile Chi2/NDF from Profile: 0.000668
+ditau_dijet_met_VecSumPt Vs ditau_dR 2D Chi2/NDF from 2D Plot: 1.961439
+ditau_dijet_met_VecSumPt Vs met_centrality Profile Chi2/NDF from Profile: 0.191055
+ditau_dijet_met_VecSumPt Vs met_centrality 2D Chi2/NDF from 2D Plot: 3.358100
+ditau_dijet_met_VecSumPt Vs dijet_mass Profile Chi2/NDF from Profile: 1.540613
+ditau_dijet_met_VecSumPt Vs dijet_mass 2D Chi2/NDF from 2D Plot: 2.424683
+ditau_dijet_met_VecSumPt Vs dijet_eta1_x_eta2 Profile Chi2/NDF from Profile: 4.825776
+ditau_dijet_met_VecSumPt Vs dijet_eta1_x_eta2 2D Chi2/NDF from 2D Plot: 2.280437
+ditau_dijet_met_VecSumPt Vs dijet_dEta Profile Chi2/NDF from Profile: 0.060658
+ditau_dijet_met_VecSumPt Vs dijet_dEta 2D Chi2/NDF from 2D Plot: 3.645755
+ditau_dijet_met_VecSumPt Vs tau_0_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+ditau_dijet_met_VecSumPt Vs tau_0_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 3.373785
+ditau_dijet_met_VecSumPt Vs tau_1_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+ditau_dijet_met_VecSumPt Vs tau_1_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 1.728591
+ditau_dijet_met_VecSumPt Vs ditau_dijet_met_VecSumPt Profile Chi2/NDF from Profile: 0.012799
+ditau_dijet_met_VecSumPt Vs ditau_dijet_met_VecSumPt 2D Chi2/NDF from 2D Plot: 2.638093
+ditau_dijet_met_VecSumPt Vs ditau_pT_0_over_pT_1 Profile Chi2/NDF from Profile: 0.003630
+ditau_dijet_met_VecSumPt Vs ditau_pT_0_over_pT_1 2D Chi2/NDF from 2D Plot: 5.893316
+ditau_dijet_met_VecSumPt Vs ditau_colapprox_x0 Profile Chi2/NDF from Profile: -6.607856
+ditau_dijet_met_VecSumPt Vs ditau_colapprox_x0 2D Chi2/NDF from 2D Plot: 5.540019
+ditau_dijet_met_VecSumPt Vs ditau_colapprox_x1 Profile Chi2/NDF from Profile: -0.000000
+ditau_dijet_met_VecSumPt Vs ditau_colapprox_x1 2D Chi2/NDF from 2D Plot: 1.530661
+ditau_dijet_met_VecSumPt Vs HT_jets_taus Profile Chi2/NDF from Profile: 2.933651
+ditau_dijet_met_VecSumPt Vs HT_jets_taus 2D Chi2/NDF from 2D Plot: 3.587512
+ditau_colapprox_x0 Vs ditau_mass_mmc Profile Chi2/NDF from Profile: 11.956653
+ditau_colapprox_x0 Vs ditau_mass_mmc 2D Chi2/NDF from 2D Plot: 3.821204
+ditau_colapprox_x0 Vs ditau_dR Profile Chi2/NDF from Profile: 0.287965
+ditau_colapprox_x0 Vs ditau_dR 2D Chi2/NDF from 2D Plot: 6069.982830
+ditau_colapprox_x0 Vs met_centrality Profile Chi2/NDF from Profile: 30.217496
+ditau_colapprox_x0 Vs met_centrality 2D Chi2/NDF from 2D Plot: 3.494970
+ditau_colapprox_x0 Vs dijet_mass Profile Chi2/NDF from Profile: 83.038844
+ditau_colapprox_x0 Vs dijet_mass 2D Chi2/NDF from 2D Plot: 3.693161
+ditau_colapprox_x0 Vs dijet_eta1_x_eta2 Profile Chi2/NDF from Profile: 0.177312
+ditau_colapprox_x0 Vs dijet_eta1_x_eta2 2D Chi2/NDF from 2D Plot: 3.321836
+ditau_colapprox_x0 Vs dijet_dEta Profile Chi2/NDF from Profile: 0.704305
+ditau_colapprox_x0 Vs dijet_dEta 2D Chi2/NDF from 2D Plot: 3.725037
+ditau_colapprox_x0 Vs tau_0_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+ditau_colapprox_x0 Vs tau_0_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 1.879500
+ditau_colapprox_x0 Vs tau_1_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+ditau_colapprox_x0 Vs tau_1_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 4.132214
+ditau_colapprox_x0 Vs ditau_dijet_met_VecSumPt Profile Chi2/NDF from Profile: 12.707881
+ditau_colapprox_x0 Vs ditau_dijet_met_VecSumPt 2D Chi2/NDF from 2D Plot: 5.560930
+ditau_colapprox_x0 Vs ditau_pT_0_over_pT_1 Profile Chi2/NDF from Profile: 0.161094
+ditau_colapprox_x0 Vs ditau_pT_0_over_pT_1 2D Chi2/NDF from 2D Plot: 4.671577
+ditau_colapprox_x0 Vs ditau_colapprox_x0 Profile Chi2/NDF from Profile: -237031559335289.687500
+ditau_colapprox_x0 Vs ditau_colapprox_x0 2D Chi2/NDF from 2D Plot: 0.993837
+ditau_colapprox_x0 Vs ditau_colapprox_x1 Profile Chi2/NDF from Profile: 0.576942
+ditau_colapprox_x0 Vs ditau_colapprox_x1 2D Chi2/NDF from 2D Plot: 1.370891
+ditau_colapprox_x0 Vs HT_jets_taus Profile Chi2/NDF from Profile: 20.833881
+ditau_colapprox_x0 Vs HT_jets_taus 2D Chi2/NDF from 2D Plot: 4.426365
+ditau_colapprox_x1 Vs ditau_mass_mmc Profile Chi2/NDF from Profile: 1.208985
+ditau_colapprox_x1 Vs ditau_mass_mmc 2D Chi2/NDF from 2D Plot: 1.365026
+ditau_colapprox_x1 Vs ditau_dR Profile Chi2/NDF from Profile: 0.054277
+ditau_colapprox_x1 Vs ditau_dR 2D Chi2/NDF from 2D Plot: 2.035859
+ditau_colapprox_x1 Vs met_centrality Profile Chi2/NDF from Profile: 0.000000
+ditau_colapprox_x1 Vs met_centrality 2D Chi2/NDF from 2D Plot: 1.326909
+ditau_colapprox_x1 Vs dijet_mass Profile Chi2/NDF from Profile: 26.422433
+ditau_colapprox_x1 Vs dijet_mass 2D Chi2/NDF from 2D Plot: 1.975332
+ditau_colapprox_x1 Vs dijet_eta1_x_eta2 Profile Chi2/NDF from Profile: -1.968353
+ditau_colapprox_x1 Vs dijet_eta1_x_eta2 2D Chi2/NDF from 2D Plot: 1.890365
+ditau_colapprox_x1 Vs dijet_dEta Profile Chi2/NDF from Profile: 0.140933
+ditau_colapprox_x1 Vs dijet_dEta 2D Chi2/NDF from 2D Plot: 1.997781
+ditau_colapprox_x1 Vs tau_0_dijet_eta_centr Profile Chi2/NDF from Profile: 0.000000
+ditau_colapprox_x1 Vs tau_0_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 2.550448
+ditau_colapprox_x1 Vs tau_1_dijet_eta_centr Profile Chi2/NDF from Profile: 0.000000
+ditau_colapprox_x1 Vs tau_1_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 1.324183
+ditau_colapprox_x1 Vs ditau_dijet_met_VecSumPt Profile Chi2/NDF from Profile: 9.451268
+ditau_colapprox_x1 Vs ditau_dijet_met_VecSumPt 2D Chi2/NDF from 2D Plot: 1.526381
+ditau_colapprox_x1 Vs ditau_pT_0_over_pT_1 Profile Chi2/NDF from Profile: 0.011412
+ditau_colapprox_x1 Vs ditau_pT_0_over_pT_1 2D Chi2/NDF from 2D Plot: 1.462201
+ditau_colapprox_x1 Vs ditau_colapprox_x0 Profile Chi2/NDF from Profile: -0.000000
+ditau_colapprox_x1 Vs ditau_colapprox_x0 2D Chi2/NDF from 2D Plot: 1.371399
+ditau_colapprox_x1 Vs ditau_colapprox_x1 Profile Chi2/NDF from Profile: -0.000000
+ditau_colapprox_x1 Vs ditau_colapprox_x1 2D Chi2/NDF from 2D Plot: 1.411929
+ditau_colapprox_x1 Vs HT_jets_taus Profile Chi2/NDF from Profile: 3.363370
+ditau_colapprox_x1 Vs HT_jets_taus 2D Chi2/NDF from 2D Plot: 2.469741
+HT_jets_taus Vs ditau_mass_mmc Profile Chi2/NDF from Profile: 0.264207
+HT_jets_taus Vs ditau_mass_mmc 2D Chi2/NDF from 2D Plot: 2.293285
+HT_jets_taus Vs ditau_dR Profile Chi2/NDF from Profile: 0.005649
+HT_jets_taus Vs ditau_dR 2D Chi2/NDF from 2D Plot: 5.022513
+HT_jets_taus Vs met_centrality Profile Chi2/NDF from Profile: 0.011796
+HT_jets_taus Vs met_centrality 2D Chi2/NDF from 2D Plot: 2.358176
+HT_jets_taus Vs dijet_mass Profile Chi2/NDF from Profile: 0.681279
+HT_jets_taus Vs dijet_mass 2D Chi2/NDF from 2D Plot: 2.417780
+HT_jets_taus Vs dijet_eta1_x_eta2 Profile Chi2/NDF from Profile: 0.069698
+HT_jets_taus Vs dijet_eta1_x_eta2 2D Chi2/NDF from 2D Plot: 1.732961
+HT_jets_taus Vs dijet_dEta Profile Chi2/NDF from Profile: 0.016897
+HT_jets_taus Vs dijet_dEta 2D Chi2/NDF from 2D Plot: 1.999840
+HT_jets_taus Vs tau_0_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+HT_jets_taus Vs tau_0_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 2.141730
+HT_jets_taus Vs tau_1_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+HT_jets_taus Vs tau_1_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 1.696682
+HT_jets_taus Vs ditau_dijet_met_VecSumPt Profile Chi2/NDF from Profile: 0.898811
+HT_jets_taus Vs ditau_dijet_met_VecSumPt 2D Chi2/NDF from 2D Plot: 3.599025
+HT_jets_taus Vs ditau_pT_0_over_pT_1 Profile Chi2/NDF from Profile: 0.022834
+HT_jets_taus Vs ditau_pT_0_over_pT_1 2D Chi2/NDF from 2D Plot: 2.131571
+HT_jets_taus Vs ditau_colapprox_x0 Profile Chi2/NDF from Profile: 0.000000
+HT_jets_taus Vs ditau_colapprox_x0 2D Chi2/NDF from 2D Plot: 4.412247
+HT_jets_taus Vs ditau_colapprox_x1 Profile Chi2/NDF from Profile: 0.000000
+HT_jets_taus Vs ditau_colapprox_x1 2D Chi2/NDF from 2D Plot: 2.467485
+HT_jets_taus Vs HT_jets_taus Profile Chi2/NDF from Profile: 0.002148
+HT_jets_taus Vs HT_jets_taus 2D Chi2/NDF from 2D Plot: 3.186667
+ditau_mass_mmc Vs ditau_mass_mmc Profile Chi2/NDF from Profile: 0.026438
+ditau_mass_mmc Vs ditau_mass_mmc 2D Chi2/NDF from 2D Plot: 2.692171
+ditau_mass_mmc Vs ditau_dR Profile Chi2/NDF from Profile: 0.000389
+ditau_mass_mmc Vs ditau_dR 2D Chi2/NDF from 2D Plot: 1.566860
+ditau_mass_mmc Vs met_centrality Profile Chi2/NDF from Profile: -0.056706
+ditau_mass_mmc Vs met_centrality 2D Chi2/NDF from 2D Plot: 1.667927
+ditau_mass_mmc Vs dijet_mass Profile Chi2/NDF from Profile: 17.384746
+ditau_mass_mmc Vs dijet_mass 2D Chi2/NDF from 2D Plot: 0.512305
+ditau_mass_mmc Vs dijet_eta1_x_eta2 Profile Chi2/NDF from Profile: -3.226227
+ditau_mass_mmc Vs dijet_eta1_x_eta2 2D Chi2/NDF from 2D Plot: 0.419045
+ditau_mass_mmc Vs dijet_dEta Profile Chi2/NDF from Profile: 0.349227
+ditau_mass_mmc Vs dijet_dEta 2D Chi2/NDF from 2D Plot: 0.365279
+ditau_mass_mmc Vs tau_0_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+ditau_mass_mmc Vs tau_0_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 0.586657
+ditau_mass_mmc Vs tau_1_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+ditau_mass_mmc Vs tau_1_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 0.533808
+ditau_mass_mmc Vs ditau_dijet_met_VecSumPt Profile Chi2/NDF from Profile: 6.812586
+ditau_mass_mmc Vs ditau_dijet_met_VecSumPt 2D Chi2/NDF from 2D Plot: 0.689080
+ditau_mass_mmc Vs ditau_pT_0_over_pT_1 Profile Chi2/NDF from Profile: 0.007809
+ditau_mass_mmc Vs ditau_pT_0_over_pT_1 2D Chi2/NDF from 2D Plot: 2.205979
+ditau_mass_mmc Vs ditau_colapprox_x0 Profile Chi2/NDF from Profile: 0.015879
+ditau_mass_mmc Vs ditau_colapprox_x0 2D Chi2/NDF from 2D Plot: 1.666857
+ditau_mass_mmc Vs ditau_colapprox_x1 Profile Chi2/NDF from Profile: 0.530848
+ditau_mass_mmc Vs ditau_colapprox_x1 2D Chi2/NDF from 2D Plot: 1.027445
+ditau_mass_mmc Vs HT_jets_taus Profile Chi2/NDF from Profile: 0.616298
+ditau_mass_mmc Vs HT_jets_taus 2D Chi2/NDF from 2D Plot: 1.282617
+ditau_dR Vs ditau_mass_mmc Profile Chi2/NDF from Profile: 0.189118
+ditau_dR Vs ditau_mass_mmc 2D Chi2/NDF from 2D Plot: 1.567293
+ditau_dR Vs ditau_dR Profile Chi2/NDF from Profile: 0.000000
+ditau_dR Vs ditau_dR 2D Chi2/NDF from 2D Plot: 1.338194
+ditau_dR Vs met_centrality Profile Chi2/NDF from Profile: 0.089088
+ditau_dR Vs met_centrality 2D Chi2/NDF from 2D Plot: 1.356946
+ditau_dR Vs dijet_mass Profile Chi2/NDF from Profile: 13.069602
+ditau_dR Vs dijet_mass 2D Chi2/NDF from 2D Plot: 0.482241
+ditau_dR Vs dijet_eta1_x_eta2 Profile Chi2/NDF from Profile: -2.016573
+ditau_dR Vs dijet_eta1_x_eta2 2D Chi2/NDF from 2D Plot: 0.419523
+ditau_dR Vs dijet_dEta Profile Chi2/NDF from Profile: 0.323705
+ditau_dR Vs dijet_dEta 2D Chi2/NDF from 2D Plot: 0.459860
+ditau_dR Vs tau_0_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+ditau_dR Vs tau_0_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 0.473726
+ditau_dR Vs tau_1_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+ditau_dR Vs tau_1_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 0.464717
+ditau_dR Vs ditau_dijet_met_VecSumPt Profile Chi2/NDF from Profile: 11.536251
+ditau_dR Vs ditau_dijet_met_VecSumPt 2D Chi2/NDF from 2D Plot: 0.625754
+ditau_dR Vs ditau_pT_0_over_pT_1 Profile Chi2/NDF from Profile: 0.006880
+ditau_dR Vs ditau_pT_0_over_pT_1 2D Chi2/NDF from 2D Plot: 1.026762
+ditau_dR Vs ditau_colapprox_x0 Profile Chi2/NDF from Profile: 0.044446
+ditau_dR Vs ditau_colapprox_x0 2D Chi2/NDF from 2D Plot: 1.149579
+ditau_dR Vs ditau_colapprox_x1 Profile Chi2/NDF from Profile: 0.335574
+ditau_dR Vs ditau_colapprox_x1 2D Chi2/NDF from 2D Plot: 1.174900
+ditau_dR Vs HT_jets_taus Profile Chi2/NDF from Profile: 4.764672
+ditau_dR Vs HT_jets_taus 2D Chi2/NDF from 2D Plot: 0.938631
+met_centrality Vs ditau_mass_mmc Profile Chi2/NDF from Profile: 0.147946
+met_centrality Vs ditau_mass_mmc 2D Chi2/NDF from 2D Plot: 1.665477
+met_centrality Vs ditau_dR Profile Chi2/NDF from Profile: 0.000333
+met_centrality Vs ditau_dR 2D Chi2/NDF from 2D Plot: 1.365703
+met_centrality Vs met_centrality Profile Chi2/NDF from Profile: 0.000000
+met_centrality Vs met_centrality 2D Chi2/NDF from 2D Plot: 1.693674
+met_centrality Vs dijet_mass Profile Chi2/NDF from Profile: 34.282068
+met_centrality Vs dijet_mass 2D Chi2/NDF from 2D Plot: 0.411325
+met_centrality Vs dijet_eta1_x_eta2 Profile Chi2/NDF from Profile: -2.061600
+met_centrality Vs dijet_eta1_x_eta2 2D Chi2/NDF from 2D Plot: 0.419222
+met_centrality Vs dijet_dEta Profile Chi2/NDF from Profile: 0.710497
+met_centrality Vs dijet_dEta 2D Chi2/NDF from 2D Plot: 0.431761
+met_centrality Vs tau_0_dijet_eta_centr Profile Chi2/NDF from Profile: 0.000000
+met_centrality Vs tau_0_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 0.427561
+met_centrality Vs tau_1_dijet_eta_centr Profile Chi2/NDF from Profile: 0.000000
+met_centrality Vs tau_1_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 0.448457
+met_centrality Vs ditau_dijet_met_VecSumPt Profile Chi2/NDF from Profile: 15.449538
+met_centrality Vs ditau_dijet_met_VecSumPt 2D Chi2/NDF from 2D Plot: 0.456584
+met_centrality Vs ditau_pT_0_over_pT_1 Profile Chi2/NDF from Profile: 0.002294
+met_centrality Vs ditau_pT_0_over_pT_1 2D Chi2/NDF from 2D Plot: 1.356077
+met_centrality Vs ditau_colapprox_x0 Profile Chi2/NDF from Profile: 0.100174
+met_centrality Vs ditau_colapprox_x0 2D Chi2/NDF from 2D Plot: 1.002407
+met_centrality Vs ditau_colapprox_x1 Profile Chi2/NDF from Profile: 0.025288
+met_centrality Vs ditau_colapprox_x1 2D Chi2/NDF from 2D Plot: 1.083668
+met_centrality Vs HT_jets_taus Profile Chi2/NDF from Profile: 0.239445
+met_centrality Vs HT_jets_taus 2D Chi2/NDF from 2D Plot: 2.212536
+dijet_mass Vs ditau_mass_mmc Profile Chi2/NDF from Profile: 20.357189
+dijet_mass Vs ditau_mass_mmc 2D Chi2/NDF from 2D Plot: 0.555357
+dijet_mass Vs ditau_dR Profile Chi2/NDF from Profile: 0.480851
+dijet_mass Vs ditau_dR 2D Chi2/NDF from 2D Plot: 0.517798
+dijet_mass Vs met_centrality Profile Chi2/NDF from Profile: 1.093507
+dijet_mass Vs met_centrality 2D Chi2/NDF from 2D Plot: 0.446527
+dijet_mass Vs dijet_mass Profile Chi2/NDF from Profile: 70.802244
+dijet_mass Vs dijet_mass 2D Chi2/NDF from 2D Plot: 0.988323
+dijet_mass Vs dijet_eta1_x_eta2 Profile Chi2/NDF from Profile: -1.006704
+dijet_mass Vs dijet_eta1_x_eta2 2D Chi2/NDF from 2D Plot: 0.494852
+dijet_mass Vs dijet_dEta Profile Chi2/NDF from Profile: 0.955655
+dijet_mass Vs dijet_dEta 2D Chi2/NDF from 2D Plot: 1.024827
+dijet_mass Vs tau_0_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+dijet_mass Vs tau_0_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 0.479088
+dijet_mass Vs tau_1_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+dijet_mass Vs tau_1_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 0.421131
+dijet_mass Vs ditau_dijet_met_VecSumPt Profile Chi2/NDF from Profile: 7.741218
+dijet_mass Vs ditau_dijet_met_VecSumPt 2D Chi2/NDF from 2D Plot: 0.635290
+dijet_mass Vs ditau_pT_0_over_pT_1 Profile Chi2/NDF from Profile: 0.383219
+dijet_mass Vs ditau_pT_0_over_pT_1 2D Chi2/NDF from 2D Plot: 0.838619
+dijet_mass Vs ditau_colapprox_x0 Profile Chi2/NDF from Profile: 0.421445
+dijet_mass Vs ditau_colapprox_x0 2D Chi2/NDF from 2D Plot: 0.913696
+dijet_mass Vs ditau_colapprox_x1 Profile Chi2/NDF from Profile: 0.686419
+dijet_mass Vs ditau_colapprox_x1 2D Chi2/NDF from 2D Plot: 0.594520
+dijet_mass Vs HT_jets_taus Profile Chi2/NDF from Profile: 31.891142
+dijet_mass Vs HT_jets_taus 2D Chi2/NDF from 2D Plot: 0.663889
+dijet_eta1_x_eta2 Vs ditau_mass_mmc Profile Chi2/NDF from Profile: 19.653676
+dijet_eta1_x_eta2 Vs ditau_mass_mmc 2D Chi2/NDF from 2D Plot: 0.414095
+dijet_eta1_x_eta2 Vs ditau_dR Profile Chi2/NDF from Profile: 0.411676
+dijet_eta1_x_eta2 Vs ditau_dR 2D Chi2/NDF from 2D Plot: 0.395816
+dijet_eta1_x_eta2 Vs met_centrality Profile Chi2/NDF from Profile: 0.725165
+dijet_eta1_x_eta2 Vs met_centrality 2D Chi2/NDF from 2D Plot: 0.398274
+dijet_eta1_x_eta2 Vs dijet_mass Profile Chi2/NDF from Profile: 53.180937
+dijet_eta1_x_eta2 Vs dijet_mass 2D Chi2/NDF from 2D Plot: 0.436477
+dijet_eta1_x_eta2 Vs dijet_eta1_x_eta2 Profile Chi2/NDF from Profile: 29.099471
+dijet_eta1_x_eta2 Vs dijet_eta1_x_eta2 2D Chi2/NDF from 2D Plot: 0.668777
+dijet_eta1_x_eta2 Vs dijet_dEta Profile Chi2/NDF from Profile: 0.701167
+dijet_eta1_x_eta2 Vs dijet_dEta 2D Chi2/NDF from 2D Plot: 0.337917
+dijet_eta1_x_eta2 Vs tau_0_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+dijet_eta1_x_eta2 Vs tau_0_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 0.462151
+dijet_eta1_x_eta2 Vs tau_1_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+dijet_eta1_x_eta2 Vs tau_1_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 0.425797
+dijet_eta1_x_eta2 Vs ditau_dijet_met_VecSumPt Profile Chi2/NDF from Profile: 7.893049
+dijet_eta1_x_eta2 Vs ditau_dijet_met_VecSumPt 2D Chi2/NDF from 2D Plot: 0.572770
+dijet_eta1_x_eta2 Vs ditau_pT_0_over_pT_1 Profile Chi2/NDF from Profile: 0.271962
+dijet_eta1_x_eta2 Vs ditau_pT_0_over_pT_1 2D Chi2/NDF from 2D Plot: 0.453329
+dijet_eta1_x_eta2 Vs ditau_colapprox_x0 Profile Chi2/NDF from Profile: 0.308891
+dijet_eta1_x_eta2 Vs ditau_colapprox_x0 2D Chi2/NDF from 2D Plot: 0.525414
+dijet_eta1_x_eta2 Vs ditau_colapprox_x1 Profile Chi2/NDF from Profile: 0.704499
+dijet_eta1_x_eta2 Vs ditau_colapprox_x1 2D Chi2/NDF from 2D Plot: 0.453229
+dijet_eta1_x_eta2 Vs HT_jets_taus Profile Chi2/NDF from Profile: 25.996143
+dijet_eta1_x_eta2 Vs HT_jets_taus 2D Chi2/NDF from 2D Plot: 0.521127
+dijet_dEta Vs ditau_mass_mmc Profile Chi2/NDF from Profile: 11.869710
+dijet_dEta Vs ditau_mass_mmc 2D Chi2/NDF from 2D Plot: 0.381806
+dijet_dEta Vs ditau_dR Profile Chi2/NDF from Profile: 0.270188
+dijet_dEta Vs ditau_dR 2D Chi2/NDF from 2D Plot: 0.512490
+dijet_dEta Vs met_centrality Profile Chi2/NDF from Profile: 0.158070
+dijet_dEta Vs met_centrality 2D Chi2/NDF from 2D Plot: 0.467116
+dijet_dEta Vs dijet_mass Profile Chi2/NDF from Profile: 33.655522
+dijet_dEta Vs dijet_mass 2D Chi2/NDF from 2D Plot: 1.006321
+dijet_dEta Vs dijet_eta1_x_eta2 Profile Chi2/NDF from Profile: -0.346679
+dijet_dEta Vs dijet_eta1_x_eta2 2D Chi2/NDF from 2D Plot: 0.373547
+dijet_dEta Vs dijet_dEta Profile Chi2/NDF from Profile: 0.531814
+dijet_dEta Vs dijet_dEta 2D Chi2/NDF from 2D Plot: 0.726885
+dijet_dEta Vs tau_0_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+dijet_dEta Vs tau_0_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 0.410903
+dijet_dEta Vs tau_1_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+dijet_dEta Vs tau_1_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 0.408205
+dijet_dEta Vs ditau_dijet_met_VecSumPt Profile Chi2/NDF from Profile: 7.415169
+dijet_dEta Vs ditau_dijet_met_VecSumPt 2D Chi2/NDF from 2D Plot: 0.530602
+dijet_dEta Vs ditau_pT_0_over_pT_1 Profile Chi2/NDF from Profile: 0.183761
+dijet_dEta Vs ditau_pT_0_over_pT_1 2D Chi2/NDF from 2D Plot: 0.519562
+dijet_dEta Vs ditau_colapprox_x0 Profile Chi2/NDF from Profile: 0.178080
+dijet_dEta Vs ditau_colapprox_x0 2D Chi2/NDF from 2D Plot: 0.658532
+dijet_dEta Vs ditau_colapprox_x1 Profile Chi2/NDF from Profile: 0.509724
+dijet_dEta Vs ditau_colapprox_x1 2D Chi2/NDF from 2D Plot: 0.499165
+dijet_dEta Vs HT_jets_taus Profile Chi2/NDF from Profile: 17.101625
+dijet_dEta Vs HT_jets_taus 2D Chi2/NDF from 2D Plot: 0.534656
+tau_0_dijet_eta_centr Vs ditau_mass_mmc Profile Chi2/NDF from Profile: 7.132485
+tau_0_dijet_eta_centr Vs ditau_mass_mmc 2D Chi2/NDF from 2D Plot: 0.600266
+tau_0_dijet_eta_centr Vs ditau_dR Profile Chi2/NDF from Profile: 0.135543
+tau_0_dijet_eta_centr Vs ditau_dR 2D Chi2/NDF from 2D Plot: 0.457115
+tau_0_dijet_eta_centr Vs met_centrality Profile Chi2/NDF from Profile: 0.032226
+tau_0_dijet_eta_centr Vs met_centrality 2D Chi2/NDF from 2D Plot: 0.427826
+tau_0_dijet_eta_centr Vs dijet_mass Profile Chi2/NDF from Profile: 44.848120
+tau_0_dijet_eta_centr Vs dijet_mass 2D Chi2/NDF from 2D Plot: 0.473333
+tau_0_dijet_eta_centr Vs dijet_eta1_x_eta2 Profile Chi2/NDF from Profile: -1.762410
+tau_0_dijet_eta_centr Vs dijet_eta1_x_eta2 2D Chi2/NDF from 2D Plot: 0.474114
+tau_0_dijet_eta_centr Vs dijet_dEta Profile Chi2/NDF from Profile: 0.521493
+tau_0_dijet_eta_centr Vs dijet_dEta 2D Chi2/NDF from 2D Plot: 0.398082
+tau_0_dijet_eta_centr Vs tau_0_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+tau_0_dijet_eta_centr Vs tau_0_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 1.231030
+tau_0_dijet_eta_centr Vs tau_1_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+tau_0_dijet_eta_centr Vs tau_1_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 0.368781
+tau_0_dijet_eta_centr Vs ditau_dijet_met_VecSumPt Profile Chi2/NDF from Profile: 6.015380
+tau_0_dijet_eta_centr Vs ditau_dijet_met_VecSumPt 2D Chi2/NDF from 2D Plot: 0.600930
+tau_0_dijet_eta_centr Vs ditau_pT_0_over_pT_1 Profile Chi2/NDF from Profile: 0.119979
+tau_0_dijet_eta_centr Vs ditau_pT_0_over_pT_1 2D Chi2/NDF from 2D Plot: 0.636936
+tau_0_dijet_eta_centr Vs ditau_colapprox_x0 Profile Chi2/NDF from Profile: 0.067718
+tau_0_dijet_eta_centr Vs ditau_colapprox_x0 2D Chi2/NDF from 2D Plot: 0.789292
+tau_0_dijet_eta_centr Vs ditau_colapprox_x1 Profile Chi2/NDF from Profile: 0.824490
+tau_0_dijet_eta_centr Vs ditau_colapprox_x1 2D Chi2/NDF from 2D Plot: 0.638452
+tau_0_dijet_eta_centr Vs HT_jets_taus Profile Chi2/NDF from Profile: 9.535888
+tau_0_dijet_eta_centr Vs HT_jets_taus 2D Chi2/NDF from 2D Plot: 0.624927
+tau_1_dijet_eta_centr Vs ditau_mass_mmc Profile Chi2/NDF from Profile: 6.337048
+tau_1_dijet_eta_centr Vs ditau_mass_mmc 2D Chi2/NDF from 2D Plot: 0.555665
+tau_1_dijet_eta_centr Vs ditau_dR Profile Chi2/NDF from Profile: 0.145013
+tau_1_dijet_eta_centr Vs ditau_dR 2D Chi2/NDF from 2D Plot: 0.442176
+tau_1_dijet_eta_centr Vs met_centrality Profile Chi2/NDF from Profile: -0.202877
+tau_1_dijet_eta_centr Vs met_centrality 2D Chi2/NDF from 2D Plot: 0.434092
+tau_1_dijet_eta_centr Vs dijet_mass Profile Chi2/NDF from Profile: 40.718011
+tau_1_dijet_eta_centr Vs dijet_mass 2D Chi2/NDF from 2D Plot: 0.388750
+tau_1_dijet_eta_centr Vs dijet_eta1_x_eta2 Profile Chi2/NDF from Profile: -3.576535
+tau_1_dijet_eta_centr Vs dijet_eta1_x_eta2 2D Chi2/NDF from 2D Plot: 0.439905
+tau_1_dijet_eta_centr Vs dijet_dEta Profile Chi2/NDF from Profile: 0.407692
+tau_1_dijet_eta_centr Vs dijet_dEta 2D Chi2/NDF from 2D Plot: 0.394012
+tau_1_dijet_eta_centr Vs tau_0_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+tau_1_dijet_eta_centr Vs tau_0_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 0.367232
+tau_1_dijet_eta_centr Vs tau_1_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+tau_1_dijet_eta_centr Vs tau_1_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 0.743341
+tau_1_dijet_eta_centr Vs ditau_dijet_met_VecSumPt Profile Chi2/NDF from Profile: 6.228658
+tau_1_dijet_eta_centr Vs ditau_dijet_met_VecSumPt 2D Chi2/NDF from 2D Plot: 0.601961
+tau_1_dijet_eta_centr Vs ditau_pT_0_over_pT_1 Profile Chi2/NDF from Profile: 0.083458
+tau_1_dijet_eta_centr Vs ditau_pT_0_over_pT_1 2D Chi2/NDF from 2D Plot: 0.579120
+tau_1_dijet_eta_centr Vs ditau_colapprox_x0 Profile Chi2/NDF from Profile: 0.405960
+tau_1_dijet_eta_centr Vs ditau_colapprox_x0 2D Chi2/NDF from 2D Plot: 0.659988
+tau_1_dijet_eta_centr Vs ditau_colapprox_x1 Profile Chi2/NDF from Profile: 0.288968
+tau_1_dijet_eta_centr Vs ditau_colapprox_x1 2D Chi2/NDF from 2D Plot: 0.577158
+tau_1_dijet_eta_centr Vs HT_jets_taus Profile Chi2/NDF from Profile: 8.670280
+tau_1_dijet_eta_centr Vs HT_jets_taus 2D Chi2/NDF from 2D Plot: 0.527059
+ditau_dijet_met_VecSumPt Vs ditau_mass_mmc Profile Chi2/NDF from Profile: 5.449083
+ditau_dijet_met_VecSumPt Vs ditau_mass_mmc 2D Chi2/NDF from 2D Plot: 0.708190
+ditau_dijet_met_VecSumPt Vs ditau_dR Profile Chi2/NDF from Profile: 0.073311
+ditau_dijet_met_VecSumPt Vs ditau_dR 2D Chi2/NDF from 2D Plot: 0.645808
+ditau_dijet_met_VecSumPt Vs met_centrality Profile Chi2/NDF from Profile: 0.266540
+ditau_dijet_met_VecSumPt Vs met_centrality 2D Chi2/NDF from 2D Plot: 0.493175
+ditau_dijet_met_VecSumPt Vs dijet_mass Profile Chi2/NDF from Profile: 13.270185
+ditau_dijet_met_VecSumPt Vs dijet_mass 2D Chi2/NDF from 2D Plot: 0.598038
+ditau_dijet_met_VecSumPt Vs dijet_eta1_x_eta2 Profile Chi2/NDF from Profile: -0.001998
+ditau_dijet_met_VecSumPt Vs dijet_eta1_x_eta2 2D Chi2/NDF from 2D Plot: 0.634685
+ditau_dijet_met_VecSumPt Vs dijet_dEta Profile Chi2/NDF from Profile: 0.168782
+ditau_dijet_met_VecSumPt Vs dijet_dEta 2D Chi2/NDF from 2D Plot: 0.527736
+ditau_dijet_met_VecSumPt Vs tau_0_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+ditau_dijet_met_VecSumPt Vs tau_0_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 0.628967
+ditau_dijet_met_VecSumPt Vs tau_1_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+ditau_dijet_met_VecSumPt Vs tau_1_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 0.630707
+ditau_dijet_met_VecSumPt Vs ditau_dijet_met_VecSumPt Profile Chi2/NDF from Profile: 12.071202
+ditau_dijet_met_VecSumPt Vs ditau_dijet_met_VecSumPt 2D Chi2/NDF from 2D Plot: 0.870150
+ditau_dijet_met_VecSumPt Vs ditau_pT_0_over_pT_1 Profile Chi2/NDF from Profile: 0.105003
+ditau_dijet_met_VecSumPt Vs ditau_pT_0_over_pT_1 2D Chi2/NDF from 2D Plot: 0.732575
+ditau_dijet_met_VecSumPt Vs ditau_colapprox_x0 Profile Chi2/NDF from Profile: -2.250508
+ditau_dijet_met_VecSumPt Vs ditau_colapprox_x0 2D Chi2/NDF from 2D Plot: 0.861935
+ditau_dijet_met_VecSumPt Vs ditau_colapprox_x1 Profile Chi2/NDF from Profile: 0.970320
+ditau_dijet_met_VecSumPt Vs ditau_colapprox_x1 2D Chi2/NDF from 2D Plot: 0.693293
+ditau_dijet_met_VecSumPt Vs HT_jets_taus Profile Chi2/NDF from Profile: 24.025703
+ditau_dijet_met_VecSumPt Vs HT_jets_taus 2D Chi2/NDF from 2D Plot: 0.925832
+ditau_colapprox_x0 Vs ditau_mass_mmc Profile Chi2/NDF from Profile: 9.255944
+ditau_colapprox_x0 Vs ditau_mass_mmc 2D Chi2/NDF from 2D Plot: 1.663622
+ditau_colapprox_x0 Vs ditau_dR Profile Chi2/NDF from Profile: 0.237163
+ditau_colapprox_x0 Vs ditau_dR 2D Chi2/NDF from 2D Plot: 1.149226
+ditau_colapprox_x0 Vs met_centrality Profile Chi2/NDF from Profile: -0.176208
+ditau_colapprox_x0 Vs met_centrality 2D Chi2/NDF from 2D Plot: 1.004002
+ditau_colapprox_x0 Vs dijet_mass Profile Chi2/NDF from Profile: 25.089582
+ditau_colapprox_x0 Vs dijet_mass 2D Chi2/NDF from 2D Plot: 0.836962
+ditau_colapprox_x0 Vs dijet_eta1_x_eta2 Profile Chi2/NDF from Profile: 2.362155
+ditau_colapprox_x0 Vs dijet_eta1_x_eta2 2D Chi2/NDF from 2D Plot: 0.521959
+ditau_colapprox_x0 Vs dijet_dEta Profile Chi2/NDF from Profile: 0.305637
+ditau_colapprox_x0 Vs dijet_dEta 2D Chi2/NDF from 2D Plot: 0.640873
+ditau_colapprox_x0 Vs tau_0_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+ditau_colapprox_x0 Vs tau_0_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 0.819019
+ditau_colapprox_x0 Vs tau_1_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+ditau_colapprox_x0 Vs tau_1_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 0.661342
+ditau_colapprox_x0 Vs ditau_dijet_met_VecSumPt Profile Chi2/NDF from Profile: 11.059260
+ditau_colapprox_x0 Vs ditau_dijet_met_VecSumPt 2D Chi2/NDF from 2D Plot: 0.844707
+ditau_colapprox_x0 Vs ditau_pT_0_over_pT_1 Profile Chi2/NDF from Profile: 0.140450
+ditau_colapprox_x0 Vs ditau_pT_0_over_pT_1 2D Chi2/NDF from 2D Plot: 2.110547
+ditau_colapprox_x0 Vs ditau_colapprox_x0 Profile Chi2/NDF from Profile: -4.390000
+ditau_colapprox_x0 Vs ditau_colapprox_x0 2D Chi2/NDF from 2D Plot: 1.665858
+ditau_colapprox_x0 Vs ditau_colapprox_x1 Profile Chi2/NDF from Profile: -1.004856
+ditau_colapprox_x0 Vs ditau_colapprox_x1 2D Chi2/NDF from 2D Plot: 0.982828
+ditau_colapprox_x0 Vs HT_jets_taus Profile Chi2/NDF from Profile: 41.987094
+ditau_colapprox_x0 Vs HT_jets_taus 2D Chi2/NDF from 2D Plot: 0.717953
+ditau_colapprox_x1 Vs ditau_mass_mmc Profile Chi2/NDF from Profile: 15.201382
+ditau_colapprox_x1 Vs ditau_mass_mmc 2D Chi2/NDF from 2D Plot: 1.025019
+ditau_colapprox_x1 Vs ditau_dR Profile Chi2/NDF from Profile: 0.451142
+ditau_colapprox_x1 Vs ditau_dR 2D Chi2/NDF from 2D Plot: 1.170552
+ditau_colapprox_x1 Vs met_centrality Profile Chi2/NDF from Profile: -0.381344
+ditau_colapprox_x1 Vs met_centrality 2D Chi2/NDF from 2D Plot: 1.084812
+ditau_colapprox_x1 Vs dijet_mass Profile Chi2/NDF from Profile: 27.603095
+ditau_colapprox_x1 Vs dijet_mass 2D Chi2/NDF from 2D Plot: 0.572186
+ditau_colapprox_x1 Vs dijet_eta1_x_eta2 Profile Chi2/NDF from Profile: 0.796605
+ditau_colapprox_x1 Vs dijet_eta1_x_eta2 2D Chi2/NDF from 2D Plot: 0.478109
+ditau_colapprox_x1 Vs dijet_dEta Profile Chi2/NDF from Profile: 0.232822
+ditau_colapprox_x1 Vs dijet_dEta 2D Chi2/NDF from 2D Plot: 0.504596
+ditau_colapprox_x1 Vs tau_0_dijet_eta_centr Profile Chi2/NDF from Profile: 0.000000
+ditau_colapprox_x1 Vs tau_0_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 0.679547
+ditau_colapprox_x1 Vs tau_1_dijet_eta_centr Profile Chi2/NDF from Profile: 0.000000
+ditau_colapprox_x1 Vs tau_1_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 0.610966
+ditau_colapprox_x1 Vs ditau_dijet_met_VecSumPt Profile Chi2/NDF from Profile: 15.970001
+ditau_colapprox_x1 Vs ditau_dijet_met_VecSumPt 2D Chi2/NDF from 2D Plot: 0.691788
+ditau_colapprox_x1 Vs ditau_pT_0_over_pT_1 Profile Chi2/NDF from Profile: 0.194554
+ditau_colapprox_x1 Vs ditau_pT_0_over_pT_1 2D Chi2/NDF from 2D Plot: 2.308617
+ditau_colapprox_x1 Vs ditau_colapprox_x0 Profile Chi2/NDF from Profile: 1.351134
+ditau_colapprox_x1 Vs ditau_colapprox_x0 2D Chi2/NDF from 2D Plot: 0.986624
+ditau_colapprox_x1 Vs ditau_colapprox_x1 Profile Chi2/NDF from Profile: -0.818364
+ditau_colapprox_x1 Vs ditau_colapprox_x1 2D Chi2/NDF from 2D Plot: 1.244133
+ditau_colapprox_x1 Vs HT_jets_taus Profile Chi2/NDF from Profile: 43.869851
+ditau_colapprox_x1 Vs HT_jets_taus 2D Chi2/NDF from 2D Plot: 1.232684
+HT_jets_taus Vs ditau_mass_mmc Profile Chi2/NDF from Profile: 32.131043
+HT_jets_taus Vs ditau_mass_mmc 2D Chi2/NDF from 2D Plot: 1.282617
+HT_jets_taus Vs ditau_dR Profile Chi2/NDF from Profile: 0.703651
+HT_jets_taus Vs ditau_dR 2D Chi2/NDF from 2D Plot: 0.938631
+HT_jets_taus Vs met_centrality Profile Chi2/NDF from Profile: 0.729227
+HT_jets_taus Vs met_centrality 2D Chi2/NDF from 2D Plot: 2.212741
+HT_jets_taus Vs dijet_mass Profile Chi2/NDF from Profile: 45.192073
+HT_jets_taus Vs dijet_mass 2D Chi2/NDF from 2D Plot: 0.626004
+HT_jets_taus Vs dijet_eta1_x_eta2 Profile Chi2/NDF from Profile: 10.484178
+HT_jets_taus Vs dijet_eta1_x_eta2 2D Chi2/NDF from 2D Plot: 0.525276
+HT_jets_taus Vs dijet_dEta Profile Chi2/NDF from Profile: 0.761149
+HT_jets_taus Vs dijet_dEta 2D Chi2/NDF from 2D Plot: 0.515354
+HT_jets_taus Vs tau_0_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+HT_jets_taus Vs tau_0_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 0.645716
+HT_jets_taus Vs tau_1_dijet_eta_centr Profile Chi2/NDF from Profile: -0.000000
+HT_jets_taus Vs tau_1_dijet_eta_centr 2D Chi2/NDF from 2D Plot: 0.544695
+HT_jets_taus Vs ditau_dijet_met_VecSumPt Profile Chi2/NDF from Profile: 23.005848
+HT_jets_taus Vs ditau_dijet_met_VecSumPt 2D Chi2/NDF from 2D Plot: 0.910617
+HT_jets_taus Vs ditau_pT_0_over_pT_1 Profile Chi2/NDF from Profile: 0.532253
+HT_jets_taus Vs ditau_pT_0_over_pT_1 2D Chi2/NDF from 2D Plot: 1.210484
+ditau_mass_mmc Vs ditau_mass_mmc Profile Chi2/NDF from Profile: 0.036843
+ditau_mass_mmc Vs ditau_mass_mmc 2D Chi2/NDF from 2D Plot: 6.813628
+ditau_mass_mmc Vs ditau_pT_0_over_pT_1 Profile Chi2/NDF from Profile: 0.056092
+ditau_mass_mmc Vs ditau_pT_0_over_pT_1 2D Chi2/NDF from 2D Plot: 3.430136
+ditau_mass_mmc Vs ditau_mass_mmc Profile Chi2/NDF from Profile: 0.036843
+ditau_mass_mmc Vs ditau_mass_mmc 2D Chi2/NDF from 2D Plot: 6.813628
+ditau_pT_0_over_pT_1 Vs ditau_pT_0_over_pT_1 Profile Chi2/NDF from Profile: 0.000002
+ditau_pT_0_over_pT_1 Vs ditau_pT_0_over_pT_1 2D Chi2/NDF from 2D Plot: 1.487445
+ditau_mass_mmc Vs ditau_mass_mmc Profile Chi2/NDF from Profile: 1.194585
+ditau_mass_mmc Vs ditau_mass_mmc 2D Chi2/NDF from 2D Plot: 2.020884
+ditau_mass_mmc Vs ditau_dR Profile Chi2/NDF from Profile: 0.000565
+ditau_mass_mmc Vs ditau_dR 2D Chi2/NDF from 2D Plot: 1.942446
+ditau_dR Vs ditau_mass_mmc Profile Chi2/NDF from Profile: 0.021830
+ditau_dR Vs ditau_mass_mmc 2D Chi2/NDF from 2D Plot: 1.941963
+ditau_dR Vs ditau_dR Profile Chi2/NDF from Profile: 0.000000
+ditau_dR Vs ditau_dR 2D Chi2/NDF from 2D Plot: 0.688754
+ditau_mass_mmc Vs ditau_mass_mmc Profile Chi2/NDF from Profile: 1.194586
+ditau_mass_mmc Vs ditau_mass_mmc 2D Chi2/NDF from 2D Plot: 2.026453
+ditau_mass_mmc Vs ditau_mass_mmc Profile Chi2/NDF from Profile: 1.194586
+ditau_mass_mmc Vs ditau_mass_mmc 2D Chi2/NDF from 2D Plot: 2.026453
+ditau_mass_mmc Vs ditau_mass_mmc Profile Chi2/NDF from Profile: 1.194586
+ditau_mass_mmc Vs ditau_mass_mmc 2D Chi2/NDF from 2D Plot: 2.026453
+ditau_mass_mmc Vs ditau_mass_mmc Profile Chi2/NDF from Profile: 1.194586
+ditau_mass_mmc Vs ditau_mass_mmc 2D Chi2/NDF from 2D Plot: 2.026453
+ditau_mass_mmc Vs ditau_mass_mmc Profile  Profile: 1.194586
+ditau_mass_mmc Vs ditau_mass_mmc 2D  2D Plot: 2.026453
+ditau_mass_mmc Vs ditau_mass_mmc Profile  Profile: 1.194586
+ditau_mass_mmc Vs ditau_mass_mmc 2D  2D Plot: 2.026453
+ditau_mass_mmc Vs ditau_mass_mmc Profile  Profile: 1.194586
+ditau_mass_mmc Vs ditau_mass_mmc 2D  2D Plot: 2.026453
+ditau_mass_mmc Vs ditau_mass_mmc Profile  Profile: 1.192324
+ditau_mass_mmc Vs ditau_mass_mmc 2D  2D Plot: 0.860104
+ditau_mass_mmc Vs ditau_dR Profile  Profile: 0.004768
+ditau_mass_mmc Vs ditau_dR 2D  2D Plot: 1.423581
+ditau_mass_mmc Vs met_centrality Profile  Profile: 0.006876
+ditau_mass_mmc Vs met_centrality 2D  2D Plot: 1.192716
+ditau_mass_mmc Vs dijet_mass Profile  Profile: 20.711890
+ditau_mass_mmc Vs dijet_mass 2D  2D Plot: 3.438662
+ditau_mass_mmc Vs dijet_eta1_x_eta2 Profile  Profile: 0.015108
+ditau_mass_mmc Vs dijet_eta1_x_eta2 2D  2D Plot: 1305.086025
+ditau_mass_mmc Vs dijet_dEta Profile  Profile: 0.139006
+ditau_mass_mmc Vs dijet_dEta 2D  2D Plot: 1.119359
+ditau_mass_mmc Vs tau_0_dijet_eta_centr Profile  Profile: -0.000000
+ditau_mass_mmc Vs tau_0_dijet_eta_centr 2D  2D Plot: 1.317594
+ditau_mass_mmc Vs tau_1_dijet_eta_centr Profile  Profile: -0.000000
+ditau_mass_mmc Vs tau_1_dijet_eta_centr 2D  2D Plot: 0.883834
+ditau_mass_mmc Vs ditau_dijet_met_VecSumPt Profile  Profile: 4.322379
+ditau_mass_mmc Vs ditau_dijet_met_VecSumPt 2D  2D Plot: 1.514500
+ditau_dR Vs ditau_mass_mmc Profile  Profile: 0.116946
+ditau_dR Vs ditau_mass_mmc 2D  2D Plot: 1.424020
+ditau_dR Vs ditau_dR Profile  Profile: 0.000000
+ditau_dR Vs ditau_dR 2D  2D Plot: 0.694340
+ditau_dR Vs met_centrality Profile  Profile: 0.006965
+ditau_dR Vs met_centrality 2D  2D Plot: 0.656537
+ditau_dR Vs dijet_mass Profile  Profile: 0.995783
+ditau_dR Vs dijet_mass 2D  2D Plot: 2.943208
+ditau_dR Vs dijet_eta1_x_eta2 Profile  Profile: -0.091332
+ditau_dR Vs dijet_eta1_x_eta2 2D  2D Plot: 0.657417
+ditau_dR Vs dijet_dEta Profile  Profile: 0.004908
+ditau_dR Vs dijet_dEta 2D  2D Plot: 2.550925
+ditau_dR Vs tau_0_dijet_eta_centr Profile  Profile: -0.000000
+ditau_dR Vs tau_0_dijet_eta_centr 2D  2D Plot: 0.663662
+ditau_dR Vs tau_1_dijet_eta_centr Profile  Profile: -0.000000
+ditau_dR Vs tau_1_dijet_eta_centr 2D  2D Plot: 0.560620
+ditau_dR Vs ditau_dijet_met_VecSumPt Profile  Profile: 0.451535
+ditau_dR Vs ditau_dijet_met_VecSumPt 2D  2D Plot: 1.061135
+met_centrality Vs ditau_mass_mmc Profile  Profile: 12.256768
+met_centrality Vs ditau_mass_mmc 2D  2D Plot: 1.198526
+met_centrality Vs ditau_dR Profile  Profile: 0.347429
+met_centrality Vs ditau_dR 2D  2D Plot: 0.639982
+met_centrality Vs met_centrality Profile  Profile: -1.149401
+met_centrality Vs met_centrality 2D  2D Plot: 0.493321
+met_centrality Vs dijet_mass Profile  Profile: 46.869531
+met_centrality Vs dijet_mass 2D  2D Plot: 2.813900
+met_centrality Vs dijet_eta1_x_eta2 Profile  Profile: -4.244665
+met_centrality Vs dijet_eta1_x_eta2 2D  2D Plot: 0.759242
+met_centrality Vs dijet_dEta Profile  Profile: 0.457879
+met_centrality Vs dijet_dEta 2D  2D Plot: 0.745358
+met_centrality Vs tau_0_dijet_eta_centr Profile  Profile: -0.000000
+met_centrality Vs tau_0_dijet_eta_centr 2D  2D Plot: 0.681234
+met_centrality Vs tau_1_dijet_eta_centr Profile  Profile: -0.000000
+met_centrality Vs tau_1_dijet_eta_centr 2D  2D Plot: 0.740150
+met_centrality Vs ditau_dijet_met_VecSumPt Profile  Profile: 7.007723
+met_centrality Vs ditau_dijet_met_VecSumPt 2D  2D Plot: 1.212750
+dijet_mass Vs ditau_mass_mmc Profile  Profile: 0.239384
+dijet_mass Vs ditau_mass_mmc 2D  2D Plot: 3.090446
+dijet_mass Vs ditau_dR Profile  Profile: 0.006528
+dijet_mass Vs ditau_dR 2D  2D Plot: 2.698127
+dijet_mass Vs met_centrality Profile  Profile: 0.003032
+dijet_mass Vs met_centrality 2D  2D Plot: 2.639922
+dijet_mass Vs dijet_mass Profile  Profile: 0.004614
+dijet_mass Vs dijet_mass 2D  2D Plot: 0.667062
+dijet_mass Vs dijet_eta1_x_eta2 Profile  Profile: -0.165489
+dijet_mass Vs dijet_eta1_x_eta2 2D  2D Plot: 2.805152
+dijet_mass Vs dijet_dEta Profile  Profile: 0.000953
+dijet_mass Vs dijet_dEta 2D  2D Plot: 3.726060
+dijet_mass Vs tau_0_dijet_eta_centr Profile  Profile: -0.000000
+dijet_mass Vs tau_0_dijet_eta_centr 2D  2D Plot: 0.872552
+dijet_mass Vs tau_1_dijet_eta_centr Profile  Profile: -0.000000
+dijet_mass Vs tau_1_dijet_eta_centr 2D  2D Plot: 0.839387
+dijet_mass Vs ditau_dijet_met_VecSumPt Profile  Profile: 0.716403
+dijet_mass Vs ditau_dijet_met_VecSumPt 2D  2D Plot: 3.829683
+dijet_eta1_x_eta2 Vs ditau_mass_mmc Profile  Profile: 6.540961
+dijet_eta1_x_eta2 Vs ditau_mass_mmc 2D  2D Plot: 1300.566539
+dijet_eta1_x_eta2 Vs ditau_dR Profile  Profile: 0.136485
+dijet_eta1_x_eta2 Vs ditau_dR 2D  2D Plot: 0.648273
+dijet_eta1_x_eta2 Vs met_centrality Profile  Profile: 0.076524
+dijet_eta1_x_eta2 Vs met_centrality 2D  2D Plot: 0.758574
+dijet_eta1_x_eta2 Vs dijet_mass Profile  Profile: 42.789285
+dijet_eta1_x_eta2 Vs dijet_mass 2D  2D Plot: 3.021759
+dijet_eta1_x_eta2 Vs dijet_eta1_x_eta2 Profile  Profile: -10.404341
+dijet_eta1_x_eta2 Vs dijet_eta1_x_eta2 2D  2D Plot: 0.878633
+dijet_eta1_x_eta2 Vs dijet_dEta Profile  Profile: 0.158514
+dijet_eta1_x_eta2 Vs dijet_dEta 2D  2D Plot: 0.683307
+dijet_eta1_x_eta2 Vs tau_0_dijet_eta_centr Profile  Profile: -0.000000
+dijet_eta1_x_eta2 Vs tau_0_dijet_eta_centr 2D  2D Plot: 0.710241
+dijet_eta1_x_eta2 Vs tau_1_dijet_eta_centr Profile  Profile: -0.000000
+dijet_eta1_x_eta2 Vs tau_1_dijet_eta_centr 2D  2D Plot: 1512.682878
+dijet_eta1_x_eta2 Vs ditau_dijet_met_VecSumPt Profile  Profile: 2.738870
+dijet_eta1_x_eta2 Vs ditau_dijet_met_VecSumPt 2D  2D Plot: 1.142052
+dijet_dEta Vs ditau_mass_mmc Profile  Profile: 0.150476
+dijet_dEta Vs ditau_mass_mmc 2D  2D Plot: 1.134901
+dijet_dEta Vs ditau_dR Profile  Profile: 0.001470
+dijet_dEta Vs ditau_dR 2D  2D Plot: 2.606775
+dijet_dEta Vs met_centrality Profile  Profile: 0.001211
+dijet_dEta Vs met_centrality 2D  2D Plot: 0.738419
+dijet_dEta Vs dijet_mass Profile  Profile: 0.510057
+dijet_dEta Vs dijet_mass 2D  2D Plot: 4.022171
+dijet_dEta Vs dijet_eta1_x_eta2 Profile  Profile: -0.007831
+dijet_dEta Vs dijet_eta1_x_eta2 2D  2D Plot: 0.678665
+dijet_dEta Vs dijet_dEta Profile  Profile: 0.000030
+dijet_dEta Vs dijet_dEta 2D  2D Plot: 0.763298
+dijet_dEta Vs tau_0_dijet_eta_centr Profile  Profile: -0.000000
+dijet_dEta Vs tau_0_dijet_eta_centr 2D  2D Plot: 0.752838
+dijet_dEta Vs tau_1_dijet_eta_centr Profile  Profile: -0.000000
+dijet_dEta Vs tau_1_dijet_eta_centr 2D  2D Plot: 0.640404
+dijet_dEta Vs ditau_dijet_met_VecSumPt Profile  Profile: 0.561470
+dijet_dEta Vs ditau_dijet_met_VecSumPt 2D  2D Plot: 0.838789
+tau_0_dijet_eta_centr Vs ditau_mass_mmc Profile  Profile: 0.186855
+tau_0_dijet_eta_centr Vs ditau_mass_mmc 2D  2D Plot: 1.307283
+tau_0_dijet_eta_centr Vs ditau_dR Profile  Profile: 0.003692
+tau_0_dijet_eta_centr Vs ditau_dR 2D  2D Plot: 0.655792
+tau_0_dijet_eta_centr Vs met_centrality Profile  Profile: 0.004434
+tau_0_dijet_eta_centr Vs met_centrality 2D  2D Plot: 0.681960
+tau_0_dijet_eta_centr Vs dijet_mass Profile  Profile: 1.754038
+tau_0_dijet_eta_centr Vs dijet_mass 2D  2D Plot: 0.879169
+tau_0_dijet_eta_centr Vs dijet_eta1_x_eta2 Profile  Profile: -0.070409
+tau_0_dijet_eta_centr Vs dijet_eta1_x_eta2 2D  2D Plot: 0.706196
+tau_0_dijet_eta_centr Vs dijet_dEta Profile  Profile: 0.004439
+tau_0_dijet_eta_centr Vs dijet_dEta 2D  2D Plot: 0.743476
+tau_0_dijet_eta_centr Vs tau_0_dijet_eta_centr Profile  Profile: -0.000000
+tau_0_dijet_eta_centr Vs tau_0_dijet_eta_centr 2D  2D Plot: 0.458423
+tau_0_dijet_eta_centr Vs tau_1_dijet_eta_centr Profile  Profile: -0.000000
+tau_0_dijet_eta_centr Vs tau_1_dijet_eta_centr 2D  2D Plot: 0.832713
+tau_0_dijet_eta_centr Vs ditau_dijet_met_VecSumPt Profile  Profile: 0.509422
+tau_0_dijet_eta_centr Vs ditau_dijet_met_VecSumPt 2D  2D Plot: 1.167449
+tau_1_dijet_eta_centr Vs ditau_mass_mmc Profile  Profile: 0.172483
+tau_1_dijet_eta_centr Vs ditau_mass_mmc 2D  2D Plot: 0.887772
+tau_1_dijet_eta_centr Vs ditau_dR Profile  Profile: 0.004031
+tau_1_dijet_eta_centr Vs ditau_dR 2D  2D Plot: 0.556441
+tau_1_dijet_eta_centr Vs met_centrality Profile  Profile: 0.007592
+tau_1_dijet_eta_centr Vs met_centrality 2D  2D Plot: 0.740136
+tau_1_dijet_eta_centr Vs dijet_mass Profile  Profile: 1.798018
+tau_1_dijet_eta_centr Vs dijet_mass 2D  2D Plot: 0.867074
+tau_1_dijet_eta_centr Vs dijet_eta1_x_eta2 Profile  Profile: -0.095722
+tau_1_dijet_eta_centr Vs dijet_eta1_x_eta2 2D  2D Plot: 1590.967945
+tau_1_dijet_eta_centr Vs dijet_dEta Profile  Profile: 0.004002
+tau_1_dijet_eta_centr Vs dijet_dEta 2D  2D Plot: 0.639764
+tau_1_dijet_eta_centr Vs tau_0_dijet_eta_centr Profile  Profile: -0.000000
+tau_1_dijet_eta_centr Vs tau_0_dijet_eta_centr 2D  2D Plot: 0.834628
+tau_1_dijet_eta_centr Vs tau_1_dijet_eta_centr Profile  Profile: -0.000000
+tau_1_dijet_eta_centr Vs tau_1_dijet_eta_centr 2D  2D Plot: 0.661032
+tau_1_dijet_eta_centr Vs ditau_dijet_met_VecSumPt Profile  Profile: 0.674748
+tau_1_dijet_eta_centr Vs ditau_dijet_met_VecSumPt 2D  2D Plot: 1.239683
+ditau_dijet_met_VecSumPt Vs ditau_mass_mmc Profile  Profile: 0.165809
+ditau_dijet_met_VecSumPt Vs ditau_mass_mmc 2D  2D Plot: 1.532145
+ditau_dijet_met_VecSumPt Vs ditau_dR Profile  Profile: 0.003963
+ditau_dijet_met_VecSumPt Vs ditau_dR 2D  2D Plot: 1.061116
+ditau_dijet_met_VecSumPt Vs met_centrality Profile  Profile: 0.012131
+ditau_dijet_met_VecSumPt Vs met_centrality 2D  2D Plot: 1.203070
+ditau_dijet_met_VecSumPt Vs dijet_mass Profile  Profile: 1.942469
+ditau_dijet_met_VecSumPt Vs dijet_mass 2D  2D Plot: 3.913004
+ditau_dijet_met_VecSumPt Vs dijet_eta1_x_eta2 Profile  Profile: -0.033664
+ditau_dijet_met_VecSumPt Vs dijet_eta1_x_eta2 2D  2D Plot: 1.134389
+ditau_dijet_met_VecSumPt Vs dijet_dEta Profile  Profile: 0.004943
+ditau_dijet_met_VecSumPt Vs dijet_dEta 2D  2D Plot: 0.836586
+ditau_dijet_met_VecSumPt Vs tau_0_dijet_eta_centr Profile  Profile: -0.000000
+ditau_dijet_met_VecSumPt Vs tau_0_dijet_eta_centr 2D  2D Plot: 1.176411
+ditau_dijet_met_VecSumPt Vs tau_1_dijet_eta_centr Profile  Profile: -0.000000
+ditau_dijet_met_VecSumPt Vs tau_1_dijet_eta_centr 2D  2D Plot: 1.237444
+ditau_dijet_met_VecSumPt Vs ditau_dijet_met_VecSumPt Profile  Profile: 0.003899
+ditau_dijet_met_VecSumPt Vs ditau_dijet_met_VecSumPt 2D  2D Plot: 0.777764
+ditau_mass_mmc Vs ditau_mass_mmc Profile  Profile: 1.192324
+ditau_mass_mmc Vs ditau_mass_mmc 2D  2D Plot: 0.860104
+ditau_mass_mmc Vs ditau_dR Profile  Profile: 0.004768
+ditau_mass_mmc Vs ditau_dR 2D  2D Plot: 1.423581
+ditau_mass_mmc Vs met_centrality Profile  Profile: 0.006876
+ditau_mass_mmc Vs met_centrality 2D  2D Plot: 1.192716
+ditau_mass_mmc Vs ditau_pT_0_over_pT_1 Profile  Profile: 0.099668
+ditau_mass_mmc Vs ditau_pT_0_over_pT_1 2D  2D Plot: 1.430009
+ditau_mass_mmc Vs ditau_colapprox_x0 Profile  Profile: 0.000000
+ditau_mass_mmc Vs ditau_colapprox_x0 2D  2D Plot: 0.978276
+ditau_mass_mmc Vs ditau_colapprox_x1 Profile  Profile: 0.297284
+ditau_mass_mmc Vs ditau_colapprox_x1 2D  2D Plot: 1.192320
+ditau_mass_mmc Vs HT_jets_taus Profile  Profile: 23.025258
+ditau_mass_mmc Vs HT_jets_taus 2D  2D Plot: 1.358440
+ditau_dR Vs ditau_mass_mmc Profile  Profile: 0.116946
+ditau_dR Vs ditau_mass_mmc 2D  2D Plot: 1.424020
+ditau_dR Vs ditau_dR Profile  Profile: 0.000000
+ditau_dR Vs ditau_dR 2D  2D Plot: 0.694340
+ditau_dR Vs met_centrality Profile  Profile: 0.006965
+ditau_dR Vs met_centrality 2D  2D Plot: 0.656537
+ditau_dR Vs ditau_pT_0_over_pT_1 Profile  Profile: 0.003591
+ditau_dR Vs ditau_pT_0_over_pT_1 2D  2D Plot: 0.898023
+ditau_dR Vs ditau_colapprox_x0 Profile  Profile: -0.000000
+ditau_dR Vs ditau_colapprox_x0 2D  2D Plot: 0.930181
+ditau_dR Vs ditau_colapprox_x1 Profile  Profile: -0.000000
+ditau_dR Vs ditau_colapprox_x1 2D  2D Plot: 1.193429
+ditau_dR Vs HT_jets_taus Profile  Profile: 0.398923
+ditau_dR Vs HT_jets_taus 2D  2D Plot: 0.892583
+met_centrality Vs ditau_mass_mmc Profile  Profile: 12.256768
+met_centrality Vs ditau_mass_mmc 2D  2D Plot: 1.198526
+met_centrality Vs ditau_dR Profile  Profile: 0.347429
+met_centrality Vs ditau_dR 2D  2D Plot: 0.639982
+met_centrality Vs met_centrality Profile  Profile: -1.149401
+met_centrality Vs met_centrality 2D  2D Plot: 0.493321
+met_centrality Vs ditau_pT_0_over_pT_1 Profile  Profile: 0.182954
+met_centrality Vs ditau_pT_0_over_pT_1 2D  2D Plot: 0.853374
+met_centrality Vs ditau_colapprox_x0 Profile  Profile: 0.508818
+met_centrality Vs ditau_colapprox_x0 2D  2D Plot: 0.962665
+met_centrality Vs ditau_colapprox_x1 Profile  Profile: -1.308177
+met_centrality Vs ditau_colapprox_x1 2D  2D Plot: 0.953558
+met_centrality Vs HT_jets_taus Profile  Profile: 29.784997
+met_centrality Vs HT_jets_taus 2D  2D Plot: 1.019672
+ditau_pT_0_over_pT_1 Vs ditau_mass_mmc Profile  Profile: 0.094525
+ditau_pT_0_over_pT_1 Vs ditau_mass_mmc 2D  2D Plot: 1.453068
+ditau_pT_0_over_pT_1 Vs ditau_dR Profile  Profile: 0.002774
+ditau_pT_0_over_pT_1 Vs ditau_dR 2D  2D Plot: 0.902535
+ditau_pT_0_over_pT_1 Vs met_centrality Profile  Profile: 0.012580
+ditau_pT_0_over_pT_1 Vs met_centrality 2D  2D Plot: 0.849274
+ditau_pT_0_over_pT_1 Vs ditau_pT_0_over_pT_1 Profile  Profile: 0.000828
+ditau_pT_0_over_pT_1 Vs ditau_pT_0_over_pT_1 2D  2D Plot: 0.985384
+ditau_mass_mmc Vs ditau_mass_mmc Profile  Profile: 0.001960
+ditau_mass_mmc Vs ditau_mass_mmc 2D  2D Plot: 1.093268
+ditau_mass_mmc Vs ditau_dR Profile  Profile: 0.005887
+ditau_mass_mmc Vs ditau_dR 2D  2D Plot: 0.891235
+ditau_dR Vs ditau_mass_mmc Profile  Profile: 0.062539
+ditau_dR Vs ditau_mass_mmc 2D  2D Plot: 0.894694
+ditau_dR Vs ditau_dR Profile  Profile: 0.000000
+ditau_dR Vs ditau_dR 2D  2D Plot: 1.075384
+MMC_resonance_x0 Vs MMC_resonance_x0 Profile  Profile: -0.000000
+MMC_resonance_x0 Vs MMC_resonance_x0 2D  2D Plot: 0.447579
+ditau_mass_mmc Vs ditau_mass_mmc Profile  Profile: 0.001960
+ditau_mass_mmc Vs ditau_mass_mmc 2D  2D Plot: 1.093268
+ditau_mass_mmc Vs ditau_dR Profile  Profile: 0.005887
+ditau_mass_mmc Vs ditau_dR 2D  2D Plot: 0.891235
+ditau_mass_mmc Vs met_centrality Profile  Profile: 0.003536
+ditau_mass_mmc Vs met_centrality 2D  2D Plot: 0.901838
+ditau_mass_mmc Vs dijet_mass Profile  Profile: 3.067943
+ditau_mass_mmc Vs dijet_mass 2D  2D Plot: 4.640212
+ditau_mass_mmc Vs dijet_eta1_x_eta2 Profile  Profile: -0.112843
+ditau_mass_mmc Vs dijet_eta1_x_eta2 2D  2D Plot: 0.903473
+ditau_mass_mmc Vs dijet_dEta Profile  Profile: 0.012615
+ditau_mass_mmc Vs dijet_dEta 2D  2D Plot: 0.726729
+ditau_mass_mmc Vs tau_0_dijet_eta_centr Profile  Profile: -0.000000
+ditau_mass_mmc Vs tau_0_dijet_eta_centr 2D  2D Plot: 0.914983
+ditau_mass_mmc Vs tau_1_dijet_eta_centr Profile  Profile: -0.000000
+ditau_mass_mmc Vs tau_1_dijet_eta_centr 2D  2D Plot: 0.803906
+ditau_mass_mmc Vs ditau_dijet_met_VecSumPt Profile  Profile: 0.902076
+ditau_mass_mmc Vs ditau_dijet_met_VecSumPt 2D  2D Plot: 1.040518
+ditau_dR Vs ditau_mass_mmc Profile  Profile: 0.012380
+ditau_dR Vs ditau_mass_mmc 2D  2D Plot: 0.894694
+ditau_dR Vs ditau_dR Profile  Profile: 0.000015
+ditau_dR Vs ditau_dR 2D  2D Plot: 1.075384
+ditau_dR Vs met_centrality Profile  Profile: 0.000225
+ditau_dR Vs met_centrality 2D  2D Plot: 0.801846
+ditau_dR Vs dijet_mass Profile  Profile: 0.457231
+ditau_dR Vs dijet_mass 2D  2D Plot: 2.495356
+ditau_dR Vs dijet_eta1_x_eta2 Profile  Profile: -0.005758
+ditau_dR Vs dijet_eta1_x_eta2 2D  2D Plot: 0.719032
+ditau_dR Vs dijet_dEta Profile  Profile: 0.000633
+ditau_dR Vs dijet_dEta 2D  2D Plot: 2.266122
+ditau_dR Vs tau_0_dijet_eta_centr Profile  Profile: -0.000000
+ditau_dR Vs tau_0_dijet_eta_centr 2D  2D Plot: 1.769094
+ditau_dR Vs tau_1_dijet_eta_centr Profile  Profile: -0.000000
+ditau_dR Vs tau_1_dijet_eta_centr 2D  2D Plot: 0.608965
+ditau_dR Vs ditau_dijet_met_VecSumPt Profile  Profile: 0.145576
+ditau_dR Vs ditau_dijet_met_VecSumPt 2D  2D Plot: 0.965013
+met_centrality Vs ditau_mass_mmc Profile  Profile: 12.612719
+met_centrality Vs ditau_mass_mmc 2D  2D Plot: 0.902199
+met_centrality Vs ditau_dR Profile  Profile: 0.348284
+met_centrality Vs ditau_dR 2D  2D Plot: 0.766165
+met_centrality Vs met_centrality Profile  Profile: -1.149401
+met_centrality Vs met_centrality 2D  2D Plot: 0.474839
+met_centrality Vs dijet_mass Profile  Profile: 53.458122
+met_centrality Vs dijet_mass 2D  2D Plot: 2.425750
+met_centrality Vs dijet_eta1_x_eta2 Profile  Profile: -1.961721
+met_centrality Vs dijet_eta1_x_eta2 2D  2D Plot: 0.649786
+met_centrality Vs dijet_dEta Profile  Profile: 0.497310
+met_centrality Vs dijet_dEta 2D  2D Plot: 0.745529
+met_centrality Vs tau_0_dijet_eta_centr Profile  Profile: -0.000000
+met_centrality Vs tau_0_dijet_eta_centr 2D  2D Plot: 0.751201
+met_centrality Vs tau_1_dijet_eta_centr Profile  Profile: -0.000000
+met_centrality Vs tau_1_dijet_eta_centr 2D  2D Plot: 0.691497
+met_centrality Vs ditau_dijet_met_VecSumPt Profile  Profile: 6.008354
+met_centrality Vs ditau_dijet_met_VecSumPt 2D  2D Plot: 5.445517
+dijet_mass Vs ditau_mass_mmc Profile  Profile: 0.155073
+dijet_mass Vs ditau_mass_mmc 2D  2D Plot: 4.263270
+dijet_mass Vs ditau_dR Profile  Profile: 0.006003
+dijet_mass Vs ditau_dR 2D  2D Plot: 2.194690
+dijet_mass Vs met_centrality Profile  Profile: 0.014903
+dijet_mass Vs met_centrality 2D  2D Plot: 2.212531
+dijet_mass Vs dijet_mass Profile  Profile: 0.006937
+dijet_mass Vs dijet_mass 2D  2D Plot: 0.632256
+dijet_mass Vs dijet_eta1_x_eta2 Profile  Profile: -0.164000
+dijet_mass Vs dijet_eta1_x_eta2 2D  2D Plot: 2.394594
+dijet_mass Vs dijet_dEta Profile  Profile: 0.000700
+dijet_mass Vs dijet_dEta 2D  2D Plot: 2.927346
+dijet_mass Vs tau_0_dijet_eta_centr Profile  Profile: -0.000000
+dijet_mass Vs tau_0_dijet_eta_centr 2D  2D Plot: 2.140713
+dijet_mass Vs tau_1_dijet_eta_centr Profile  Profile: -0.000000
+dijet_mass Vs tau_1_dijet_eta_centr 2D  2D Plot: 0.765723
+dijet_mass Vs ditau_dijet_met_VecSumPt Profile  Profile: 0.758140
+dijet_mass Vs ditau_dijet_met_VecSumPt 2D  2D Plot: 3.514265
+dijet_eta1_x_eta2 Vs ditau_mass_mmc Profile  Profile: 8.910271
+dijet_eta1_x_eta2 Vs ditau_mass_mmc 2D  2D Plot: 0.917828
+dijet_eta1_x_eta2 Vs ditau_dR Profile  Profile: 0.188916
+dijet_eta1_x_eta2 Vs ditau_dR 2D  2D Plot: 0.701211
+dijet_eta1_x_eta2 Vs met_centrality Profile  Profile: 0.065557
+dijet_eta1_x_eta2 Vs met_centrality 2D  2D Plot: 0.643868
+dijet_eta1_x_eta2 Vs dijet_mass Profile  Profile: 72.778440
+dijet_eta1_x_eta2 Vs dijet_mass 2D  2D Plot: 2.620497
+dijet_eta1_x_eta2 Vs dijet_eta1_x_eta2 Profile  Profile: -23.239123
+dijet_eta1_x_eta2 Vs dijet_eta1_x_eta2 2D  2D Plot: 0.571113
+dijet_eta1_x_eta2 Vs dijet_dEta Profile  Profile: 0.231232
+dijet_eta1_x_eta2 Vs dijet_dEta 2D  2D Plot: 0.609181
+dijet_eta1_x_eta2 Vs tau_0_dijet_eta_centr Profile  Profile: -0.000000
+dijet_eta1_x_eta2 Vs tau_0_dijet_eta_centr 2D  2D Plot: 0.617104
+dijet_eta1_x_eta2 Vs tau_1_dijet_eta_centr Profile  Profile: -0.000000
+dijet_eta1_x_eta2 Vs tau_1_dijet_eta_centr 2D  2D Plot: 0.705332
+dijet_eta1_x_eta2 Vs ditau_dijet_met_VecSumPt Profile  Profile: 3.353759
+dijet_eta1_x_eta2 Vs ditau_dijet_met_VecSumPt 2D  2D Plot: 12.283067
+dijet_dEta Vs ditau_mass_mmc Profile  Profile: 0.169953
+dijet_dEta Vs ditau_mass_mmc 2D  2D Plot: 0.726217
+dijet_dEta Vs ditau_dR Profile  Profile: 0.009992
+dijet_dEta Vs ditau_dR 2D  2D Plot: 2.304395
+dijet_dEta Vs met_centrality Profile  Profile: 0.005528
+dijet_dEta Vs met_centrality 2D  2D Plot: 0.747277
+dijet_dEta Vs dijet_mass Profile  Profile: 47.844066
+dijet_dEta Vs dijet_mass 2D  2D Plot: 3.281313
+dijet_dEta Vs dijet_eta1_x_eta2 Profile  Profile: -0.014962
+dijet_dEta Vs dijet_eta1_x_eta2 2D  2D Plot: 0.608498
+dijet_dEta Vs dijet_dEta Profile  Profile: 0.000030
+dijet_dEta Vs dijet_dEta 2D  2D Plot: 0.660642
+dijet_dEta Vs tau_0_dijet_eta_centr Profile  Profile: -0.000000
+dijet_dEta Vs tau_0_dijet_eta_centr 2D  2D Plot: 0.637851
+dijet_dEta Vs tau_1_dijet_eta_centr Profile  Profile: -0.000000
+dijet_dEta Vs tau_1_dijet_eta_centr 2D  2D Plot: 0.582807
+dijet_dEta Vs ditau_dijet_met_VecSumPt Profile  Profile: 0.578979
+dijet_dEta Vs ditau_dijet_met_VecSumPt 2D  2D Plot: 0.842733
+tau_0_dijet_eta_centr Vs ditau_mass_mmc Profile  Profile: 0.036225
+tau_0_dijet_eta_centr Vs ditau_mass_mmc 2D  2D Plot: 0.904219
+tau_0_dijet_eta_centr Vs ditau_dR Profile  Profile: 0.004422
+tau_0_dijet_eta_centr Vs ditau_dR 2D  2D Plot: 1.651683
+tau_0_dijet_eta_centr Vs met_centrality Profile  Profile: 0.005396
+tau_0_dijet_eta_centr Vs met_centrality 2D  2D Plot: 0.767542
+tau_0_dijet_eta_centr Vs dijet_mass Profile  Profile: 1.907317
+tau_0_dijet_eta_centr Vs dijet_mass 2D  2D Plot: 2.121897
+tau_0_dijet_eta_centr Vs dijet_eta1_x_eta2 Profile  Profile: -0.104957
+tau_0_dijet_eta_centr Vs dijet_eta1_x_eta2 2D  2D Plot: 0.618500
+tau_0_dijet_eta_centr Vs dijet_dEta Profile  Profile: 0.005070
+tau_0_dijet_eta_centr Vs dijet_dEta 2D  2D Plot: 0.630333
+tau_0_dijet_eta_centr Vs tau_0_dijet_eta_centr Profile  Profile: -0.000000
+tau_0_dijet_eta_centr Vs tau_0_dijet_eta_centr 2D  2D Plot: 0.721185
+tau_0_dijet_eta_centr Vs tau_1_dijet_eta_centr Profile  Profile: -0.000000
+tau_0_dijet_eta_centr Vs tau_1_dijet_eta_centr 2D  2D Plot: 0.761045
+tau_0_dijet_eta_centr Vs ditau_dijet_met_VecSumPt Profile  Profile: 0.885310
+tau_0_dijet_eta_centr Vs ditau_dijet_met_VecSumPt 2D  2D Plot: 1.285894
+tau_1_dijet_eta_centr Vs ditau_mass_mmc Profile  Profile: 0.139813
+tau_1_dijet_eta_centr Vs ditau_mass_mmc 2D  2D Plot: 0.800051
+tau_1_dijet_eta_centr Vs ditau_dR Profile  Profile: 0.004073
+tau_1_dijet_eta_centr Vs ditau_dR 2D  2D Plot: 0.601464
+tau_1_dijet_eta_centr Vs met_centrality Profile  Profile: 0.007661
+tau_1_dijet_eta_centr Vs met_centrality 2D  2D Plot: 0.696755
+tau_1_dijet_eta_centr Vs dijet_mass Profile  Profile: 1.078039
+tau_1_dijet_eta_centr Vs dijet_mass 2D  2D Plot: 0.804784
+tau_1_dijet_eta_centr Vs dijet_eta1_x_eta2 Profile  Profile: -0.071168
+tau_1_dijet_eta_centr Vs dijet_eta1_x_eta2 2D  2D Plot: 0.720761
+tau_1_dijet_eta_centr Vs dijet_dEta Profile  Profile: 0.003093
+tau_1_dijet_eta_centr Vs dijet_dEta 2D  2D Plot: 0.583656
+tau_1_dijet_eta_centr Vs tau_0_dijet_eta_centr Profile  Profile: -0.000000
+tau_1_dijet_eta_centr Vs tau_0_dijet_eta_centr 2D  2D Plot: 0.776360
+tau_1_dijet_eta_centr Vs tau_1_dijet_eta_centr Profile  Profile: -0.000000
+tau_1_dijet_eta_centr Vs tau_1_dijet_eta_centr 2D  2D Plot: 0.576027
+tau_1_dijet_eta_centr Vs ditau_dijet_met_VecSumPt Profile  Profile: 0.526498
+tau_1_dijet_eta_centr Vs ditau_dijet_met_VecSumPt 2D  2D Plot: 1.644184
+ditau_dijet_met_VecSumPt Vs ditau_mass_mmc Profile  Profile: 0.134075
+ditau_dijet_met_VecSumPt Vs ditau_mass_mmc 2D  2D Plot: 1.029965
+ditau_dijet_met_VecSumPt Vs ditau_dR Profile  Profile: 0.008363
+ditau_dijet_met_VecSumPt Vs ditau_dR 2D  2D Plot: 0.956227
+ditau_dijet_met_VecSumPt Vs met_centrality Profile  Profile: 0.004600
+ditau_dijet_met_VecSumPt Vs met_centrality 2D  2D Plot: 5.391262
+ditau_dijet_met_VecSumPt Vs dijet_mass Profile  Profile: 3.675353
+ditau_dijet_met_VecSumPt Vs dijet_mass 2D  2D Plot: 3.556205
+ditau_dijet_met_VecSumPt Vs dijet_eta1_x_eta2 Profile  Profile: -0.092429
+ditau_dijet_met_VecSumPt Vs dijet_eta1_x_eta2 2D  2D Plot: 11.815744
+ditau_dijet_met_VecSumPt Vs dijet_dEta Profile  Profile: 0.005554
+ditau_dijet_met_VecSumPt Vs dijet_dEta 2D  2D Plot: 0.839822
+ditau_dijet_met_VecSumPt Vs tau_0_dijet_eta_centr Profile  Profile: -0.000000
+ditau_dijet_met_VecSumPt Vs tau_0_dijet_eta_centr 2D  2D Plot: 1.301675
+ditau_dijet_met_VecSumPt Vs tau_1_dijet_eta_centr Profile  Profile: -0.000000
+ditau_dijet_met_VecSumPt Vs tau_1_dijet_eta_centr 2D  2D Plot: 1.652847
+ditau_dijet_met_VecSumPt Vs ditau_dijet_met_VecSumPt Profile  Profile: 0.008136
+ditau_dijet_met_VecSumPt Vs ditau_dijet_met_VecSumPt 2D  2D Plot: 1.081395
+ditau_mass_mmc Vs ditau_mass_mmc Profile  Profile: 0.000123
+ditau_mass_mmc Vs ditau_mass_mmc 2D  2D Plot: 2.079829
+ditau_mass_mmc Vs ditau_dR Profile  Profile: 0.000276
+ditau_mass_mmc Vs ditau_dR 2D  2D Plot: 1.418678
+ditau_mass_mmc Vs met_centrality Profile  Profile: 0.001274
+ditau_mass_mmc Vs met_centrality 2D  2D Plot: 7.602369
+ditau_mass_mmc Vs ditau_pT_0_over_pT_1 Profile  Profile: 0.017413
+ditau_mass_mmc Vs ditau_pT_0_over_pT_1 2D  2D Plot: 5.994166
+ditau_mass_mmc Vs ditau_colapprox_x0 Profile  Profile: -0.000000
+ditau_mass_mmc Vs ditau_colapprox_x0 2D  2D Plot: 1.230857
+ditau_mass_mmc Vs ditau_colapprox_x1 Profile  Profile: -0.000000
+ditau_mass_mmc Vs ditau_colapprox_x1 2D  2D Plot: 6.172856
+ditau_mass_mmc Vs HT_jets_taus Profile  Profile: 0.321230
+ditau_mass_mmc Vs HT_jets_taus 2D  2D Plot: 1.787486
+ditau_dR Vs ditau_mass_mmc Profile  Profile: 0.023549
+ditau_dR Vs ditau_mass_mmc 2D  2D Plot: 1.423637
+ditau_dR Vs ditau_dR Profile  Profile: 0.000195
+ditau_dR Vs ditau_dR 2D  2D Plot: 2.371033
+ditau_dR Vs met_centrality Profile  Profile: 0.000979
+ditau_dR Vs met_centrality 2D  2D Plot: 3.027094
+ditau_dR Vs ditau_pT_0_over_pT_1 Profile  Profile: 0.010589
+ditau_dR Vs ditau_pT_0_over_pT_1 2D  2D Plot: 3.657048
+ditau_dR Vs ditau_colapprox_x0 Profile  Profile: -0.000000
+ditau_dR Vs ditau_colapprox_x0 2D  2D Plot: 2.056488
+ditau_dR Vs ditau_colapprox_x1 Profile  Profile: -0.000000
+ditau_dR Vs ditau_colapprox_x1 2D  2D Plot: 3.446114
+ditau_dR Vs HT_jets_taus Profile  Profile: 0.216846
+ditau_dR Vs HT_jets_taus 2D  2D Plot: 3.510998
+met_centrality Vs ditau_mass_mmc Profile  Profile: 48.030854
+met_centrality Vs ditau_mass_mmc 2D  2D Plot: 7.616747
+met_centrality Vs ditau_dR Profile  Profile: 0.629284
+met_centrality Vs ditau_dR 2D  2D Plot: 3.026983
+met_centrality Vs met_centrality Profile  Profile: -0.168985
+met_centrality Vs met_centrality 2D  2D Plot: 1.409311
+met_centrality Vs ditau_pT_0_over_pT_1 Profile  Profile: 0.674400
+met_centrality Vs ditau_pT_0_over_pT_1 2D  2D Plot: 1.249006
+met_centrality Vs ditau_colapprox_x0 Profile  Profile: 0.599456
+met_centrality Vs ditau_colapprox_x0 2D  2D Plot: 1.173649
+met_centrality Vs ditau_colapprox_x1 Profile  Profile: -11.582444
+met_centrality Vs ditau_colapprox_x1 2D  2D Plot: 1.129487
+met_centrality Vs HT_jets_taus Profile  Profile: 105.376663
+met_centrality Vs HT_jets_taus 2D  2D Plot: 1.647645
+ditau_pT_0_over_pT_1 Vs ditau_mass_mmc Profile  Profile: 0.186039
+ditau_pT_0_over_pT_1 Vs ditau_mass_mmc 2D  2D Plot: 6.069237
+ditau_pT_0_over_pT_1 Vs ditau_dR Profile  Profile: 0.003206
+ditau_pT_0_over_pT_1 Vs ditau_dR 2D  2D Plot: 3.731542
+ditau_pT_0_over_pT_1 Vs met_centrality Profile  Profile: 0.000672
+ditau_pT_0_over_pT_1 Vs met_centrality 2D  2D Plot: 1.259683
+ditau_pT_0_over_pT_1 Vs ditau_pT_0_over_pT_1 Profile  Profile: 0.000021
+ditau_pT_0_over_pT_1 Vs ditau_pT_0_over_pT_1 2D  2D Plot: 1.175269
+ditau_pT_0_over_pT_1 Vs ditau_colapprox_x0 Profile  Profile: -0.000000
+ditau_pT_0_over_pT_1 Vs ditau_colapprox_x0 2D  2D Plot: 0.947940
+ditau_pT_0_over_pT_1 Vs ditau_colapprox_x1 Profile  Profile: -0.000000
+ditau_pT_0_over_pT_1 Vs ditau_colapprox_x1 2D  2D Plot: 2.586392
+ditau_pT_0_over_pT_1 Vs HT_jets_taus Profile  Profile: 0.193025
+ditau_pT_0_over_pT_1 Vs HT_jets_taus 2D  2D Plot: 1.431246
+ditau_colapprox_x0 Vs ditau_mass_mmc Profile  Profile: 16.456922
+ditau_colapprox_x0 Vs ditau_mass_mmc 2D  2D Plot: 1.232914
+ditau_colapprox_x0 Vs ditau_dR Profile  Profile: 0.233295
+ditau_colapprox_x0 Vs ditau_dR 2D  2D Plot: 2.041194
+ditau_colapprox_x0 Vs met_centrality Profile  Profile: 0.036672
+ditau_colapprox_x0 Vs met_centrality 2D  2D Plot: 1.178277
+ditau_colapprox_x0 Vs ditau_pT_0_over_pT_1 Profile  Profile: 0.341576
+ditau_colapprox_x0 Vs ditau_pT_0_over_pT_1 2D  2D Plot: 0.947181
+ditau_colapprox_x0 Vs ditau_colapprox_x0 Profile  Profile: -71702046698924.875000
+ditau_colapprox_x0 Vs ditau_colapprox_x0 2D  2D Plot: 1.422682
+ditau_colapprox_x0 Vs ditau_colapprox_x1 Profile  Profile: -0.000000
+ditau_colapprox_x0 Vs ditau_colapprox_x1 2D  2D Plot: 1.352584
+ditau_colapprox_x0 Vs HT_jets_taus Profile  Profile: 55.402948
+ditau_colapprox_x0 Vs HT_jets_taus 2D  2D Plot: 2.016605
+ditau_colapprox_x1 Vs ditau_mass_mmc Profile  Profile: 3.880261
+ditau_colapprox_x1 Vs ditau_mass_mmc 2D  2D Plot: 6.274413
+ditau_colapprox_x1 Vs ditau_dR Profile  Profile: 0.062625
+ditau_colapprox_x1 Vs ditau_dR 2D  2D Plot: 3.517143
+ditau_colapprox_x1 Vs met_centrality Profile  Profile: 0.004746
+ditau_colapprox_x1 Vs met_centrality 2D  2D Plot: 1.134152
+ditau_colapprox_x1 Vs ditau_pT_0_over_pT_1 Profile  Profile: 0.201362
+ditau_colapprox_x1 Vs ditau_pT_0_over_pT_1 2D  2D Plot: 2.626117
+ditau_colapprox_x1 Vs ditau_colapprox_x0 Profile  Profile: -0.000000
+ditau_colapprox_x1 Vs ditau_colapprox_x0 2D  2D Plot: 1.350056
+ditau_colapprox_x1 Vs ditau_colapprox_x1 Profile  Profile: -71702046698924.859375
+ditau_colapprox_x1 Vs ditau_colapprox_x1 2D  2D Plot: 0.973262
+ditau_colapprox_x1 Vs HT_jets_taus Profile  Profile: 30.593716
+ditau_colapprox_x1 Vs HT_jets_taus 2D  2D Plot: 2.884621
+HT_jets_taus Vs ditau_mass_mmc Profile  Profile: 4.750420
+HT_jets_taus Vs ditau_mass_mmc 2D  2D Plot: 1.784641
+HT_jets_taus Vs ditau_dR Profile  Profile: 0.082565
+HT_jets_taus Vs ditau_dR 2D  2D Plot: 2.712315
+HT_jets_taus Vs met_centrality Profile  Profile: 0.114924
+HT_jets_taus Vs met_centrality 2D  2D Plot: 1.719150
+HT_jets_taus Vs ditau_pT_0_over_pT_1 Profile  Profile: 0.195693
+HT_jets_taus Vs ditau_pT_0_over_pT_1 2D  2D Plot: 1.399800
+HT_jets_taus Vs ditau_colapprox_x0 Profile  Profile: 0.000000
+HT_jets_taus Vs ditau_colapprox_x0 2D  2D Plot: 2.075927
+HT_jets_taus Vs ditau_colapprox_x1 Profile  Profile: -0.000000
+HT_jets_taus Vs ditau_colapprox_x1 2D  2D Plot: 2.941389
+HT_jets_taus Vs HT_jets_taus Profile  Profile: 7.237728
+HT_jets_taus Vs HT_jets_taus 2D  2D Plot: 2.341109
+ditau_mass_mmc Vs ditau_mass_mmc Profile  Profile: 0.000314
+ditau_mass_mmc Vs ditau_mass_mmc 2D  2D Plot: 1.214076
+ditau_mass_mmc Vs ditau_dR Profile  Profile: 0.000056
+ditau_mass_mmc Vs ditau_dR 2D  2D Plot: 0.819147
+ditau_mass_mmc Vs met_centrality Profile  Profile: 0.001449
+ditau_mass_mmc Vs met_centrality 2D  2D Plot: 1.209741
+ditau_mass_mmc Vs ditau_pT_0_over_pT_1 Profile  Profile: 0.000506
+ditau_mass_mmc Vs ditau_pT_0_over_pT_1 2D  2D Plot: 1.255214
+ditau_mass_mmc Vs ditau_colapprox_x0 Profile  Profile: 0.000000
+ditau_mass_mmc Vs ditau_colapprox_x0 2D  2D Plot: 1.496749
+ditau_mass_mmc Vs ditau_colapprox_x1 Profile  Profile: -0.000000
+ditau_mass_mmc Vs ditau_colapprox_x1 2D  2D Plot: 0.944118
+ditau_mass_mmc Vs HT_jets_taus Profile  Profile: 0.098647
+ditau_mass_mmc Vs HT_jets_taus 2D  2D Plot: 1.665799
+ditau_dR Vs ditau_mass_mmc Profile  Profile: 0.000867
+ditau_dR Vs ditau_mass_mmc 2D  2D Plot: 0.819370
+ditau_dR Vs ditau_dR Profile  Profile: 0.000004
+ditau_dR Vs ditau_dR 2D  2D Plot: 0.551825
+ditau_dR Vs met_centrality Profile  Profile: 0.000624
+ditau_dR Vs met_centrality 2D  2D Plot: 0.641229
+ditau_dR Vs ditau_pT_0_over_pT_1 Profile  Profile: 0.000558
+ditau_dR Vs ditau_pT_0_over_pT_1 2D  2D Plot: 1.122972
+ditau_dR Vs ditau_colapprox_x0 Profile  Profile: -0.000000
+ditau_dR Vs ditau_colapprox_x0 2D  2D Plot: 0.902023
+ditau_dR Vs ditau_colapprox_x1 Profile  Profile: 0.000000
+ditau_dR Vs ditau_colapprox_x1 2D  2D Plot: 1.633433
+ditau_dR Vs HT_jets_taus Profile  Profile: 0.050701
+ditau_dR Vs HT_jets_taus 2D  2D Plot: 0.696397
+met_centrality Vs ditau_mass_mmc Profile  Profile: 0.056310
+met_centrality Vs ditau_mass_mmc 2D  2D Plot: 1.208379
+met_centrality Vs ditau_dR Profile  Profile: 0.000092
+met_centrality Vs ditau_dR 2D  2D Plot: 0.641311
+met_centrality Vs met_centrality Profile  Profile: -0.000001
+met_centrality Vs met_centrality 2D  2D Plot: 0.593195
+met_centrality Vs ditau_pT_0_over_pT_1 Profile  Profile: 0.000133
+met_centrality Vs ditau_pT_0_over_pT_1 2D  2D Plot: 1.175092
+met_centrality Vs ditau_colapprox_x0 Profile  Profile: 0.001497
+met_centrality Vs ditau_colapprox_x0 2D  2D Plot: 1.258766
+met_centrality Vs ditau_colapprox_x1 Profile  Profile: 0.014737
+met_centrality Vs ditau_colapprox_x1 2D  2D Plot: 0.799341
+met_centrality Vs HT_jets_taus Profile  Profile: 0.066561
+met_centrality Vs HT_jets_taus 2D  2D Plot: 1.271467
+ditau_pT_0_over_pT_1 Vs ditau_mass_mmc Profile  Profile: 0.147557
+ditau_pT_0_over_pT_1 Vs ditau_mass_mmc 2D  2D Plot: 1.256843
+ditau_pT_0_over_pT_1 Vs ditau_dR Profile  Profile: 0.001394
+ditau_pT_0_over_pT_1 Vs ditau_dR 2D  2D Plot: 1.122420
+ditau_pT_0_over_pT_1 Vs met_centrality Profile  Profile: 0.052137
+ditau_pT_0_over_pT_1 Vs met_centrality 2D  2D Plot: 1.174327
+ditau_pT_0_over_pT_1 Vs ditau_pT_0_over_pT_1 Profile  Profile: 0.000254
+ditau_pT_0_over_pT_1 Vs ditau_pT_0_over_pT_1 2D  2D Plot: 4.710968
+ditau_pT_0_over_pT_1 Vs ditau_colapprox_x0 Profile  Profile: 0.014649
+ditau_pT_0_over_pT_1 Vs ditau_colapprox_x0 2D  2D Plot: 1.398763
+ditau_pT_0_over_pT_1 Vs ditau_colapprox_x1 Profile  Profile: -0.000000
+ditau_pT_0_over_pT_1 Vs ditau_colapprox_x1 2D  2D Plot: 1.179684
+ditau_pT_0_over_pT_1 Vs HT_jets_taus Profile  Profile: 0.236382
+ditau_pT_0_over_pT_1 Vs HT_jets_taus 2D  2D Plot: 1.163360
+ditau_colapprox_x0 Vs ditau_mass_mmc Profile  Profile: 23.319792
+ditau_colapprox_x0 Vs ditau_mass_mmc 2D  2D Plot: 1.496110
+ditau_colapprox_x0 Vs ditau_dR Profile  Profile: 0.471696
+ditau_colapprox_x0 Vs ditau_dR 2D  2D Plot: 0.901095
+ditau_colapprox_x0 Vs met_centrality Profile  Profile: -2.362353
+ditau_colapprox_x0 Vs met_centrality 2D  2D Plot: 1.257302
+ditau_colapprox_x0 Vs ditau_pT_0_over_pT_1 Profile  Profile: 0.260468
+ditau_colapprox_x0 Vs ditau_pT_0_over_pT_1 2D  2D Plot: 1.399896
+ditau_colapprox_x0 Vs ditau_colapprox_x0 Profile  Profile: -644725841391987.250000
+ditau_colapprox_x0 Vs ditau_colapprox_x0 2D  2D Plot: 0.784040
+ditau_colapprox_x0 Vs ditau_colapprox_x1 Profile  Profile: 1.115519
+ditau_colapprox_x0 Vs ditau_colapprox_x1 2D  2D Plot: 1.063916
+ditau_colapprox_x0 Vs HT_jets_taus Profile  Profile: 28.592497
+ditau_colapprox_x0 Vs HT_jets_taus 2D  2D Plot: 1.113489
+ditau_colapprox_x1 Vs ditau_mass_mmc Profile  Profile: 3.911619
+ditau_colapprox_x1 Vs ditau_mass_mmc 2D  2D Plot: 0.941724
+ditau_colapprox_x1 Vs ditau_dR Profile  Profile: 0.121314
+ditau_colapprox_x1 Vs ditau_dR 2D  2D Plot: 1.631348
+ditau_colapprox_x1 Vs met_centrality Profile  Profile: -0.268661
+ditau_colapprox_x1 Vs met_centrality 2D  2D Plot: 0.798896
+ditau_colapprox_x1 Vs ditau_pT_0_over_pT_1 Profile  Profile: 0.072889
+ditau_colapprox_x1 Vs ditau_pT_0_over_pT_1 2D  2D Plot: 1.182073
+ditau_colapprox_x1 Vs ditau_colapprox_x0 Profile  Profile: 0.232053
+ditau_colapprox_x1 Vs ditau_colapprox_x0 2D  2D Plot: 1.063924
+ditau_colapprox_x1 Vs ditau_colapprox_x1 Profile  Profile: -5333210085044.060547
+ditau_colapprox_x1 Vs ditau_colapprox_x1 2D  2D Plot: 0.700245
+ditau_colapprox_x1 Vs HT_jets_taus Profile  Profile: 8.747370
+ditau_colapprox_x1 Vs HT_jets_taus 2D  2D Plot: 1.837189
+HT_jets_taus Vs ditau_mass_mmc Profile  Profile: 0.063182
+HT_jets_taus Vs ditau_mass_mmc 2D  2D Plot: 1.668579
+HT_jets_taus Vs ditau_dR Profile  Profile: 0.001080
+HT_jets_taus Vs ditau_dR 2D  2D Plot: 0.695665
+HT_jets_taus Vs met_centrality Profile  Profile: 0.003026
+HT_jets_taus Vs met_centrality 2D  2D Plot: 1.269544
+HT_jets_taus Vs ditau_pT_0_over_pT_1 Profile  Profile: 0.001351
+HT_jets_taus Vs ditau_pT_0_over_pT_1 2D  2D Plot: 1.165570
+HT_jets_taus Vs ditau_colapprox_x0 Profile  Profile: -0.000000
+HT_jets_taus Vs ditau_colapprox_x0 2D  2D Plot: 1.113920
+HT_jets_taus Vs ditau_colapprox_x1 Profile  Profile: -0.000000
+HT_jets_taus Vs ditau_colapprox_x1 2D  2D Plot: 1.831227
+HT_jets_taus Vs HT_jets_taus Profile  Profile: 0.001342
+HT_jets_taus Vs HT_jets_taus 2D  2D Plot: 0.614288
+ditau_mass_mmc Vs ditau_mass_mmc Profile  Profile: 0.004755
+ditau_mass_mmc Vs ditau_mass_mmc 2D  2D Plot: 0.631552
+ditau_mass_mmc Vs ditau_dR Profile  Profile: 0.000126
+ditau_mass_mmc Vs ditau_dR 2D  2D Plot: 0.900321
+ditau_mass_mmc Vs met_centrality Profile  Profile: 0.000000
+ditau_mass_mmc Vs met_centrality 2D  2D Plot: 0.639465
+ditau_mass_mmc Vs ditau_pT_0_over_pT_1 Profile  Profile: 0.005655
+ditau_mass_mmc Vs ditau_pT_0_over_pT_1 2D  2D Plot: 0.662141
+ditau_mass_mmc Vs ditau_colapprox_x0 Profile  Profile: 0.017793
+ditau_mass_mmc Vs ditau_colapprox_x0 2D  2D Plot: 0.692474
+ditau_mass_mmc Vs ditau_colapprox_x1 Profile  Profile: 0.000000
+ditau_mass_mmc Vs ditau_colapprox_x1 2D  2D Plot: 0.695292
+ditau_mass_mmc Vs HT_jets_taus Profile  Profile: 0.303344
+ditau_mass_mmc Vs HT_jets_taus 2D  2D Plot: 0.880213
+ditau_dR Vs ditau_mass_mmc Profile  Profile: 0.014009
+ditau_dR Vs ditau_mass_mmc 2D  2D Plot: 0.900846
+ditau_dR Vs ditau_dR Profile  Profile: 0.000085
+ditau_dR Vs ditau_dR 2D  2D Plot: 0.979259
+ditau_dR Vs met_centrality Profile  Profile: 0.000000
+ditau_dR Vs met_centrality 2D  2D Plot: 0.789659
+ditau_dR Vs ditau_pT_0_over_pT_1 Profile  Profile: 0.000020
+ditau_dR Vs ditau_pT_0_over_pT_1 2D  2D Plot: 0.827803
+ditau_dR Vs ditau_colapprox_x0 Profile  Profile: 0.008288
+ditau_dR Vs ditau_colapprox_x0 2D  2D Plot: 0.694144
+ditau_dR Vs ditau_colapprox_x1 Profile  Profile: 0.000000
+ditau_dR Vs ditau_colapprox_x1 2D  2D Plot: 0.758027
+ditau_dR Vs HT_jets_taus Profile  Profile: 2.343586
+ditau_dR Vs HT_jets_taus 2D  2D Plot: 0.925082
+met_centrality Vs ditau_mass_mmc Profile  Profile: 0.012222
+met_centrality Vs ditau_mass_mmc 2D  2D Plot: 0.639287
+met_centrality Vs ditau_dR Profile  Profile: 0.000040
+met_centrality Vs ditau_dR 2D  2D Plot: 0.794891
+met_centrality Vs met_centrality Profile  Profile: -0.000011
+met_centrality Vs met_centrality 2D  2D Plot: 0.666826
+met_centrality Vs ditau_pT_0_over_pT_1 Profile  Profile: 0.000195
+met_centrality Vs ditau_pT_0_over_pT_1 2D  2D Plot: 0.836033
+met_centrality Vs ditau_colapprox_x0 Profile  Profile: 0.002791
+met_centrality Vs ditau_colapprox_x0 2D  2D Plot: 0.700221
+met_centrality Vs ditau_colapprox_x1 Profile  Profile: 0.006239
+met_centrality Vs ditau_colapprox_x1 2D  2D Plot: 0.712913
+met_centrality Vs HT_jets_taus Profile  Profile: 0.099665
+met_centrality Vs HT_jets_taus 2D  2D Plot: 1.024206
+ditau_pT_0_over_pT_1 Vs ditau_mass_mmc Profile  Profile: 24.629746
+ditau_pT_0_over_pT_1 Vs ditau_mass_mmc 2D  2D Plot: 0.661408
+ditau_pT_0_over_pT_1 Vs ditau_dR Profile  Profile: 0.576772
+ditau_pT_0_over_pT_1 Vs ditau_dR 2D  2D Plot: 0.825298
+ditau_pT_0_over_pT_1 Vs met_centrality Profile  Profile: 4.427509
+ditau_pT_0_over_pT_1 Vs met_centrality 2D  2D Plot: 0.837096
+ditau_pT_0_over_pT_1 Vs ditau_pT_0_over_pT_1 Profile  Profile: 0.683080
+ditau_pT_0_over_pT_1 Vs ditau_pT_0_over_pT_1 2D  2D Plot: 0.438134
+ditau_pT_0_over_pT_1 Vs ditau_colapprox_x0 Profile  Profile: 0.453603
+ditau_pT_0_over_pT_1 Vs ditau_colapprox_x0 2D  2D Plot: 0.695372
+ditau_pT_0_over_pT_1 Vs ditau_colapprox_x1 Profile  Profile: 1.259976
+ditau_pT_0_over_pT_1 Vs ditau_colapprox_x1 2D  2D Plot: 0.792068
+ditau_pT_0_over_pT_1 Vs HT_jets_taus Profile  Profile: 36.724952
+ditau_pT_0_over_pT_1 Vs HT_jets_taus 2D  2D Plot: 1.246032
+ditau_colapprox_x0 Vs ditau_mass_mmc Profile  Profile: 21.940647
+ditau_colapprox_x0 Vs ditau_mass_mmc 2D  2D Plot: 0.691160
+ditau_colapprox_x0 Vs ditau_dR Profile  Profile: 0.598283
+ditau_colapprox_x0 Vs ditau_dR 2D  2D Plot: 0.691673
+ditau_colapprox_x0 Vs met_centrality Profile  Profile: -0.438325
+ditau_colapprox_x0 Vs met_centrality 2D  2D Plot: 0.699966
+ditau_colapprox_x0 Vs ditau_pT_0_over_pT_1 Profile  Profile: 0.329402
+ditau_colapprox_x0 Vs ditau_pT_0_over_pT_1 2D  2D Plot: 0.695928
+ditau_colapprox_x0 Vs ditau_colapprox_x0 Profile  Profile: -3.632632
+ditau_colapprox_x0 Vs ditau_colapprox_x0 2D  2D Plot: 0.809245
+ditau_colapprox_x0 Vs ditau_colapprox_x1 Profile  Profile: 0.123424
+ditau_colapprox_x0 Vs ditau_colapprox_x1 2D  2D Plot: 0.967717
+ditau_colapprox_x0 Vs HT_jets_taus Profile  Profile: 27.694413
+ditau_colapprox_x0 Vs HT_jets_taus 2D  2D Plot: 0.548201
+ditau_colapprox_x1 Vs ditau_mass_mmc Profile  Profile: 22.480946
+ditau_colapprox_x1 Vs ditau_mass_mmc 2D  2D Plot: 0.695792
+ditau_colapprox_x1 Vs ditau_dR Profile  Profile: 0.624845
+ditau_colapprox_x1 Vs ditau_dR 2D  2D Plot: 0.753996
+ditau_colapprox_x1 Vs met_centrality Profile  Profile: -0.379929
+ditau_colapprox_x1 Vs met_centrality 2D  2D Plot: 0.705757
+ditau_colapprox_x1 Vs ditau_pT_0_over_pT_1 Profile  Profile: 0.342709
+ditau_colapprox_x1 Vs ditau_pT_0_over_pT_1 2D  2D Plot: 0.793493
+ditau_mass_mmc Vs ditau_mass_mmc Profile  Profile: 0.018196
+ditau_mass_mmc Vs ditau_mass_mmc 2D  2D Plot: 2.787217
+ditau_mass_mmc Vs ditau_dR Profile  Profile: 0.000045
+ditau_mass_mmc Vs ditau_dR 2D  2D Plot: 1.181065
+ditau_mass_mmc Vs met_centrality Profile  Profile: -0.066552
+ditau_mass_mmc Vs met_centrality 2D  2D Plot: 0.886814
+ditau_mass_mmc Vs ditau_pT_0_over_pT_1 Profile  Profile: 0.003933
+ditau_mass_mmc Vs ditau_pT_0_over_pT_1 2D  2D Plot: 1.109468
+ditau_mass_mmc Vs ditau_colapprox_x0 Profile  Profile: 0.012994
+ditau_mass_mmc Vs ditau_colapprox_x0 2D  2D Plot: 1.292367
+ditau_mass_mmc Vs ditau_colapprox_x1 Profile  Profile: 0.006547
+ditau_mass_mmc Vs ditau_colapprox_x1 2D  2D Plot: 1.285643
+ditau_mass_mmc Vs HT_jets_taus Profile  Profile: 0.052411
+ditau_mass_mmc Vs HT_jets_taus 2D  2D Plot: 1.350968
+ditau_dR Vs ditau_mass_mmc Profile  Profile: 0.000328
+ditau_dR Vs ditau_mass_mmc 2D  2D Plot: 1.179934
+ditau_dR Vs ditau_dR Profile  Profile: 0.000050
+ditau_dR Vs ditau_dR 2D  2D Plot: 0.648733
+ditau_dR Vs met_centrality Profile  Profile: 0.000000
+ditau_dR Vs met_centrality 2D  2D Plot: 0.685264
+ditau_dR Vs ditau_pT_0_over_pT_1 Profile  Profile: 0.001615
+ditau_dR Vs ditau_pT_0_over_pT_1 2D  2D Plot: 0.906660
+ditau_dR Vs ditau_colapprox_x0 Profile  Profile: 0.056421
+ditau_dR Vs ditau_colapprox_x0 2D  2D Plot: 1.014029
+ditau_dR Vs ditau_colapprox_x1 Profile  Profile: 0.057179
+ditau_dR Vs ditau_colapprox_x1 2D  2D Plot: 0.977007
+ditau_dR Vs HT_jets_taus Profile  Profile: 1.151063
+ditau_dR Vs HT_jets_taus 2D  2D Plot: 0.986326
+met_centrality Vs ditau_mass_mmc Profile  Profile: 0.007139
+met_centrality Vs ditau_mass_mmc 2D  2D Plot: 0.888361
+met_centrality Vs ditau_dR Profile  Profile: 0.000068
+met_centrality Vs ditau_dR 2D  2D Plot: 0.688246
+met_centrality Vs met_centrality Profile  Profile: 0.000014
+met_centrality Vs met_centrality 2D  2D Plot: 1.214075
+met_centrality Vs ditau_pT_0_over_pT_1 Profile  Profile: 0.000107
+met_centrality Vs ditau_pT_0_over_pT_1 2D  2D Plot: 0.833051
+met_centrality Vs ditau_colapprox_x0 Profile  Profile: 0.001017
+met_centrality Vs ditau_colapprox_x0 2D  2D Plot: 1.043619
+met_centrality Vs ditau_colapprox_x1 Profile  Profile: 0.001131
+met_centrality Vs ditau_colapprox_x1 2D  2D Plot: 0.963328
+met_centrality Vs HT_jets_taus Profile  Profile: 0.051439
+met_centrality Vs HT_jets_taus 2D  2D Plot: 2.159067
+ditau_pT_0_over_pT_1 Vs ditau_mass_mmc Profile  Profile: 23.837358
+ditau_pT_0_over_pT_1 Vs ditau_mass_mmc 2D  2D Plot: 1.108516
+ditau_pT_0_over_pT_1 Vs ditau_dR Profile  Profile: 0.193234
+ditau_pT_0_over_pT_1 Vs ditau_dR 2D  2D Plot: 0.906630
+ditau_pT_0_over_pT_1 Vs met_centrality Profile  Profile: -0.009005
+ditau_pT_0_over_pT_1 Vs met_centrality 2D  2D Plot: 0.831097
+ditau_pT_0_over_pT_1 Vs ditau_pT_0_over_pT_1 Profile  Profile: 0.284652
+ditau_pT_0_over_pT_1 Vs ditau_pT_0_over_pT_1 2D  2D Plot: 0.793408
+ditau_pT_0_over_pT_1 Vs ditau_colapprox_x0 Profile  Profile: 0.522248
+ditau_pT_0_over_pT_1 Vs ditau_colapprox_x0 2D  2D Plot: 0.970900
+ditau_pT_0_over_pT_1 Vs ditau_colapprox_x1 Profile  Profile: 0.392207
+ditau_pT_0_over_pT_1 Vs ditau_colapprox_x1 2D  2D Plot: 1.390711
+ditau_pT_0_over_pT_1 Vs HT_jets_taus Profile  Profile: 9.300087
+ditau_pT_0_over_pT_1 Vs HT_jets_taus 2D  2D Plot: 0.842655
+ditau_colapprox_x0 Vs ditau_mass_mmc Profile  Profile: 0.005430
+ditau_colapprox_x0 Vs ditau_mass_mmc 2D  2D Plot: 1.292251
+ditau_colapprox_x0 Vs ditau_dR Profile  Profile: 0.000054
+ditau_colapprox_x0 Vs ditau_dR 2D  2D Plot: 1.014252
+ditau_colapprox_x0 Vs met_centrality Profile  Profile: -0.000129
+ditau_colapprox_x0 Vs met_centrality 2D  2D Plot: 1.042908
+ditau_colapprox_x0 Vs ditau_pT_0_over_pT_1 Profile  Profile: 0.000389
+ditau_colapprox_x0 Vs ditau_pT_0_over_pT_1 2D  2D Plot: 0.970976
+ditau_colapprox_x0 Vs ditau_colapprox_x0 Profile  Profile: 0.000000
+ditau_colapprox_x0 Vs ditau_colapprox_x0 2D  2D Plot: 2.019991
+ditau_colapprox_x0 Vs ditau_colapprox_x1 Profile  Profile: -0.282320
+ditau_colapprox_x0 Vs ditau_colapprox_x1 2D  2D Plot: 1.188219
+ditau_colapprox_x0 Vs HT_jets_taus Profile  Profile: 0.157288
+ditau_colapprox_x0 Vs HT_jets_taus 2D  2D Plot: 1.380547
+ditau_colapprox_x1 Vs ditau_mass_mmc Profile  Profile: 0.011003
+ditau_colapprox_x1 Vs ditau_mass_mmc 2D  2D Plot: 1.285453
+ditau_colapprox_x1 Vs ditau_dR Profile  Profile: 0.000062
+ditau_colapprox_x1 Vs ditau_dR 2D  2D Plot: 0.977127
+ditau_colapprox_x1 Vs met_centrality Profile  Profile: -0.000151
+ditau_colapprox_x1 Vs met_centrality 2D  2D Plot: 0.963145
+ditau_colapprox_x1 Vs ditau_pT_0_over_pT_1 Profile  Profile: 0.000843
+ditau_colapprox_x1 Vs ditau_pT_0_over_pT_1 2D  2D Plot: 1.390428
+ditau_colapprox_x1 Vs ditau_colapprox_x0 Profile  Profile: -0.026460
+ditau_colapprox_x1 Vs ditau_colapprox_x0 2D  2D Plot: 1.188111
+ditau_colapprox_x1 Vs ditau_colapprox_x1 Profile  Profile: -0.000000
+ditau_colapprox_x1 Vs ditau_colapprox_x1 2D  2D Plot: 1.954300
+ditau_colapprox_x1 Vs HT_jets_taus Profile  Profile: 4.620871
+ditau_colapprox_x1 Vs HT_jets_taus 2D  2D Plot: 1.436832
+HT_jets_taus Vs ditau_mass_mmc Profile  Profile: 19.171506
+HT_jets_taus Vs ditau_mass_mmc 2D  2D Plot: 1.350938
+HT_jets_taus Vs ditau_dR Profile  Profile: 0.369161
+HT_jets_taus Vs ditau_dR 2D  2D Plot: 0.986404
+HT_jets_taus Vs met_centrality Profile  Profile: -0.504343
+HT_jets_taus Vs met_centrality 2D  2D Plot: 2.157397
+HT_jets_taus Vs ditau_pT_0_over_pT_1 Profile  Profile: 0.299989
+HT_jets_taus Vs ditau_pT_0_over_pT_1 2D  2D Plot: 0.842655
+HT_jets_taus Vs ditau_colapprox_x0 Profile  Profile: -9.016103
+HT_jets_taus Vs ditau_colapprox_x0 2D  2D Plot: 1.380637
+HT_jets_taus Vs ditau_colapprox_x1 Profile  Profile: -2.948632
+HT_jets_taus Vs ditau_colapprox_x1 2D  2D Plot: 1.437297
+HT_jets_taus Vs HT_jets_taus Profile  Profile: 47.727273
+HT_jets_taus Vs HT_jets_taus 2D  2D Plot: 0.609377

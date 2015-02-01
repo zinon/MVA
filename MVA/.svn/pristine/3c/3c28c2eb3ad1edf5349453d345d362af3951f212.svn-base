@@ -1,0 +1,407 @@
+// @(#)root/tmva $Id$
+/**********************************************************************************
+ *                                  *
+ * The methods to be used can be switched on and off by means of booleans, or     *
+ * via the prompt command, for example:                                           *
+ *                                                                                *
+ *    root -l ./TMVAClassificationHadHad.C\(\"Fisher,Likelihood\"\)                     *
+ *                                                                                *
+ * Launch the GUI via the command:                                                *
+ *                                                                                *
+ *    root -l ./TMVAGui.C                                                         *
+ *                                                                                *
+ **********************************************************************************/
+
+#include <cstdlib>
+#include <iostream>
+#include <map>
+#include <string>
+#include <vector>
+#include <iterator>
+
+#include "TChain.h"
+#include "TFile.h"
+#include "TTree.h"
+#include "TString.h"
+#include "TObjString.h"
+#include "TSystem.h"
+#include "TROOT.h"
+
+
+#if not defined(__CINT__) || defined(__MAKECINT__)
+// needs to be included when makecint runs (ACLIC)
+#include "TMVA/Factory.h"
+#include "TMVA/Tools.h"
+#endif
+
+
+#include "HelperClass.h"
+#include "MonteCarloBank.h"
+
+#include "TMVA/MethodBDT.h"
+#include "TMVA/IMethod.h"
+
+
+	
+#include "TMVA/Config.h"
+		
+using namespace std;
+
+TMVA::MethodBDT* dyncast( TMVA::IMethod* meth ) {
+   return dynamic_cast< TMVA::MethodBDT* >( meth );
+}
+
+void TMVAOptimizationHadHad( TString myMethodList = "",  TString Ntree1 = "0", TString Ntree2 = "0", 
+	TString Nleaf1 = "", TString Nleaf2 = "" )
+{
+  
+	  
+	///to define:
+
+	int Ntrees_start = Ntree1.Atoi(); 		int Ntrees_end = Ntree2.Atoi();			int Ntrees_step = 1; 
+	 
+	int NeventsMin_start = Nleaf1.Atoi();	int NeventsMin_end = Nleaf2.Atoi();		int NeventsMin_step = 5;
+	 
+	int Ntrees_size = (Ntrees_end - Ntrees_start)/Ntrees_step + 1;
+	 
+	int NeventsMin_size = (NeventsMin_end - NeventsMin_start)/NeventsMin_step + 1;
+		
+	int Npoints = Ntrees_size * NeventsMin_size;
+	 
+	cout<<"Working points "<<Npoints<<endl;
+	cout<<"Trees "<<Ntrees_start<<" to "<<Ntrees_end<<endl;
+	cout<<"Leaf size "<<NeventsMin_start<<" to "<<NeventsMin_end<<endl;
+	 
+	string  strNtree1 = Ntree1.Data(); 
+	string  strNtree2 = Ntree2.Data(); 
+	string  strNleaf1 = Nleaf1.Data(); 
+	string  strNleaf2 = Nleaf2.Data(); 
+	   
+	string	PartUsedForTraining = "A"; // A, B, AB
+	string 	treename			= "mva";
+	string 	purpose				= "MVA";
+	string 	category 			= "2jet";
+	string	region 				= "all";
+	string 	version 			= "v8";
+	int 	Hmass 				= 125;
+	bool 	kVBF 				= true;
+	bool 	kGGF 				= true;
+	bool 	kWH			       	= false;// *** to do ***
+	bool 	kZH 				= false;// *** to do ***
+	bool 	kZtautau			= true;
+	//bool 	kWtaunu				= true;
+	bool 	kElwk				= true;
+	bool 	kQCD				= true;
+	//string QCDmodel = "notOS";
+	
+	///Adaptive boost
+	bool 	kBDT 				=  myMethodList.SubString("BDT").Length() > 0;
+	string 	BDT_NTrees 			= "10";
+	string 	BDT_nEventsMin		= "100";
+	string 	BDT_MaxDepth 		= "100000";
+	string 	BDT_BoostType		= "AdaBoost";
+	string 	BDT_AdaBoostBeta 	= "0.5";
+	string	BDT_UseYesNoLeaf	= "False";
+	
+	/// Gradient boost
+	bool 	kBDTG				= myMethodList.SubString("BDTG").Length() > 0;
+	
+	///to define: This is a list of possible variables to use in the training.  Add the ones you wish to use
+	vector<string> mVars; typedef vector<string>::iterator ITRS;
+	 
+	///variable lists
+	if(category == "2jet"){
+		mVars.push_back("ditau_dR");//
+		mVars.push_back("tau_0_dijet_eta_centr");//
+		mVars.push_back("tau_1_dijet_eta_centr");//
+		mVars.push_back("met_centrality");//
+		mVars.push_back("MMC_resonance_pt");//
+		mVars.push_back("dijet_mass");//
+		mVars.push_back("dijet_dEta");//
+		mVars.push_back("dijet_eta1_x_eta2");//
+		//
+		//mVars.push_back("dijet_dEta_x_sign1_x_sign2");//
+		//mVars.push_back("met_et");
+		//mVars.push_back("esv_all_objects_sphericity");
+		
+	}else if (category == "1jet"){
+		mVars.push_back("ditau_dR");
+		mVars.push_back("MMC_resonance_pt");
+		mVars.push_back("esv_all_objects_sphericity");
+		mVars.push_back("met_centrality");
+		mVars.push_back("ditau_colapprox_x0");
+		mVars.push_back("ditau_colapprox_x1");
+		//
+		//mVars.push_back("met_et");
+	}else if (category == "0jet"){
+		
+	}else{
+		
+	}
+
+	///------------------------------------------------------------------------------------------------------------
+
+
+
+	///Default MVA methods to be trained + tested
+	std::map<std::string,int> Use;
+
+   ///to define:  Boosted Decision Trees
+	Use["BDT"]             = kBDT; // uses Adaptive Boost
+	Use["BDTG"]            = kBDTG; // uses Gradient Boost
+	Use["BDTB"]            = 0; // uses Bagging
+	Use["BDTD"]            = 0; // decorrelation + Adaptive Boost
+	Use["BDTF"]            = 0; // allow usage of fisher discriminant for node splitting 
+	
+	///external classes
+	gSystem->Load("../../HelperClass/HelperClass_cpp.so");
+	gSystem->Load("../../MonteCarloBank/MonteCarloBank_cpp.so");
+
+	HelperClass hc;
+	hc.SetTreeName(treename);
+	hc.SetVersion(version);
+	hc.SetPath("../../Ntuples/");
+	
+	MonteCarloBank mcb;
+
+	///names
+	string 	hmass = hc.GetStringFromInt(Hmass);
+	string	outPrefix = "TMVAClassificationHadHad";
+	string	classi  = kBDT ? "BDT" : kBDTG ? "BDTG" : "none";
+	string 	outCoreName = outPrefix + "_" + classi + "_PartTrained"+PartUsedForTraining+"_"+category+"_"+hmass+"_"+version;
+	string 	outRootFileName = "/tmp/OptClass/" + outCoreName+"_opt_part_"+strNtree1+"_"+strNtree2+"_"+strNleaf1+"_"+strNleaf2+".root";
+	string	outputWeightFileName = outCoreName;
+	
+	string 	outRootFileNameOpt ="OptScan/" + outCoreName+"_opt_slice_"+strNtree1+"_"+strNtree2+"_"+strNleaf1+"_"+strNleaf2+".root";
+
+	
+	///list of MC samples
+	cout<<"\ncreating the MC list ..."<<endl;
+	vector<int> RunsVector = hc.GetRunsVector(Hmass);
+
+	///get MC trees
+	map<int, TTree *> tmap;
+	for(vector<int>::iterator it=RunsVector.begin(); it != RunsVector.end(); it++){
+		if( *it >= 800000) continue;
+		tmap.insert ( pair<int, TTree *>(*it,  hc.GetTreeMC(*it) ) );
+		cout<<"mc "<<*it<<" entries "<<tmap[*it]->GetEntries()<<endl;
+	}
+	
+	///get data tree
+	TTree *tdata = hc.GetTreeData();
+	cout<<"\ndata events "<<tdata->GetEntries()<<endl;
+
+
+   /// This loads the library
+	TMVA::Tools::Instance();
+
+
+
+  
+	std::cout << std::endl;
+	std::cout << "==> Start TMVAClassificationHadHad" << std::endl;
+
+   /// Select methods (don't look at this code - not of interest)
+	if (myMethodList != "") {
+		for (std::map<std::string,int>::iterator it = Use.begin(); it != Use.end(); it++) it->second = 0;
+
+		std::vector<TString> mlist = TMVA::gTools().SplitString( myMethodList, ',' );
+		for (UInt_t i=0; i<mlist.size(); i++) {
+			std::string regMethod(mlist[i]);
+
+			if (Use.find(regMethod) == Use.end()) {
+				std::cout << "Method \"" << regMethod << "\" not known in TMVA under this name. Choose among the following:" << std::endl;
+				for (std::map<std::string,int>::iterator it = Use.begin(); it != Use.end(); it++) std::cout << it->first << " ";
+				std::cout << std::endl;
+				return;
+			}
+			Use[regMethod] = 1;
+		}
+	}
+
+
+   /// Create a ROOT output file where TMVA will store ntuples, histograms, etc.
+	TFile *outRootFileOpt  = TFile::Open( outRootFileNameOpt.c_str(), "RECREATE" );
+					
+	TFile* outputRootFile = TFile::Open( outRootFileName.c_str(), "RECREATE" );
+	outputRootFile->cd();
+
+	
+
+	/// The first argument is the base of the name of all the weightfiles in the directory weight/
+   /// The second argument is the output file for the training results
+	TMVA::Factory *factory = new TMVA::Factory( outputWeightFileName, outputRootFile,
+			"!V:!Silent:Color:DrawProgressBar:Transformations=I;D;P;G,D:AnalysisType=Classification" );
+	//factory->SetWeightFileDir("/tmp/weights");
+	(TMVA::gConfig().GetIONames()).fWeightFileDir = "/tmp/weights";
+					
+   ///Adding variables - loop
+	for(ITRS it = mVars.begin(); it != mVars.end(); it++){
+		factory->AddVariable( (*it).c_str(), (*it).c_str(), "",'F');
+	}
+	
+
+
+   ///  Register the training and test trees with factory
+   	///Cuts
+	
+	TCut cTrain	= 	PartUsedForTraining == "A" 	? "rndm_gaussian < 0" : 
+					PartUsedForTraining == "B" 	? "rndm_gaussian > 0" : 
+					PartUsedForTraining == "AB" ? "" : 
+			"unknown";
+	
+	TCut cTest	= 	PartUsedForTraining == "A" 	? "rndm_gaussian > 0" : 
+					PartUsedForTraining == "B" 	? "rndm_gaussian < 0" : 
+					PartUsedForTraining == "AB" ? "" : 
+			"unknown";
+	
+	TCut mycutS = "";//hc.GetCut(category, "OS", 	purpose, region) + cTrain;
+	TCut mycutB = "";//hc.GetCut(category, "bkg", 	purpose, region) + cTrain;
+
+	TCut cutSignalTrain = hc.GetCut(category, "OS", 	purpose, region) + cTrain;
+	TCut cutSignalTest  = hc.GetCut(category, "OS", 	purpose, region) + cTest;
+  
+	TCut cutBackgroundTrain = hc.GetCut(category, "bkg", 	purpose, region) + cTrain;
+	TCut cutBackgroundTest  = hc.GetCut(category, "bkg", 	purpose, region) + cTest;
+   
+
+
+	///Signal
+	if(kVBF){
+		cout<<"Adding vbf signal "<<Hmass<<" in factory"<<endl;
+		
+		factory->AddTree(tmap[hc.GetHiggsMCnumber(Hmass, "vbf")], "Signal", mcb.Get_Norm(hc.GetHiggsMCnumber(Hmass, "vbf")) , cutSignalTrain, "train"); 
+		
+		factory->AddTree(tmap[hc.GetHiggsMCnumber(Hmass, "vbf")], "Signal", mcb.Get_Norm(hc.GetHiggsMCnumber(Hmass, "vbf")) , cutSignalTest, "test"); 
+		
+	}
+	if(kGGF){
+		cout<<"Adding ggf signal "<<Hmass<<" in factory"<<endl;
+
+		factory->AddTree(tmap[hc.GetHiggsMCnumber(Hmass, "ggf")], "Signal", mcb.Get_Norm(hc.GetHiggsMCnumber(Hmass, "ggf")) , cutSignalTrain, "train"); 
+		
+		factory->AddTree(tmap[hc.GetHiggsMCnumber(Hmass, "ggf")], "Signal", mcb.Get_Norm(hc.GetHiggsMCnumber(Hmass, "ggf")) , cutSignalTest, "test"); 
+	}
+
+
+	///Bkg
+	for(map<int, TTree *>::iterator it = tmap.begin(); it != tmap.end(); it++){
+		
+		if(kZtautau){
+			if( hc.Is("Ztautau", it->first) ) {
+				cout<<"Adding bkg "<<it->first<<" in factory"<<endl; 
+				factory->AddTree (it->second, "Background", mcb.Get_Norm(it->first), cutBackgroundTrain, "train"); 
+				factory->AddTree (it->second, "Background", mcb.Get_Norm(it->first), cutBackgroundTest, "test");
+			}
+		}
+		
+		if(kElwk){
+			if( hc.Is("Electroweak", it->first) ) {
+				cout<<"Adding bkg "<<it->first<<" in factory"<<endl; 
+				factory->AddTree (it->second, "Background", mcb.Get_Norm(it->first), cutBackgroundTrain, "train"); 
+				factory->AddTree (it->second, "Background", mcb.Get_Norm(it->first), cutBackgroundTest, "test");
+			}
+		}
+
+	}
+	if(kQCD){
+		cout<<"Adding QCD bkg in factory"<<endl;
+		factory->AddTree (tdata, "Background", 1, cutBackgroundTrain, "train"); 
+		factory->AddTree (tdata, "Background", 1, cutBackgroundTest, "test");
+	}
+	
+	///Weights
+	factory->SetWeightExpression("event_weight");
+
+	factory->PrepareTrainingAndTestTree( mycutS, mycutB, "NormMode=EqualNumEvents:!V" );
+
+	
+
+		
+	TH2D *hSig = new TH2D("hSig", "", 2000, 0, 2000, 2000, 0, 2000);
+	TH2D *hSep = new TH2D("hSep", "", 2000, 0, 2000, 2000, 0, 2000); 
+	TH2D *hRoc = new TH2D("hRoc", "", 2000, 0, 2000, 2000, 0, 2000);
+			
+	int npoint(0);
+	for (int itree = Ntrees_start; itree <= Ntrees_end; itree += Ntrees_step){
+		for (int iev = NeventsMin_start; iev <= NeventsMin_end; iev += NeventsMin_step){
+			npoint++;
+			
+			string title = "BDT_"+ hc.GetStringFromInt(itree) +"_"+ hc.GetStringFromInt(iev);
+			
+			string complete = outputWeightFileName + "_" + title;
+   
+   			BDT_NTrees = hc.GetStringFromInt(itree);
+			BDT_nEventsMin = hc.GetStringFromInt(iev);
+			///Settings
+			string BDTsettings = "!H:!V:NTrees="+BDT_NTrees+":nEventsMin="+BDT_nEventsMin+":MaxDepth="+BDT_MaxDepth+":BoostType="+BDT_BoostType+":AdaBoostBeta="+BDT_AdaBoostBeta+":SeparationType=GiniIndex:nCuts=20:PruneMethod=NoPruning:UseYesNoLeaf="+BDT_UseYesNoLeaf;
+	
+			cout<<BDTsettings<<endl;
+			
+			/// - Book MVA method
+			if ( Use["BDT"] )  // Adaptive Boost
+				factory->BookMethod( TMVA::Types::kBDT, title, BDTsettings.c_str() );
+		
+			/// Train MVAs using the set of training events
+			cout<<"TrainAllMethods "<<title<<endl;
+			factory->TrainAllMethods();
+		
+			/// - Evaluate all MVAs using the set of test events
+			cout<<"TestAllMethods "<<title<<endl;
+			factory->TestAllMethods();
+		
+			/// -- Evaluate and compare performance of all configured MVAs
+			cout<<"EvaluateAllMethods "<<title<<endl;
+			factory->EvaluateAllMethods();
+		
+		
+	
+	
+			cout<<"Getting method "<<title<<endl;
+			TMVA::IMethod* meth = factory->GetMethod(title);
+			if(!meth) cerr<<"Can't get method "<<title<<endl;
+			cout<< "Type: "<<meth->IsA()->GetName()<<endl;
+		
+			TMVA::MethodBase* myBDT = dyncast( meth );
+			double Sig = myBDT->GetSignificance();
+			double Sep = myBDT->GetSeparation();
+			double Roc = myBDT->GetROCIntegral();
+
+			
+			hSig->Fill(itree, iev, Sig);
+			hSep->Fill(itree, iev, Sep);
+			hRoc->Fill(itree, iev, Roc);
+			
+			factory->DeleteAllMethods();
+			
+			cout<<"Content in /tmp/weights/"<<endl;
+			gSystem->Exec("ls /tmp/weights/*");
+			cout<<"iprogress "<<npoint<<" / "<<Npoints<<" "<<(1.0*npoint)/Npoints*100<<" %"<<endl;
+			
+			string wFile = "/tmp/weights/"+complete+"*";
+			cout<<"Deleting "<<wFile<<endl;
+			string cleanStr = "rm -f " + wFile;
+			gSystem->Exec(cleanStr.c_str() );
+			
+		}
+	}
+				
+
+	
+	/// Save the output
+	cout<<"Saving output files "<<endl;
+	outRootFileOpt->cd();
+	hSig->Write();
+	hSep->Write();
+	hRoc->Write();
+	outRootFileOpt->Close();
+	
+	outputRootFile->Close();
+	
+	
+	cout<<"Deleting "<<outRootFileName<<endl;
+	gSystem->Exec( ("rm -f "+outRootFileName).c_str() );
+	gSystem->Exec( "df -h /tmp/" );
+	
+	if(factory) delete factory;
+}
